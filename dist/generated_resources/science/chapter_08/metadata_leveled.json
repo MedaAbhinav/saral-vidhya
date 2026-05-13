@@ -1,0 +1,26 @@
+{
+  "chapter_number": 8,
+  "chapter_name": "Heredity",
+  "subject": "Science",
+  "pdf": "jesc108.pdf",
+  "completed": {
+    "beginner": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "intermediate": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "advanced": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ]
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "subjects": [
+    {
+      "id": "english",
+      "name": "English",
+      "chapters": [
+        {
+          "number": 1,
+          "name": "A Letter to God",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 2,
+          "name": "Nelson Mandela: Long Walk to Freedom",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 3,
+          "name": "Two Stories about Flying",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 4,
+          "name": "From the Diary of Anne Frank",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 5,
+          "name": "Glimpses of India",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 6,
+          "name": "Mijbil the Otter",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 7,
+          "name": "Madam Rides the Bus",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 8,
+          "name": "The Sermon at Benares",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 9,
+          "name": "The Proposal",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        }
+      ]
+    },
+    {
+      "id": "pubadm_ur",
+      "name": "Pubadm_ur",
+      "chapters": [
+        {
+          "number": 1,
+          "name": "Chapter 1",
+          "completed": [],
+          "resourceCount": 0
+        },
+        {
+          "number": 2,
+          "name": "Chapter 2",
+          "completed": [],
+          "resourceCount": 0
+        },
+        {
+          "number": 3,
+          "name": "Chapter 3",
+          "completed": [],
+          "resourceCount": 0
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "chapters": [
+        {
+          "number": 1,
+          "name": "Chemical Reactions and Equations",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 2,
+          "name": "Acids, Bases and Salts",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 3,
+          "name": "Metals and Non-metals",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 4,
+          "name": "Carbon and its Compounds",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 5,
+          "name": "Life Processes",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 6,
+          "name": "Control and Coordination",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 7,
+          "name": "How do Organisms Reproduce?",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 8,
+          "name": "Heredity",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 9,
+          "name": "Light – Reflection and Refraction",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 10,
+          "name": "Human Eye and Colourful World",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 11,
+          "name": "Electricity",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 12,
+          "name": "Magnetic Effects of Electric Current",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        },
+        {
+          "number": 13,
+          "name": "Our Environment",
+          "completed": [
+            "mindmap",
+            "study_guide",
+            "learning_path",
+            "flashcards",
+            "summary",
+            "detailed_view",
+            "podcast_script",
+            "youtube_links",
+            "question_bank",
+            "course_offerings"
+          ],
+          "resourceCount": 10
+        }
+      ]
+    }
+  ],
+  "resourceTabs": [
+    [
+      "summary.md",
+      "Summary"
+    ],
+    [
+      "study_guide.md",
+      "Study Guide"
+    ],
+    [
+      "mindmap.md",
+      "Mind Map"
+    ],
+    [
+      "flashcards",
+      "Flashcards"
+    ],
+    [
+      "learning_path.md",
+      "Learning Path"
+    ],
+    [
+      "detailed_view.md",
+      "Detailed Notes"
+    ],
+    [
+      "podcast_script.md",
+      "Podcast Script"
+    ],
+    [
+      "youtube_links.md",
+      "YouTube Links"
+    ],
+    [
+      "question_bank.md",
+      "Question Bank"
+    ],
+    [
+      "course_offerings.md",
+      "Course Info"
+    ]
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "chapter": "Heredity",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "What is the term for the process by which traits are passed from parents to offspring?",
+      "back": "Heredity"
+    },
+    {
+      "front": "What is the primary source of variations in sexually reproducing organisms?",
+      "back": "Sexual reproduction, which involves the combination of genetic material from two parents."
+    },
+    {
+      "front": "What is the term for the differences observed among individuals of a species?",
+      "back": "Variations"
+    },
+    {
+      "front": "How do variations promote survival in a species?",
+      "back": "Variations can provide advantages that help individuals survive and reproduce in their environment. For example, bacteria resistant to heat will survive better during a heatwave."
+    },
+    {
+      "front": "According to the text, what is the basic body design of an offspring inherited from the previous generation?",
+      "back": "A common basic body design."
+    },
+    {
+      "front": "What contributes to the 'subtle changes' inherited by the next generation?",
+      "back": "Newly created differences during reproduction and minor inaccuracies in DNA copying."
+    },
+    {
+      "front": "What happens to the number of variations in succeeding generations during asexual reproduction?",
+      "back": "The number of variations is minimized, with only minor differences arising from DNA copying inaccuracies."
+    },
+    {
+      "front": "What happens to the number of variations in succeeding generations during sexual reproduction?",
+      "back": "Greater diversity and more significant variations are generated."
+    },
+    {
+      "front": "Who is credited with working out the main rules of inheritance?",
+      "back": "Gregor Mendel"
+    },
+    {
+      "front": "What is the basic principle of inheritance regarding genetic material from parents?",
+      "back": "Both the father and mother contribute practically equal amounts of genetic material to the child."
+    },
+    {
+      "front": "How many versions of each trait are there in a child, based on paternal and maternal DNA?",
+      "back": "Two versions"
+    },
+    {
+      "front": "What are 'inherited traits'?",
+      "back": "Traits and characteristics that are reliably passed from parents to offspring."
+    },
+    {
+      "front": "Give an example of an inherited trait mentioned in the text.",
+      "back": "Earlobe type (free or attached)."
+    },
+    {
+      "front": "What is the scientific term for the study of heredity?",
+      "back": "Genetics"
+    },
+    {
+      "front": "What is the function of DNA in heredity?",
+      "back": "DNA carries the genetic information that determines traits and is passed from parents to offspring."
+    },
+    {
+      "front": "What is the term for the selection of variants by environmental factors that forms the basis for evolutionary processes?",
+      "back": "Natural selection"
+    },
+    {
+      "front": "According to the text, what is the most obvious outcome of the reproductive process?",
+      "back": "The generation of individuals of similar design."
+    },
+    {
+      "front": "What do the 'rules of heredity' determine?",
+      "back": "The process by which traits and characteristics are reliably inherited."
+    },
+    {
+      "front": "If a trait exists in a larger percentage of a population of an asexually reproducing species, what does it suggest about its origin?",
+      "back": "It is likely to have arisen earlier."
+    },
+    {
+      "front": "What is the difference between asexual and sexual reproduction in terms of variation generation?",
+      "back": "Asexual reproduction produces very similar individuals with minor variations. Sexual reproduction generates greater diversity and distinct variations."
+    }
+  ]
+}

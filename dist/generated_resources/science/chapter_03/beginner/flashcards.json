@@ -1,0 +1,67 @@
+{
+  "chapter": "Metals and Non-metals",
+  "subject": "Science",
+  "level": "beginner",
+  "flashcards": [
+    {
+      "front": "What is the shining surface of pure metals called?",
+      "back": "The shining surface of pure metals is called metallic lustre."
+    },
+    {
+      "front": "Are most metals generally hard or soft?",
+      "back": "Metals are generally hard, although their hardness varies."
+    },
+    {
+      "front": "What property allows metals to be beaten into thin sheets?",
+      "back": "The property that allows metals to be beaten into thin sheets is called malleability."
+    },
+    {
+      "front": "Which two metals are the most malleable?",
+      "back": "Gold and silver are the most malleable metals."
+    },
+    {
+      "front": "What is the ability of metals to be drawn into thin wires called?",
+      "back": "The ability of metals to be drawn into thin wires is called ductility."
+    },
+    {
+      "front": "Which metal is the most ductile?",
+      "back": "Gold is the most ductile metal."
+    },
+    {
+      "front": "Are metals generally good or poor conductors of heat?",
+      "back": "Metals are generally good conductors of heat."
+    },
+    {
+      "front": "Which are the best conductors of heat among metals?",
+      "back": "Silver and copper are the best conductors of heat among metals."
+    },
+    {
+      "front": "Are metals good or poor conductors of electricity?",
+      "back": "Metals are good conductors of electricity."
+    },
+    {
+      "front": "What is the term for metals that produce a sound when struck?",
+      "back": "Metals that produce a sound when struck are called sonorous."
+    },
+    {
+      "front": "Name a common element that is a non-metal.",
+      "back": "Carbon, sulphur, iodine, oxygen, and hydrogen are examples of non-metals."
+    },
+    {
+      "front": "What state of matter are most non-metals in?",
+      "back": "Non-metals are either solids or gases."
+    },
+    {
+      "front": "Which non-metal is a liquid at room temperature?",
+      "back": "Bromine is a non-metal that is a liquid at room temperature."
+    },
+    {
+      "front": "Do non-metals generally have metallic lustre?",
+      "back": "No, non-metals generally do not have metallic lustre."
+    },
+    {
+      "front": "Can non-metals be easily beaten into sheets or drawn into wires?",
+      "back": "No, non-metals are usually brittle and cannot be easily beaten into sheets or drawn into wires."
+    }
+  ]
+}

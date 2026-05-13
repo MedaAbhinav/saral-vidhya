@@ -1,0 +1,67 @@
+{
+  "chapter": "Electricity",
+  "subject": "Science",
+  "level": "beginner",
+  "flashcards": [
+    {
+      "front": "What is an electric current?",
+      "back": "Electric current is the flow of electric charge through a conductor. It is the rate of flow of electric charges."
+    },
+    {
+      "front": "What is an electric circuit?",
+      "back": "An electric circuit is a continuous and closed path of an electric current."
+    },
+    {
+      "front": "What is the SI unit of electric charge?",
+      "back": "The SI unit of electric charge is the coulomb (C)."
+    },
+    {
+      "front": "What is the SI unit of electric current?",
+      "back": "The SI unit of electric current is the ampere (A)."
+    },
+    {
+      "front": "How is electric current measured?",
+      "back": "Electric current is measured by an instrument called an ammeter."
+    },
+    {
+      "front": "How is an ammeter connected in a circuit?",
+      "back": "An ammeter is always connected in series in a circuit."
+    },
+    {
+      "front": "What causes electric charges to flow?",
+      "back": "A difference of electric pressure, called potential difference, causes electric charges to flow."
+    },
+    {
+      "front": "What is potential difference?",
+      "back": "Potential difference is the difference of electric pressure along a conductor that causes charges to flow."
+    },
+    {
+      "front": "What device generates potential difference?",
+      "back": "A battery, consisting of one or more electric cells, generates potential difference."
+    },
+    {
+      "front": "What is the relationship between charge (Q), current (I), and time (t)?",
+      "back": "The relationship is I = Q/t, or Q = I × t."
+    },
+    {
+      "front": "What is 1 ampere (A) in terms of coulombs and seconds?",
+      "back": "1 ampere is the flow of one coulomb of charge per second (1 A = 1 C/1 s)."
+    },
+    {
+      "front": "What is milliampere (mA)?",
+      "back": "Milliampere is a smaller unit of current, where 1 mA = 10⁻³ A."
+    },
+    {
+      "front": "What is microampere (µA)?",
+      "back": "Microampere is a smaller unit of current, where 1 µA = 10⁻⁶ A."
+    },
+    {
+      "front": "What charge does an electron carry?",
+      "back": "An electron possesses a negative charge of approximately 1.6 × 10⁻¹⁹ C."
+    },
+    {
+      "front": "What is the conventional direction of electric current?",
+      "back": "Conventionally, the direction of electric current is taken as opposite to the direction of flow of electrons."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "chapter": "Metals and Non-metals",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "What is metallic lustre?",
+      "back": "Metallic lustre is the property of pure metals to have a shining surface."
+    },
+    {
+      "front": "What is malleability in metals?",
+      "back": "Malleability is the property of metals that allows them to be beaten into thin sheets without breaking."
+    },
+    {
+      "front": "What is ductility in metals?",
+      "back": "Ductility is the property of metals that allows them to be drawn into thin wires."
+    },
+    {
+      "front": "Are metals generally hard or soft?",
+      "back": "Metals are generally hard, although the degree of hardness varies from metal to metal."
+    },
+    {
+      "front": "How do metals conduct heat?",
+      "back": "Metals are good conductors of heat. Silver and copper are the best conductors, while lead and mercury are poor conductors."
+    },
+    {
+      "front": "How do metals conduct electricity?",
+      "back": "Metals are good conductors of electricity."
+    },
+    {
+      "front": "What does sonorous mean for metals?",
+      "back": "Sonorous means that metals produce a sound when struck on a hard surface. This is why school bells are made of metals."
+    },
+    {
+      "front": "What are some examples of non-metals?",
+      "back": "Some examples of non-metals are carbon, sulphur, iodine, oxygen, and hydrogen."
+    },
+    {
+      "front": "What is the physical state of most non-metals?",
+      "back": "Non-metals are either solids or gases at room temperature. Bromine is an exception as it is a liquid."
+    },
+    {
+      "front": "Do non-metals exhibit metallic lustre?",
+      "back": "No, non-metals generally do not have metallic lustre. They usually have a dull appearance."
+    },
+    {
+      "front": "Are non-metals malleable and ductile?",
+      "back": "No, non-metals are typically brittle and cannot be easily beaten into sheets or drawn into wires. They tend to break when subjected to such forces."
+    },
+    {
+      "front": "How do non-metals conduct heat?",
+      "back": "Non-metals are generally poor conductors of heat, with some exceptions like graphite."
+    },
+    {
+      "front": "How do non-metals conduct electricity?",
+      "back": "Non-metals are generally poor conductors of electricity, with exceptions like graphite."
+    },
+    {
+      "front": "What is the general trend in melting and boiling points of metals?",
+      "back": "Most metals have high melting and boiling points."
+    },
+    {
+      "front": "What is the general trend in melting and boiling points of non-metals?",
+      "back": "Most non-metals have low melting and boiling points."
+    },
+    {
+      "front": "What are the most malleable and ductile metals?",
+      "back": "Gold and silver are the most malleable and ductile metals. One gram of gold can be drawn into a wire of about 2 km length."
+    },
+    {
+      "front": "Name two metals that are poor conductors of heat.",
+      "back": "Lead and mercury are comparatively poor conductors of heat."
+    },
+    {
+      "front": "What is an exception to the general physical properties of metals regarding hardness?",
+      "back": "Sodium and potassium are exceptions; they are soft metals that can be cut with a knife."
+    },
+    {
+      "front": "What is an exception to the general physical properties of non-metals regarding electrical conductivity?",
+      "back": "Graphite, a form of carbon, is an exception as it is a good conductor of electricity."
+    },
+    {
+      "front": "Why are electric wires coated with PVC or rubber-like material?",
+      "back": "Electric wires are coated with insulating materials like PVC or rubber to prevent electric shocks, as metals (the conductors) are good conductors of electricity and the coating prevents contact with them."
+    }
+  ]
+}

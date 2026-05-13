@@ -1,0 +1,107 @@
+{
+  "chapter": "Magnetic Effects of Electric Current",
+  "subject": "Science",
+  "level": "advanced",
+  "flashcards": [
+    {
+      "front": "A straight conductor of length 'L' carries a current 'I'. If it is placed perpendicular to a magnetic field of strength 'B', calculate the force experienced by the conductor. What happens to this force if the conductor is placed parallel to the magnetic field?",
+      "back": "The force experienced by a current-carrying conductor in a magnetic field is given by F = BIL sin(θ), where θ is the angle between the conductor and the magnetic field. If the conductor is perpendicular (θ = 90°), sin(90°) = 1, so F = BIL. If the conductor is parallel (θ = 0° or 180°), sin(0°) = 0 and sin(180°) = 0, so the force F = 0. Therefore, when placed parallel, the conductor experiences no force."
+    },
+    {
+      "front": "Explain the principle behind the working of an electric motor using a diagram. How can the direction of rotation of the coil in an electric motor be reversed?",
+      "back": "An electric motor works on the principle that a current-carrying coil placed in a magnetic field experiences a torque. This torque causes the coil to rotate. When current flows through the coil, it experiences forces on its sides due to the magnetic field. The direction of these forces is opposite on opposite sides, creating a turning effect (torque). The direction of rotation can be reversed by reversing the direction of current in the coil or by reversing the direction of the magnetic field. This is typically achieved using a commutator in DC motors."
+    },
+    {
+      "front": "A circular coil of 'N' turns, radius 'R', and carrying current 'I' is placed in a uniform magnetic field 'B'. Derive the expression for the magnetic dipole moment of the coil. How is this related to the torque experienced by the coil?",
+      "back": "The magnetic dipole moment (m) of a circular coil is given by m = NIA, where N is the number of turns, I is the current, and A is the area of the coil (A = πR²). The torque (τ) experienced by a magnetic dipole in a uniform magnetic field is given by τ = mB sin(θ), where θ is the angle between the magnetic dipole moment vector and the magnetic field vector. Thus, τ = NIAB sin(θ)."
+    },
+    {
+      "front": "Compare and contrast a permanent magnet and an electromagnet in terms of their creation, nature of magnetism, strength, and controllability.",
+      "back": "Permanent Magnet: Created by magnetizing ferromagnetic materials permanently. Magnetism is inherent and constant. Strength is fixed. Not easily controllable. Electromagnet: Created by passing current through a coil, often wound around a soft iron core. Magnetism is temporary and depends on current. Strength can be varied by changing current or number of turns. Easily controllable (on/off, strength variation)."
+    },
+    {
+      "front": "Consider a solenoid carrying a current. Explain the pattern of the magnetic field lines inside and outside the solenoid. How does the strength of the magnetic field inside the solenoid depend on its properties?",
+      "back": "Inside a solenoid, the magnetic field lines are nearly uniform and parallel to the axis, resembling the field of a bar magnet. Outside the solenoid, the field lines spread out and are similar to those of a bar magnet, emerging from one end (north pole) and entering the other (south pole). The magnetic field strength inside the solenoid is given by B = μ₀nI, where μ₀ is the permeability of free space, n is the number of turns per unit length, and I is the current. Thus, strength depends on current and turns per unit length, not on the length of the solenoid or its radius."
+    },
+    {
+      "front": "Hans Christian Oersted's accidental discovery was a breakthrough. What was the core observation that led to the understanding of electromagnetism, and what is the SI unit named in his honor?",
+      "back": "Oersted observed that a compass needle deflected when placed near a wire carrying an electric current. This showed that an electric current produces a magnetic effect. The SI unit of magnetic field strength is named the 'tesla' (T), but historically, the unit 'oersted' (Oe) was used in his honor, representing a unit of magnetic field strength in the CGS system."
+    },
+    {
+      "front": "A rectangular coil of wire is placed in a uniform magnetic field. If the coil is rotated such that the angle between the normal to the coil and the magnetic field changes from 0° to 90°, analyze the variation in the torque experienced by the coil.",
+      "back": "The torque (τ) on a current-carrying coil in a magnetic field is given by τ = mB sin(θ), where θ is the angle between the magnetic dipole moment (normal to the coil) and the magnetic field. When θ = 0° (normal parallel to B), sin(0°) = 0, so τ = 0. As the coil rotates and θ increases, sin(θ) increases, and thus the torque increases. At θ = 90° (normal perpendicular to B), sin(90°) = 1, so τ = mB (maximum torque)."
+    },
+    {
+      "front": "Explain the 'right-hand rule' for determining the direction of the magnetic field around a current-carrying straight conductor. Illustrate with an example.",
+      "back": "The right-hand rule states: If you hold the straight conductor carrying current in your right hand such that your thumb points in the direction of the current, then your fingers will curl around the conductor in the direction of the magnetic field lines. Example: If current flows upwards in a vertical wire, your fingers will curl counter-clockwise around the wire, indicating the direction of the magnetic field."
+    },
+    {
+      "front": "What is Fleming's Left-Hand Rule, and how is it used to determine the direction of the force on a current-carrying conductor placed in a magnetic field? State the relation between the three fingers.",
+      "back": "Fleming's Left-Hand Rule helps determine the direction of the force on a current-carrying conductor in a magnetic field. When the thumb, forefinger, and middle finger of the left hand are stretched mutually perpendicular to each other, if the forefinger points in the direction of the magnetic field, and the middle finger points in the direction of the current, then the thumb will point in the direction of the force experienced by the conductor."
+    },
+    {
+      "front": "A DC motor has a coil of resistance R, connected to a power source of voltage V. If the motor is stalled (not rotating), what is the current drawn from the source? What happens to this current when the motor starts rotating?",
+      "back": "When the motor is stalled, there is no back EMF induced. The current drawn is simply determined by the resistance of the coil: I_stalled = V/R. As the motor starts rotating, it generates a back EMF (E_b) which opposes the applied voltage. The effective voltage driving the current is (V - E_b), so the current drawn becomes I_running = (V - E_b)/R. Since E_b is positive, I_running < I_stalled. Thus, the current drawn decreases as the motor speeds up."
+    },
+    {
+      "front": "Explain why iron is preferred as the core material for electromagnets, whereas a permanent magnet is made of steel. Discuss the magnetic properties responsible for these choices.",
+      "back": "Iron has low retentivity and low coercivity. This means it is easily magnetized when a current flows through its coil and demagnetized when the current is switched off, making it ideal for electromagnets where magnetism needs to be controlled. Steel has high retentivity and high coercivity, meaning it retains its magnetism strongly once magnetized, making it suitable for permanent magnets."
+    },
+    {
+      "front": "Consider two concentric circular coils, one smaller and one larger, carrying the same current in the same direction. Will the magnetic field at the center of the larger coil be stronger or weaker than at the center of the smaller coil? Justify your answer.",
+      "back": "The magnetic field at the center of a circular coil is given by B = (μ₀I)/(2R). For the same current I, a smaller radius R will result in a larger magnetic field strength B. Therefore, the magnetic field at the center of the larger coil will be weaker than at the center of the smaller coil, assuming the current is the same."
+    },
+    {
+      "front": "A positively charged particle is moving parallel to a magnetic field. What is the force experienced by the particle? Now, if it moves perpendicular to the magnetic field, what is the nature of the force and its effect on the particle's speed?",
+      "back": "When a charged particle moves parallel to a magnetic field, the angle θ between its velocity and the field is 0° or 180°. The magnetic force is given by F = qvB sin(θ). Since sin(0°) = 0 and sin(180°) = 0, the force is zero. When it moves perpendicular (θ = 90°), the force is F = qvB, which is maximum. This force acts perpendicular to the velocity and the magnetic field, causing the particle to move in a circular path without changing its speed (only its direction changes)."
+    },
+    {
+      "front": "What is the fundamental difference between the magnetic field lines produced by a current-carrying straight wire and a current-carrying circular coil? Illustrate with sketches.",
+      "back": "A current-carrying straight wire produces magnetic field lines that are concentric circles around the wire. A current-carrying circular coil produces magnetic field lines that are more like those of a bar magnet: circular loops around the coil, becoming uniform and parallel inside the coil, and spreading out outside the coil."
+    },
+    {
+      "front": "A galvanometer shows a deflection when a current passes through a nearby wire. This is an example of the magnetic effect of electric current. How can a galvanometer be converted into an ammeter? What specific modification is made, and why?",
+      "back": "A galvanometer can be converted into an ammeter by connecting a very low resistance (a shunt resistor) in parallel with it. This is done to allow most of the large current to bypass the galvanometer coil, protecting it from damage and enabling the instrument to measure larger currents accurately. The ammeter is always connected in series in the circuit."
+    },
+    {
+      "front": "Explain the concept of magnetic flux. How is the induced EMF related to the rate of change of magnetic flux according to Faraday's law of electromagnetic induction?",
+      "back": "Magnetic flux (Φ) is a measure of the total magnetic field passing through a given area. It is given by Φ = BA cos(θ), where B is the magnetic field strength, A is the area, and θ is the angle between the magnetic field and the normal to the area. Faraday's Law states that the magnitude of the induced EMF (ε) in a circuit is directly proportional to the rate of change of magnetic flux through the circuit: ε = -dΦ/dt. The negative sign indicates the direction of the induced EMF, as given by Lenz's Law."
+    },
+    {
+      "front": "A circular coil and a straight wire both carry the same current. Under what condition would the magnetic field produced by the circular coil at its center be stronger than the magnetic field produced by the straight wire at a distance equal to its radius from the wire?",
+      "back": "Magnetic field at the center of a circular coil of radius R carrying current I is B_coil = (μ₀I)/(2R). Magnetic field at a distance R from a straight wire carrying current I is B_wire = (μ₀I)/(2πR). Comparing B_coil and B_wire, we see that (μ₀I)/(2R) > (μ₀I)/(2πR) since 2 < 2π. Therefore, the magnetic field at the center of the circular coil is always stronger than the magnetic field at the same distance from the straight wire, given the same current."
+    },
+    {
+      "front": "What is the role of the split-ring commutator in a DC motor? Explain with the help of a diagram how it reverses the direction of current in the coil at appropriate intervals.",
+      "back": "The split-ring commutator in a DC motor reverses the direction of current through the coil every half rotation. This ensures that the torque on the coil always acts in the same direction, allowing continuous rotation. As the coil rotates, the segments of the commutator slide over the brushes, and at the point where the coil is vertical, the connections are momentarily broken, and then the current direction in the coil is reversed relative to the magnetic field, maintaining the direction of torque."
+    },
+    {
+      "front": "Differentiate between magnetic field lines of a bar magnet and the magnetic field lines of a current-carrying solenoid. What is the exception in their external magnetic field patterns?",
+      "back": "Bar magnet field lines emerge from the North pole and enter the South pole externally, forming closed loops. Solenoid field lines are similar externally, acting like a bar magnet with a North and South pole. However, inside the bar magnet, the field lines are curved from South to North. Inside a solenoid, the magnetic field lines are remarkably uniform and parallel to the axis. The exception is that inside a bar magnet, the field lines are curved, whereas inside a solenoid, they are straight and parallel."
+    },
+    {
+      "front": "A galvanometer has a resistance of 50 Ω and shows a full-scale deflection for a current of 1 mA. How can it be converted into an ammeter to measure currents up to 1 A?",
+      "back": "To convert the galvanometer into an ammeter to measure up to 1 A, a shunt resistor (R_sh) must be connected in parallel. The current through the galvanometer (I_g) will be 1 mA (0.001 A) at full scale. The total current (I) is 1 A. The current through the shunt resistor will be I_sh = I - I_g = 1 A - 0.001 A = 0.999 A. Since the shunt resistor is in parallel with the galvanometer, the voltage across them is the same: V_g = V_sh.  Therefore, I_g * R_g = I_sh * R_sh.  0.001 A * 50 Ω = 0.999 A * R_sh.  R_sh = (0.001 * 50) / 0.999 ≈ 0.05005 Ω. A shunt resistance of approximately 0.05 Ω is required."
+    },
+    {
+      "front": "What is the significance of the term 'electromagnetic induction'? Provide an example that demonstrates this phenomenon.",
+      "back": "Electromagnetic induction is the production of an electromotive force (voltage) across an electrical conductor in a changing magnetic field. It is the principle behind electric generators. Example: Moving a bar magnet into a coil of wire connected to a galvanometer will cause the galvanometer needle to deflect, indicating an induced current due to the changing magnetic flux through the coil."
+    },
+    {
+      "front": "A charged particle is moving in a uniform magnetic field. Under what conditions will the particle move in a straight line? Under what conditions will it move in a circular path?",
+      "back": "A charged particle moving in a uniform magnetic field will move in a straight line if its velocity is parallel or anti-parallel to the magnetic field (θ = 0° or 180°), as the magnetic force (F = qvB sin(θ)) will be zero. It will move in a circular path if its velocity is perpendicular to the magnetic field (θ = 90°), as the magnetic force acts as the centripetal force (F = qvB). For intermediate angles, it moves in a helical path."
+    },
+    {
+      "front": "Consider a long solenoid. If the current flowing through it is doubled and the number of turns per unit length is halved, what will be the change in the magnetic field strength inside the solenoid?",
+      "back": "The magnetic field strength inside a solenoid is given by B = μ₀nI, where n is the number of turns per unit length and I is the current. If the current is doubled (I' = 2I) and the number of turns per unit length is halved (n' = n/2), the new magnetic field strength B' = μ₀(n/2)(2I) = μ₀nI = B. Therefore, the magnetic field strength will remain unchanged."
+    },
+    {
+      "front": "A bar magnet is dropped through a hollow copper tube. Compare the motion of the magnet if it were dropped through a hollow glass tube. Explain the difference based on electromagnetic principles.",
+      "back": "When the bar magnet is dropped through a hollow copper tube (a conductor), it induces eddy currents in the tube. These eddy currents create their own magnetic fields that oppose the motion of the magnet (Lenz's Law). This opposition causes the magnet to fall much slower than it would in free fall. When dropped through a hollow glass tube (an insulator), no significant eddy currents are induced, and the magnet falls at nearly the acceleration due to gravity."
+    },
+    {
+      "front": "What is the condition for a magnetic field line to be continuous and closed? How does this characteristic differ between magnetic field lines and electric field lines?",
+      "back": "Magnetic field lines are always continuous and closed loops. They form closed paths both inside and outside the magnetic source (e.g., a bar magnet or solenoid). This is because there are no magnetic monopoles. Electric field lines, on the other hand, originate from positive charges and terminate on negative charges (or extend to infinity if there's a net charge). They are not necessarily closed loops unless the charges are arranged in a specific way (e.g., a current loop producing a magnetic field)."
+    }
+  ]
+}

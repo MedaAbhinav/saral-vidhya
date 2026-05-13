@@ -1,0 +1,1 @@
+Light helps us see by bouncing off things and into our eyes. When light hits a smooth surface like a mirror, it bounces back in a predictable way (reflection). This is how mirrors make images. Light can also bend when it goes from one thing to another, like from air to water (refraction). This bending is important for things like how we see through lenses.

@@ -1,0 +1,86 @@
+{
+  "chapter": "Our Environment",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "What is an ecosystem?",
+      "back": "All the interacting organisms in an area together with the non-living constituents of the environment form an ecosystem."
+    },
+    {
+      "front": "What are the two main components of an ecosystem?",
+      "back": "Biotic components (living organisms) and Abiotic components (physical factors like temperature, rainfall, wind, soil, and minerals)."
+    },
+    {
+      "front": "Give an example of a natural ecosystem.",
+      "back": "Forests, ponds, and lakes."
+    },
+    {
+      "front": "Give an example of a human-made (artificial) ecosystem.",
+      "back": "Gardens and crop-fields."
+    },
+    {
+      "front": "What are producers in an ecosystem?",
+      "back": "Organisms that can produce their own food, typically through photosynthesis (e.g., green plants, certain bacteria)."
+    },
+    {
+      "front": "What is the role of producers in an ecosystem?",
+      "back": "They fix solar energy and make it available for other organisms."
+    },
+    {
+      "front": "What are consumers in an ecosystem?",
+      "back": "Organisms that depend on producers directly or indirectly for their sustenance."
+    },
+    {
+      "front": "Name the different types of consumers.",
+      "back": "Herbivores, carnivores, omnivores, and parasites."
+    },
+    {
+      "front": "What are decomposers?",
+      "back": "Microorganisms (like bacteria and fungi) that break down dead remains and waste products of organisms."
+    },
+    {
+      "front": "What is the function of decomposers in an ecosystem?",
+      "back": "They break down complex organic substances into simple inorganic substances that can be used by plants, aiding in nutrient cycling."
+    },
+    {
+      "front": "What is a food chain?",
+      "back": "A series of organisms in which each organism is eaten by the next organism in the chain."
+    },
+    {
+      "front": "What is a trophic level?",
+      "back": "Each step or level of the food chain."
+    },
+    {
+      "front": "Which trophic level do producers occupy?",
+      "back": "The first trophic level."
+    },
+    {
+      "front": "What do herbivores eat?",
+      "back": "Plants (producers)."
+    },
+    {
+      "front": "What do carnivores eat?",
+      "back": "Other animals."
+    },
+    {
+      "front": "What do omnivores eat?",
+      "back": "Both plants and animals."
+    },
+    {
+      "front": "What is the significance of decomposers for soil fertility?",
+      "back": "They help in the natural replenishment of soil by breaking down dead organic matter into nutrients that plants can absorb."
+    },
+    {
+      "front": "How does the sun's energy enter most ecosystems?",
+      "back": "Through producers (plants) during photosynthesis."
+    },
+    {
+      "front": "Give an example of a food chain with at least three steps.",
+      "back": "Grass (producer) → Grasshopper (primary consumer) → Frog (secondary consumer) → Snake (tertiary consumer)."
+    },
+    {
+      "front": "What happens to the energy at each trophic level of a food chain?",
+      "back": "A significant portion of energy is lost as heat at each transfer, with only about 10% being passed on to the next level."
+    }
+  ]
+}

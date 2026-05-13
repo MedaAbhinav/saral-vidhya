@@ -1,0 +1,3 @@
+Imagine a country where people with different skin colors couldn't be friends or treated fairly. That's what "apartheid" was like in South Africa.
+
+Nelson Mandela fought against this bad rule his whole life and even went to jail for 30 years! But he never gave up. Finally, in 1994, he became South Africa's first black President. It was a super happy day, with people of all colors celebrating together. Mandela promised everyone would live free and be treated equally, forever.

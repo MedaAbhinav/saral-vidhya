@@ -1,0 +1,67 @@
+{
+  "chapter": "Human Eye and Colourful World",
+  "subject": "Science",
+  "level": "beginner",
+  "flashcards": [
+    {
+      "front": "What is the main function of the human eye?",
+      "back": "It enables us to see the world and its colours."
+    },
+    {
+      "front": "What part of the eye acts like a camera's lens?",
+      "back": "The crystalline lens system."
+    },
+    {
+      "front": "What is the light-sensitive screen at the back of the eye called?",
+      "back": "The retina."
+    },
+    {
+      "front": "What is the transparent bulge at the front of the eye?",
+      "back": "The cornea."
+    },
+    {
+      "front": "What part of the eye controls the amount of light entering?",
+      "back": "The pupil."
+    },
+    {
+      "front": "What structure controls the size of the pupil?",
+      "back": "The iris."
+    },
+    {
+      "front": "What type of image does the eye lens form on the retina?",
+      "back": "An inverted real image."
+    },
+    {
+      "front": "What do the light-sensitive cells in the retina do?",
+      "back": "They generate electrical signals when illuminated."
+    },
+    {
+      "front": "What is the ability of the eye lens to adjust its focal length called?",
+      "back": "Accommodation."
+    },
+    {
+      "front": "What happens to the eye lens when focusing on distant objects?",
+      "back": "The ciliary muscles relax, making the lens thinner and increasing its focal length."
+    },
+    {
+      "front": "What happens to the eye lens when focusing on near objects?",
+      "back": "The ciliary muscles contract, making the lens thicker and decreasing its focal length."
+    },
+    {
+      "front": "What is the minimum distance at which objects can be seen distinctly?",
+      "back": "The least distance of distinct vision, about 25 cm for a normal eye."
+    },
+    {
+      "front": "What is the farthest point an eye can see clearly called?",
+      "back": "The far point of the eye, which is infinity for a normal eye."
+    },
+    {
+      "front": "What is the condition where the eye lens becomes milky and cloudy?",
+      "back": "Cataract."
+    },
+    {
+      "front": "What are the three common refractive defects of vision mentioned?",
+      "back": "Myopia, Hypermetropia, and Presbyopia."
+    }
+  ]
+}

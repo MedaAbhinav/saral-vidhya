@@ -1,0 +1,26 @@
+{
+  "chapter_number": 10,
+  "chapter_name": "Human Eye and Colourful World",
+  "subject": "Science",
+  "pdf": "jesc110.pdf",
+  "completed": {
+    "beginner": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "intermediate": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "advanced": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ]
+  }
+}

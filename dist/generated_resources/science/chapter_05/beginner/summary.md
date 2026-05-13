@@ -1,0 +1,3 @@
+Living things need to stay alive by doing important jobs, like fixing themselves and growing. They get energy and building blocks from food. This process of getting and using food is called **nutrition**.
+
+They also need to breathe to get something called oxygen, which helps turn food into usable energy. This breathing process is called **respiration**. These jobs keep everything inside them working, even when they're not moving much.

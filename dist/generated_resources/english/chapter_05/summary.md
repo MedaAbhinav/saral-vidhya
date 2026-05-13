@@ -1,0 +1,5 @@
+"A Baker from Goa" highlights the enduring presence and significance of traditional Goan bakers, affectionately called 'paders', a cherished legacy from the Portuguese era. Elders fondly recall the famous loaves, and the age-old furnaces and bread-makers still thrive.
+
+The baker's distinctive 'thud and jingle' of his bamboo staff heralded his morning arrival, eagerly anticipated by children who ran to get their favourite bread-bangles and sweet bread. Bread is central to Goan culture; marriage gifts are incomplete without the sweet bread called 'bol', and cakes/bolinhas are vital for Christmas and other festivals.
+
+Bakers once wore a specific dress called 'kabai', a single-piece frock. Their profession was highly profitable, evident from their 'plump physique', an open testimony to their prosperity. Even today, the 'pader' remains an indispensable figure, deeply integrated into the social and cultural fabric of Goan villages.

@@ -1,0 +1,67 @@
+{
+  "chapter": "Acids, Bases and Salts",
+  "subject": "Science",
+  "level": "beginner",
+  "flashcards": [
+    {
+      "front": "What taste do acids have?",
+      "back": "Acids are sour in taste."
+    },
+    {
+      "front": "What taste do bases have?",
+      "back": "Bases are bitter in taste."
+    },
+    {
+      "front": "What happens to blue litmus paper when an acid is added?",
+      "back": "Blue litmus paper turns red in an acid."
+    },
+    {
+      "front": "What happens to red litmus paper when a base is added?",
+      "back": "Red litmus paper turns blue in a base."
+    },
+    {
+      "front": "What is litmus?",
+      "back": "Litmus is a natural indicator extracted from lichen."
+    },
+    {
+      "front": "What is another common natural indicator besides litmus?",
+      "back": "Turmeric is another common natural indicator."
+    },
+    {
+      "front": "What happens to a curry stain (yellow) when soap (basic) is rubbed on it?",
+      "back": "The curry stain turns reddish-brown."
+    },
+    {
+      "front": "What are synthetic indicators?",
+      "back": "Synthetic indicators are man-made substances like methyl orange and phenolphthalein."
+    },
+    {
+      "front": "What is the colour of litmus solution when it is neither acidic nor basic?",
+      "back": "Litmus solution is purple when it is neutral."
+    },
+    {
+      "front": "What are substances that indicate the presence of acid or base by a change in colour called?",
+      "back": "These are called acid-base indicators or simply indicators."
+    },
+    {
+      "front": "What are olfactory indicators?",
+      "back": "Olfactory indicators are substances whose odour changes in acidic or basic media."
+    },
+    {
+      "front": "Give an example of an olfactory indicator.",
+      "back": "Onion, vanilla essence, and clove oil can be used as olfactory indicators."
+    },
+    {
+      "front": "What is the chemical formula for hydrochloric acid?",
+      "back": "The chemical formula for hydrochloric acid is HCl."
+    },
+    {
+      "front": "What is the chemical formula for sodium hydroxide?",
+      "back": "The chemical formula for sodium hydroxide is NaOH."
+    },
+    {
+      "front": "What is the effect of an acid and a base on each other?",
+      "back": "Acids and bases cancel out each other's effects."
+    }
+  ]
+}

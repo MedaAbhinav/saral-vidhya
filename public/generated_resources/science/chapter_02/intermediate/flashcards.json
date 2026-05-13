@@ -1,0 +1,87 @@
+{
+  "chapter": "Acids, Bases and Salts",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "What is the general chemical property of acids?",
+      "back": "Acids are generally sour in taste and turn blue litmus paper red. They also increase the concentration of H+ ions in aqueous solutions."
+    },
+    {
+      "front": "What is the general chemical property of bases?",
+      "back": "Bases are generally bitter in taste and feel soapy to touch. They turn red litmus paper blue. They increase the concentration of OH- ions in aqueous solutions."
+    },
+    {
+      "front": "What is litmus?",
+      "back": "Litmus is a natural indicator, a purple dye extracted from lichens. It is used to test whether a solution is acidic or basic. In neutral solution, it is purple; in acidic solution, it is red; and in basic solution, it is blue."
+    },
+    {
+      "front": "How does litmus paper act as an indicator?",
+      "back": "Blue litmus paper turns red in acidic solutions, and red litmus paper turns blue in basic solutions. In neutral solutions, there is no change in colour."
+    },
+    {
+      "front": "Name two other natural indicators besides litmus.",
+      "back": "Turmeric and red cabbage leaves are two other natural indicators."
+    },
+    {
+      "front": "How does turmeric act as an indicator?",
+      "back": "Turmeric solution or paste turns reddish-brown in basic solutions, while its colour remains yellow in acidic and neutral solutions."
+    },
+    {
+      "front": "What are synthetic indicators?",
+      "back": "Synthetic indicators are man-made chemical substances that indicate the presence of acids or bases by changing colour. Examples include phenolphthalein and methyl orange."
+    },
+    {
+      "front": "How does phenolphthalein behave as an indicator?",
+      "back": "Phenolphthalein is colourless in acidic and neutral solutions, but it turns pink in basic solutions."
+    },
+    {
+      "front": "How does methyl orange behave as an indicator?",
+      "back": "Methyl orange turns red in acidic solutions, and yellow in basic solutions. It is orange in neutral solutions."
+    },
+    {
+      "front": "What are olfactory indicators?",
+      "back": "Olfactory indicators are substances whose smell changes in acidic or basic media. Examples include vanilla essence, onion, and clove oil."
+    },
+    {
+      "front": "How does vanilla essence act as an olfactory indicator?",
+      "back": "Vanilla essence retains its smell in acidic and neutral solutions but loses its smell in basic solutions."
+    },
+    {
+      "front": "How do onions act as an olfactory indicator?",
+      "back": "Onions retain their characteristic smell in acidic and neutral solutions but lose their smell in basic solutions."
+    },
+    {
+      "front": "What is an acid?",
+      "back": "An acid is a substance that produces hydrogen ions (H+) when dissolved in water. It typically tastes sour and turns blue litmus red."
+    },
+    {
+      "front": "What is a base?",
+      "back": "A base is a substance that produces hydroxide ions (OH-) when dissolved in water. It typically tastes bitter, feels soapy, and turns red litmus blue."
+    },
+    {
+      "front": "What is a neutral substance?",
+      "back": "A neutral substance is neither acidic nor basic. Distilled water is a common example of a neutral substance. Litmus remains purple in neutral solutions."
+    },
+    {
+      "front": "What happens when an acid reacts with a metal?",
+      "back": "When acids react with active metals, they produce hydrogen gas and a salt. For example, Zinc reacts with dilute sulphuric acid to produce zinc sulphate and hydrogen gas: Zn(s) + H2SO4(aq) → ZnSO4(aq) + H2(g)"
+    },
+    {
+      "front": "What is the formula for hydrochloric acid?",
+      "back": "The chemical formula for hydrochloric acid is HCl."
+    },
+    {
+      "front": "What is the formula for sodium hydroxide?",
+      "back": "The chemical formula for sodium hydroxide is NaOH."
+    },
+    {
+      "front": "What happens when an acid reacts with a metal carbonate?",
+      "back": "When acids react with metal carbonates, they produce a salt, carbon dioxide gas, and water. For example, Sodium carbonate reacts with hydrochloric acid to produce sodium chloride, carbon dioxide, and water: Na2CO3(s) + 2HCl(aq) → 2NaCl(aq) + H2O(l) + CO2(g)"
+    },
+    {
+      "front": "What happens when an acid reacts with a metal bicarbonate?",
+      "back": "When acids react with metal bicarbonates (hydrogen carbonates), they produce a salt, carbon dioxide gas, and water. For example, Sodium hydrogen carbonate reacts with hydrochloric acid: NaHCO3(s) + HCl(aq) → NaCl(aq) + H2O(l) + CO2(g)"
+    }
+  ]
+}

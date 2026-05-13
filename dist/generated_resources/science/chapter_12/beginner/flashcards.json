@@ -1,0 +1,67 @@
+{
+  "chapter": "Magnetic Effects of Electric Current",
+  "subject": "Science",
+  "level": "beginner",
+  "flashcards": [
+    {
+      "front": "What happens when an electric current passes through a metallic conductor?",
+      "back": "The conductor produces a magnetic effect."
+    },
+    {
+      "front": "What is the region around a magnet called where its force can be detected?",
+      "back": "This region is called a magnetic field."
+    },
+    {
+      "front": "What do the lines along which iron filings align themselves represent?",
+      "back": "These lines represent magnetic field lines."
+    },
+    {
+      "front": "What is a compass needle?",
+      "back": "A compass needle is a small bar magnet."
+    },
+    {
+      "front": "What are the two poles of a magnet called?",
+      "back": "The poles are called the north pole and the south pole."
+    },
+    {
+      "front": "What happens when like poles of magnets are brought near each other?",
+      "back": "Like poles repel each other."
+    },
+    {
+      "front": "What happens when unlike poles of magnets are brought near each other?",
+      "back": "Unlike poles attract each other."
+    },
+    {
+      "front": "Who discovered that an electric current produces a magnetic effect?",
+      "back": "Hans Christian Oersted discovered this."
+    },
+    {
+      "front": "What is the unit of magnetic field strength named in honor of Oersted?",
+      "back": "The unit is called the oersted."
+    },
+    {
+      "front": "What is the end of a compass needle pointing towards the north called?",
+      "back": "It is called the north-seeking pole or north pole."
+    },
+    {
+      "front": "What is the end of a compass needle pointing towards the south called?",
+      "back": "It is called the south-seeking pole or south pole."
+    },
+    {
+      "front": "How can magnetic field lines around a bar magnet be visualized?",
+      "back": "By sprinkling iron filings around the magnet."
+    },
+    {
+      "front": "What is the fundamental relationship shown by Oersted's discovery?",
+      "back": "Electricity and magnetism are related phenomena."
+    },
+    {
+      "front": "What are electromagnets related to in this chapter?",
+      "back": "Electromagnets involve the magnetic effect of electric current."
+    },
+    {
+      "front": "Do magnetic field lines start from the north pole and end at the south pole?",
+      "back": "Yes, magnetic field lines emerge from the north pole and enter the south pole."
+    }
+  ]
+}

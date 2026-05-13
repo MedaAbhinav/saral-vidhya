@@ -1,0 +1,86 @@
+{
+  "chapter": "How do Organisms Reproduce?",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "Why is reproduction not necessary for the survival of an individual organism?",
+      "back": "Reproduction is not essential for an individual to stay alive, unlike processes like nutrition, respiration, or excretion."
+    },
+    {
+      "front": "What is the basic event in reproduction?",
+      "back": "The basic event in reproduction is the creation of a DNA copy."
+    },
+    {
+      "front": "Where is the information for inheritance of features from parents to the next generation stored?",
+      "back": "In the DNA molecules within the chromosomes in the cell nucleus."
+    },
+    {
+      "front": "How does DNA information lead to different proteins?",
+      "back": "Changes in the DNA information lead to the synthesis of different proteins."
+    },
+    {
+      "front": "What is the role of DNA copying in ensuring similar body designs?",
+      "back": "DNA copying ensures that the blueprints for body designs are similar, leading to new individuals that look very much like their parents."
+    },
+    {
+      "front": "Besides DNA copying, what else is needed for reproduction to occur?",
+      "back": "Creation of an additional cellular apparatus and then separation of the DNA copies, each with its own cellular apparatus."
+    },
+    {
+      "front": "Are the two cells produced after DNA copying and division absolutely identical?",
+      "back": "No, they are similar but may not be absolutely identical due to variations in the DNA copying process."
+    },
+    {
+      "front": "Why do variations occur during DNA copying?",
+      "back": "Because no bio-chemical reaction is absolutely reliable, leading to slight changes each time DNA is copied."
+    },
+    {
+      "front": "What happens if a variation is too drastic in a new DNA copy?",
+      "back": "The new DNA copy cannot work with the inherited cellular apparatus, and the newborn cell will die."
+    },
+    {
+      "front": "What is the significance of variations that do not lead to a drastic outcome?",
+      "back": "These variations result in surviving cells that are similar to, but subtly different from each other."
+    },
+    {
+      "front": "What is the basis for evolution?",
+      "back": "The inbuilt tendency for variation during reproduction is the basis for evolution."
+    },
+    {
+      "front": "Why is the consistency of DNA copying important for populations?",
+      "back": "It is important for the maintenance of body design features that allow organisms to utilize their particular niche in the ecosystem."
+    },
+    {
+      "front": "How can a population of organisms be wiped out?",
+      "back": "If a niche changes drastically and the population is no longer suited to it, and if there are no variations present for survival."
+    },
+    {
+      "front": "How do variations help in the survival of a species?",
+      "back": "If environmental conditions change, individuals with variations suited to the new conditions can survive and reproduce, ensuring the survival of the species."
+    },
+    {
+      "front": "Give an example of how variation aids survival.",
+      "back": "If water temperature increases, bacteria resistant to heat will survive and grow, while others die."
+    },
+    {
+      "front": "What is a 'niche' in an ecosystem?",
+      "back": "A niche is the well-defined place or role that organisms fill in their ecosystem."
+    },
+    {
+      "front": "What is DNA?",
+      "back": "DNA (Deoxyribonucleic Acid) is a molecule that contains the genetic information for inheritance of features."
+    },
+    {
+      "front": "What is the main function of DNA in a cell?",
+      "back": "DNA in the cell nucleus serves as the information source for making proteins."
+    },
+    {
+      "front": "What does it mean for an organism to reproduce?",
+      "back": "To reproduce means to create new individuals that look very much like themselves."
+    },
+    {
+      "front": "What are the two main components that are separated when a cell divides during reproduction?",
+      "back": "The two copies of DNA and their associated cellular apparatus."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "chapter": "Carbon and its Compounds",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "What is the atomic number of carbon?",
+      "back": "The atomic number of carbon is 6."
+    },
+    {
+      "front": "How many valence electrons does a carbon atom have?",
+      "back": "A carbon atom has 4 valence electrons."
+    },
+    {
+      "front": "Why can't carbon achieve noble gas configuration by gaining or losing 4 electrons?",
+      "back": "Gaining 4 electrons would require the nucleus to hold 10 electrons, which is difficult. Losing 4 electrons would require a large amount of energy to form a cation."
+    },
+    {
+      "front": "What type of bond does carbon form to achieve noble gas configuration?",
+      "back": "Carbon forms covalent bonds by sharing its valence electrons."
+    },
+    {
+      "front": "Define a covalent bond.",
+      "back": "A covalent bond is a chemical bond that involves the sharing of electron pairs between atoms. These electron pairs are known as shared pairs or bonding pairs, and the stable balance of attractive and repulsive forces between atoms, when they share electrons, is known as covalent bonding."
+    },
+    {
+      "front": "Give an example of a simple molecule formed by covalent bonding and explain its formation.",
+      "back": "Hydrogen molecule (H₂). Each hydrogen atom has one electron and needs one more to fill its K shell. Two hydrogen atoms share their electrons, forming a single covalent bond (H-H), so each atom achieves the stable helium configuration."
+    },
+    {
+      "front": "What is the general characteristic of most carbon compounds regarding electrical conductivity?",
+      "back": "Most carbon compounds are poor conductors of electricity."
+    },
+    {
+      "front": "What can be concluded about the bonding in most carbon compounds from their poor electrical conductivity?",
+      "back": "The bonding in these compounds does not give rise to ions."
+    },
+    {
+      "front": "Compare the melting and boiling points of most carbon compounds with ionic compounds.",
+      "back": "Most carbon compounds have low melting and boiling points compared to ionic compounds."
+    },
+    {
+      "front": "What does the low melting and boiling points of most carbon compounds indicate about the forces of attraction between their molecules?",
+      "back": "It indicates that the forces of attraction between the molecules are not very strong."
+    },
+    {
+      "front": "What is the percentage of carbon in the Earth's crust in the form of minerals?",
+      "back": "0.02% of carbon in the Earth's crust is in the form of minerals (like carbonates, hydrogen-carbonates, coal and petroleum)."
+    },
+    {
+      "front": "What is the percentage of carbon in the Earth's atmosphere?",
+      "back": "The Earth's atmosphere has 0.03% of carbon dioxide."
+    },
+    {
+      "front": "What is the significance of carbon in living structures?",
+      "back": "All living structures are carbon-based."
+    },
+    {
+      "front": "How does sharing of electrons help atoms achieve noble gas configuration?",
+      "back": "The shared electrons 'belong' to the outermost shells of both atoms, allowing both atoms to attain the noble gas configuration."
+    },
+    {
+      "front": "Why is carbon called a versatile element?",
+      "back": "Carbon is called versatile because it forms a vast number of compounds due to its ability to form covalent bonds with itself and other elements."
+    },
+    {
+      "front": "What is meant by the term 'allotropes' of carbon?",
+      "back": "Allotropes are different structural forms of the same element in the same physical state. Carbon exhibits allotropy."
+    },
+    {
+      "front": "Name two common allotropes of carbon and describe their physical state.",
+      "back": "Diamond (solid) and Graphite (solid). (Other allotropes like Fullerenes also exist)."
+    },
+    {
+      "front": "Describe a key property of diamond.",
+      "back": "Diamond is extremely hard and is a good electrical insulator."
+    },
+    {
+      "front": "Describe a key property of graphite.",
+      "back": "Graphite is soft, slippery, and a good conductor of electricity."
+    },
+    {
+      "front": "What type of compounds does carbon primarily form?",
+      "back": "Carbon primarily forms covalent compounds."
+    }
+  ]
+}

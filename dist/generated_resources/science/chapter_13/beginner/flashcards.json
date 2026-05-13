@@ -1,0 +1,67 @@
+{
+  "chapter": "Our Environment",
+  "subject": "Science",
+  "level": "beginner",
+  "flashcards": [
+    {
+      "front": "What is the environment?",
+      "back": "Everything around us, including living organisms and physical surroundings, that interact with each other."
+    },
+    {
+      "front": "What is an ecosystem?",
+      "back": "All interacting organisms and the non-living components of their environment in a particular area."
+    },
+    {
+      "front": "What are the two main types of components in an ecosystem?",
+      "back": "Biotic components (living organisms) and abiotic components (non-living factors)."
+    },
+    {
+      "front": "Give an example of a biotic component.",
+      "back": "Plants, animals, or microorganisms."
+    },
+    {
+      "front": "Give an example of an abiotic component.",
+      "back": "Temperature, rainfall, wind, soil, or minerals."
+    },
+    {
+      "front": "What is a natural ecosystem?",
+      "back": "An ecosystem that forms by itself, like forests or ponds."
+    },
+    {
+      "front": "What is an artificial ecosystem?",
+      "back": "An ecosystem created and managed by humans, like a garden or aquarium."
+    },
+    {
+      "front": "What are producers in an ecosystem?",
+      "back": "Organisms that make their own food, usually through photosynthesis (like green plants)."
+    },
+    {
+      "front": "What are consumers in an ecosystem?",
+      "back": "Organisms that get their food by eating other organisms."
+    },
+    {
+      "front": "What are decomposers?",
+      "back": "Organisms (like bacteria and fungi) that break down dead organisms and waste products."
+    },
+    {
+      "front": "What is the role of decomposers?",
+      "back": "They break down complex organic matter into simple inorganic substances that plants can use."
+    },
+    {
+      "front": "What is a food chain?",
+      "back": "A series of organisms where each organism is eaten by the next one in the chain."
+    },
+    {
+      "front": "What is a trophic level?",
+      "back": "Each step or level in a food chain, representing a group of organisms with similar feeding habits."
+    },
+    {
+      "front": "Which organisms are at the first trophic level?",
+      "back": "The producers (autotrophs), like green plants."
+    },
+    {
+      "front": "How do consumers get energy?",
+      "back": "By eating producers or other consumers."
+    }
+  ]
+}

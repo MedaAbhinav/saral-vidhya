@@ -1,0 +1,5 @@
+This chapter focuses on **ecosystems** and their **components**. An ecosystem comprises both **biotic** (living organisms) and **abiotic** (non-living physical factors like temperature, water, soil) elements that interact. Examples include natural forests and ponds, and artificial ones like gardens and aquariums.
+
+Organisms are categorized by their feeding roles: **Producers** (plants, algae) make their own food via photosynthesis. **Consumers** (herbivores, carnivores, omnivores) obtain energy by eating other organisms. **Decomposers** (bacteria, fungi) break down dead organic matter, recycling nutrients.
+
+**Food chains** illustrate the flow of energy, with each step representing a **trophic level**. Producers form the first trophic level, followed by various levels of consumers. The concept of interconnected food chains forms a **food web**. Understanding these interactions is crucial for comprehending environmental balance.

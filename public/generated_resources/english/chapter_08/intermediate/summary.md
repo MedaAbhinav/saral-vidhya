@@ -1,0 +1,7 @@
+## Summary: The Sermon at Benares
+
+Gautama Buddha, originally Prince Siddhartha, led a sheltered life until, at the age of twenty-five, he encountered the realities of sickness, old age, and death. Deeply moved, he renounced his princely life to seek enlightenment about human suffering. After seven years of wandering, he attained spiritual knowledge under the Bodhi tree, becoming known as the Buddha.
+
+He delivered his first sermon at Benares, a holy city. The sermon's profound wisdom is illustrated through the story of Kisa Gotami. Overwhelmed by grief after her only son died, she desperately sought medicine to revive him. The Buddha instructed her to bring a handful of mustard seeds from a house where no one had ever lost a family member. Kisa Gotami searched every house but found that every family had experienced death.
+
+This experience brought her to the realization that death is universal and common to all mortals. The Buddha then taught that human life is troubled, brief, and combined with pain; death is inevitable for all who are born, just like ripe fruits fall. He emphasized that weeping or grieving cannot bring back the dead or achieve peace of mind; it only increases sorrow. True wisdom lies in accepting death as a natural part of existence and overcoming personal grief and selfishness to find peace.

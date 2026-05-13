@@ -1,0 +1,107 @@
+{
+  "chapter": "Chemical Reactions and Equations",
+  "subject": "Science",
+  "level": "advanced",
+  "flashcards": [
+    {
+      "front": "Activity 1.2 describes the reaction between lead nitrate solution and potassium iodide solution. Predict the observations if the solutions were slightly heated before mixing, and explain the rationale.",
+      "back": "Observation: A bright yellow precipitate of lead(II) iodide (PbI2) would form more rapidly. If heated significantly, the precipitate might dissolve to form a clear yellow solution, and upon cooling, the precipitate would reform.\nRationale: Heating increases the kinetic energy of the reactant molecules, leading to more frequent and energetic collisions, thus increasing the reaction rate. Lead(II) iodide has a lower solubility in hot water compared to cold water, so heating can dissolve the precipitate temporarily."
+    },
+    {
+      "front": "A student incorrectly writes the chemical equation for the reaction between hydrogen and oxygen to form water as H2 + O2 → H2O.  Explain why this equation is unbalanced and how to balance it, referencing the law of conservation of mass.",
+      "back": "Explanation: The equation is unbalanced because there are 2 hydrogen atoms and 2 oxygen atoms on the left (reactants), but only 2 hydrogen atoms and 1 oxygen atom on the right (product). The law of conservation of mass states that mass cannot be created or destroyed in a chemical reaction. Therefore, the number of atoms of each element must be the same on both sides. \nBalancing: The balanced equation is 2H2 + O2 → 2H2O. This ensures 4 hydrogen atoms and 2 oxygen atoms on both sides."
+    },
+    {
+      "front": "Consider the reaction: 2KClO3(s) → 2KCl(s) + 3O2(g). This reaction is often used to produce oxygen in laboratories. What are the essential conditions required for this decomposition to occur efficiently, and what safety precautions should be taken?",
+      "back": "Conditions: Heating is essential. Often, a catalyst like manganese dioxide (MnO2) is added to speed up the decomposition at a lower temperature. \nSafety Precautions: Potassium chlorate is a strong oxidizing agent and can react explosively with combustible materials. Heating should be done carefully to avoid overheating, which can lead to rapid gas evolution and potential explosion. The experiment should be conducted in a well-ventilated area, and eye protection should be worn."
+    },
+    {
+      "front": "Compare and contrast the characteristics of a 'skeletal chemical equation' and a 'balanced chemical equation' in terms of atomic representation and their adherence to scientific laws.",
+      "back": "Skeletal Chemical Equation: Represents the reacting substances and products using their chemical formulae. It shows the reactants and products but does not necessarily have an equal number of atoms of each element on both sides. It does not obey the law of conservation of mass. \nBalanced Chemical Equation: A skeletal equation that has been adjusted by adding stoichiometric coefficients so that the number of atoms of each element is the same on both the reactant and product sides. It adheres to the law of conservation of mass."
+    },
+    {
+      "front": "In Activity 1.3, zinc granules react with dilute acid, causing a change in temperature. Is this an exothermic or endothermic reaction? Justify your answer with reference to energy changes.",
+      "back": "The reaction is exothermic. An exothermic reaction releases energy into the surroundings, typically in the form of heat. If the conical flask or test tube feels warmer to touch after the reaction, it indicates that heat has been released, increasing the temperature of the flask and its contents. This energy release is a characteristic of exothermic processes."
+    },
+    {
+      "front": "A student observes that when iron filings are added to copper sulphate solution, the blue color of the solution fades and a reddish-brown deposit is formed. Write the balanced chemical equation for this reaction and classify the type of reaction.",
+      "back": "Balanced Chemical Equation: Fe(s) + CuSO4(aq) → FeSO4(aq) + Cu(s) \nType of Reaction: Displacement reaction. Iron is more reactive than copper and displaces copper from its sulphate solution."
+    },
+    {
+      "front": "Explain the term 'aqueous' (aq) and 'solid' (s) as state symbols in chemical equations. Provide an example of a reaction where these state symbols are crucial for understanding the outcome.",
+      "back": "Aqueous (aq): Indicates that the substance is dissolved in water. \nSolid (s): Indicates that the substance is in its solid state. \nExample: The reaction between silver nitrate and sodium chloride to form silver chloride precipitate. \nAgNO3(aq) + NaCl(aq) → AgCl(s) + NaNO3(aq). \nThe '(aq)' is crucial because the reactants are dissolved in water, and '(s)' is vital as it signifies the formation of an insoluble precipitate, which is a key observable change."
+    },
+    {
+      "front": "Consider the reaction: 2Na + 2H2O → 2NaOH + H2. Sodium reacts vigorously with water. While this is a displacement reaction, what makes this specific reaction a notable example of both a displacement and a redox reaction?",
+      "back": "This reaction is a displacement reaction because sodium displaces hydrogen from water. It's also a redox reaction because oxidation states change: Sodium's oxidation state increases from 0 to +1 (oxidation), and hydrogen's oxidation state decreases from +1 (in H2O) to 0 (in H2) (reduction). Both oxidation and reduction occur simultaneously."
+    },
+    {
+      "front": "A student notices that an iron nail left in dilute sulphuric acid produces a gas. If the acid is impure and contains some copper sulphate, the reaction may be faster and may produce a different gas. Explain this anomaly.",
+      "back": "Pure iron reacts with dilute H2SO4 to produce hydrogen gas: Fe(s) + H2SO4(aq) → FeSO4(aq) + H2(g). If copper sulphate is present, it forms a galvanic cell with iron. Copper ions (Cu2+) from CuSO4 are reduced to copper metal (Cu) on the iron surface: Cu2+(aq) + 2e- → Cu(s). Simultaneously, iron is oxidized to Fe2+ ions, losing electrons: Fe(s) → Fe2+(aq) + 2e-. The deposited copper on the iron acts as a catalyst, and the iron-copper couple enhances the reaction with acid, potentially leading to a more vigorous evolution of hydrogen gas. In some cases, it might even lead to the formation of other products depending on the conditions."
+    },
+    {
+      "front": "Classify the following reactions into different types and justify your classification: \n1. ZnCO3(s) → ZnO(s) + CO2(g) \n2. 2Mg(s) + O2(g) → 2MgO(s) \n3. Pb(NO3)2(aq) + 2KI(aq) → PbI2(s) + 2KNO3(aq)",
+      "back": "1. Decomposition reaction: A single compound breaks down into two or more simpler substances. \n2. Combination reaction: Two or more reactants combine to form a single product. It's also an oxidation-reduction (redox) reaction. \n3. Double displacement reaction: The ions of two compounds are exchanged to form two new compounds. Specifically, it's a precipitation reaction as an insoluble precipitate (PbI2) is formed."
+    },
+    {
+      "front": "Explain the significance of the word 'dilute' and 'concentrated' when referring to acids in chemical equations. How can their concentrations influence the products of a reaction, using an example?",
+      "back": "Significance: 'Dilute' means the acid has a low concentration of solute (acid) in water, while 'concentrated' means a high concentration. Concentration can significantly affect the reaction pathway and products. \nExample: Reaction of copper with nitric acid. \nWith dilute HNO3: 3Cu(s) + 8HNO3(dilute) → 3Cu(NO3)2(aq) + 2NO(g) + 4H2O(l) (produces nitric oxide, NO). \nWith concentrated HNO3: Cu(s) + 4HNO3(conc) → Cu(NO3)2(aq) + 2NO2(g) + 2H2O(l) (produces nitrogen dioxide, NO2). This shows how concentration can change the gaseous product."
+    },
+    {
+      "front": "Why is it important to balance chemical equations? What specific law is upheld by balancing equations, and what does it imply about the mass of reactants and products?",
+      "back": "Importance: Balancing ensures that the Law of Conservation of Mass is obeyed. \nLaw Upheld: Law of Conservation of Mass. \nImplication: The total mass of the reactants consumed in a chemical reaction must be equal to the total mass of the products formed. Atoms are rearranged during a reaction, not created or destroyed."
+    },
+    {
+      "front": "Consider the reaction between sodium hydroxide (NaOH) and hydrochloric acid (HCl). What type of reaction is this, and what are the typical observations if we use universal indicator in this reaction?",
+      "back": "Type of Reaction: Neutralisation reaction (a type of double displacement reaction). NaOH (base) + HCl (acid) → NaCl (salt) + H2O (water). \nObservations with Universal Indicator: Initially, when HCl (acidic) is used, the indicator will show a color indicating low pH (e.g., red/orange). As NaOH is added, the pH increases. At the equivalence point (when neutralisation is complete), the solution becomes neutral, and the indicator will show a color indicating neutral pH (e.g., green). If excess NaOH is added, the solution becomes alkaline, and the indicator will show a color indicating high pH (e.g., blue/violet)."
+    },
+    {
+      "front": "Write the word equation and the balanced chemical equation for the reaction when hydrogen gas burns in air to form water. Identify the reactants and products.",
+      "back": "Word Equation: Hydrogen + Oxygen → Water \nBalanced Chemical Equation: 2H2(g) + O2(g) → 2H2O(l) \nReactants: Hydrogen gas (H2) and Oxygen gas (O2). \nProducts: Water (H2O)."
+    },
+    {
+      "front": "When iron (Fe) reacts with steam (H2O), iron (II, III) oxide (Fe3O4) and hydrogen gas (H2) are formed. Write the balanced chemical equation for this reaction. Is this a redox reaction? Justify.",
+      "back": "Balanced Chemical Equation: 3Fe(s) + 4H2O(g) → Fe3O4(s) + 4H2(g) \nRedox Reaction: Yes, it is a redox reaction. \nJustification: The oxidation states change. Iron's oxidation state increases from 0 in Fe to an average of +8/3 in Fe3O4 (where Fe exists as Fe2+ and Fe3+). Hydrogen's oxidation state decreases from +1 in H2O to 0 in H2. Since both oxidation and reduction occur, it's a redox reaction."
+    },
+    {
+      "front": "A precipitate is formed when solutions of barium chloride (BaCl2) and sodium sulphate (Na2SO4) are mixed. Write the balanced chemical equation, identify the precipitate, and classify the reaction.",
+      "back": "Balanced Chemical Equation: BaCl2(aq) + Na2SO4(aq) → BaSO4(s) + 2NaCl(aq) \nPrecipitate: Barium sulphate (BaSO4). \nClassification: Double displacement reaction, specifically a precipitation reaction."
+    },
+    {
+      "front": "Consider the following reactions: \n(a) CaCO3(s) → CaO(s) + CO2(g) \n(b) CH4(g) + 2O2(g) → CO2(g) + 2H2O(g) \nIdentify which reaction involves a change in the number of moles of gas and explain the implication.",
+      "back": "Reaction (a) involves a change in the number of moles of gas: 0 moles of gas on the reactant side and 1 mole of gas (CO2) on the product side. This means the number of gas moles increases. \nReaction (b) also involves a change in the number of moles of gas: 3 moles of gas (1 CH4 + 2 O2) on the reactant side and 3 moles of gas (1 CO2 + 2 H2O, assuming water is gaseous) on the product side. The net change in moles of gas is 0. \nImplication: Changes in the number of moles of gas can affect the pressure if the volume is constant (and vice versa), and are important in chemical kinetics and equilibrium. For instance, in reaction (a), the production of gas will lead to an increase in pressure within a closed container."
+    },
+    {
+      "front": "What is the difference between a combination reaction and a decomposition reaction? Provide an example of each.",
+      "back": "Combination Reaction: Two or more reactants combine to form a single product. Example: 2H2(g) + O2(g) → 2H2O(l). \nDecomposition Reaction: A single compound breaks down into two or more simpler substances. Example: 2KClO3(s) → 2KCl(s) + 3O2(g)."
+    },
+    {
+      "front": "Explain why rusting of iron is a chemical change and not a physical change. Mention the reactants and products involved.",
+      "back": "Rusting of iron is a chemical change because new substances with entirely different properties are formed. It involves the reaction of iron (Fe) with oxygen (O2) and water (H2O) from the atmosphere to form hydrated iron(III) oxide (Fe2O3.nH2O), which is rust. This process involves the formation of new chemical bonds and a change in chemical composition. A physical change would only alter the form or appearance without changing the chemical identity."
+    },
+    {
+      "front": "The reaction between hydrogen gas and chlorine gas in the presence of sunlight produces hydrogen chloride gas. Write the balanced chemical equation. What type of reaction is this, and what is the role of sunlight?",
+      "back": "Balanced Chemical Equation: H2(g) + Cl2(g) → 2HCl(g) \nType of Reaction: Combination reaction. It is also a redox reaction (H changes from 0 to +1, Cl changes from 0 to -1). \nRole of Sunlight: Sunlight acts as a catalyst or initiator, providing the activation energy needed to break the bonds in hydrogen and chlorine molecules, allowing them to react."
+    },
+    {
+      "front": "Some chemical reactions can occur spontaneously, while others require specific conditions like heat, pressure, or a catalyst. Explain the difference between a catalyst and a reactant, using an example where a catalyst is involved in a reaction shown in the chapter.",
+      "back": "A reactant is a substance that is consumed during a chemical reaction and is written on the left-hand side of the arrow in a chemical equation. A catalyst is a substance that increases the rate of a chemical reaction without itself being consumed in the process. It is usually written above or below the arrow. \nExample (from the chapter): In the decomposition of potassium chlorate (KClO3), manganese dioxide (MnO2) is often used as a catalyst: 2KClO3(s) --(MnO2, Heat)--> 2KCl(s) + 3O2(g). Here, KClO3 is the reactant, and MnO2 is the catalyst."
+    },
+    {
+      "front": "When carbon dioxide gas is passed through lime water (calcium hydroxide solution), a white precipitate is formed. If excess carbon dioxide is passed, the precipitate dissolves. Write the balanced chemical equations for both observations and explain the chemistry behind them.",
+      "back": "Observation 1 (Precipitate formation): CO2(g) + Ca(OH)2(aq) → CaCO3(s) + H2O(l) \nChemistry: Carbon dioxide reacts with calcium hydroxide to form insoluble calcium carbonate, which appears as a white precipitate. \nObservation 2 (Precipitate dissolves): CaCO3(s) + CO2(g) + H2O(l) → Ca(HCO3)2(aq) \nChemistry: In the presence of excess carbon dioxide and water, calcium carbonate reacts to form soluble calcium bicarbonate, causing the precipitate to dissolve."
+    },
+    {
+      "front": "Compare and contrast endothermic and exothermic reactions in terms of heat exchange and their effect on the surroundings. Provide an example of each relevant to daily life.",
+      "back": "Exothermic Reaction: Releases heat energy into the surroundings. This causes the temperature of the surroundings to increase. Example: Burning of fuel (like wood or LPG) in cooking. \nEndothermic Reaction: Absorbs heat energy from the surroundings. This causes the temperature of the surroundings to decrease. Example: Photosynthesis in plants (absorbs light energy), or the use of cold packs which absorb heat from the body."
+    },
+    {
+      "front": "Why is it important to ensure that the chemical equation is correctly balanced before proceeding with calculations involving stoichiometry?",
+      "back": "Balancing ensures that the Law of Conservation of Mass is upheld. Stoichiometric calculations are based on the mole ratios between reactants and products as defined by the coefficients in the balanced equation. If the equation is unbalanced, these ratios will be incorrect, leading to erroneous calculations of the amounts of substances involved in the reaction."
+    },
+    {
+      "front": "The reaction of hydrogen gas with nitrogen gas to form ammonia is an important industrial process (Haber Process). However, it requires specific conditions. Write the balanced chemical equation and identify the type of reaction, and mention the role of a catalyst and temperature/pressure.",
+      "back": "Balanced Chemical Equation: N2(g) + 3H2(g) ⇌ 2NH3(g) \nType of Reaction: Combination reaction, and also a redox reaction. \nConditions: This reaction is exothermic. A catalyst (usually iron) is used to speed up the reaction. High temperature (around 400-450 °C) and high pressure (around 150-200 atm) are required to achieve a significant yield of ammonia."
+    }
+  ]
+}

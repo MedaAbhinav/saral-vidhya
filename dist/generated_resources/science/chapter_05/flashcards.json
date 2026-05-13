@@ -1,0 +1,86 @@
+{
+  "chapter": "Life Processes",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "What is the primary evidence we use to differentiate between living and non-living things, according to the excerpt?",
+      "back": "Movement, either growth-related or not, is often considered evidence for being alive."
+    },
+    {
+      "front": "Is visible movement sufficient to define a living being?",
+      "back": "No, because some plants are alive without visible growth, and some animals breathe without visible movement. Also, essential molecular movements are invisible."
+    },
+    {
+      "front": "Why do living organisms need molecular movement?",
+      "back": "Living organisms are well-organized structures that are prone to breaking down due to environmental effects. They need to constantly repair and maintain these structures, which requires molecular movement."
+    },
+    {
+      "front": "What is the definition of 'life processes'?",
+      "back": "The processes which together perform the maintenance job of living organisms are called life processes."
+    },
+    {
+      "front": "Why is energy needed for maintenance processes?",
+      "back": "Energy is needed for maintenance processes to prevent damage and break-down."
+    },
+    {
+      "front": "Where does the energy for maintenance processes come from?",
+      "back": "The energy comes from outside the body of the individual organism."
+    },
+    {
+      "front": "What is nutrition?",
+      "back": "Nutrition is the process of transferring a source of energy (food) from outside the body of an organism to the inside."
+    },
+    {
+      "front": "What are the basic components of food sources for most life on Earth?",
+      "back": "Most food sources are carbon-based molecules."
+    },
+    {
+      "front": "What is the purpose of breaking down or building up energy sources in the body?",
+      "back": "To convert them into a uniform source of energy usable for molecular movements and to create molecules needed for growth."
+    },
+    {
+      "front": "What are oxidising-reducing reactions used for in the body?",
+      "back": "They are common chemical means to break-down molecules."
+    },
+    {
+      "front": "What is respiration?",
+      "back": "Respiration is the process of acquiring oxygen from outside the body and using it to break down food sources for cellular needs."
+    },
+    {
+      "front": "Why do single-celled organisms not need specialized organs for intake, gas exchange, or waste removal?",
+      "back": "The entire surface of a single-celled organism is in contact with the environment."
+    },
+    {
+      "front": "What challenge arises in multicellular organisms as their body size and complexity increase?",
+      "back": "Not all cells are in direct contact with the environment, so simple diffusion is insufficient to meet all cells' needs."
+    },
+    {
+      "front": "What function do specialized tissues perform in multicellular organisms regarding food and oxygen?",
+      "back": "Specialized tissues are responsible for the uptake of food and oxygen."
+    },
+    {
+      "front": "What problem is created when food and oxygen are taken up at one location in a multicellular organism?",
+      "back": "This creates a challenge because all parts of the body need food and oxygen, and they are not all in direct contact with the point of uptake."
+    },
+    {
+      "front": "According to the excerpt, what is the fundamental difference between living and non-living at a microscopic level?",
+      "back": "Living organisms exhibit invisible molecular movements, while viruses, often considered on the edge of life, do not until they infect a cell."
+    },
+    {
+      "front": "What is the role of 'raw material' in living organisms besides energy?",
+      "back": "Additional raw material from outside is needed for the body size of organisms to grow."
+    },
+    {
+      "front": "What type of molecules are the primary basis for life on Earth?",
+      "back": "Carbon-based molecules."
+    },
+    {
+      "front": "What is the relationship between environment and energy sources for organisms?",
+      "back": "The environment is not under the control of the individual organism, so the outside sources of energy can be quite varied."
+    },
+    {
+      "front": "Why is there a controversy regarding whether viruses are truly alive?",
+      "back": "Viruses do not show any molecular movement within themselves until they infect a cell."
+    }
+  ]
+}

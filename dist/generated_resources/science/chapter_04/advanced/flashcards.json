@@ -1,0 +1,107 @@
+{
+  "chapter": "Carbon and its Compounds",
+  "subject": "Science",
+  "level": "advanced",
+  "flashcards": [
+    {
+      "front": "Why is carbon often referred to as the 'backbone of organic life', considering its low abundance in Earth's crust and atmosphere?",
+      "back": "Despite its low percentage (0.02% in crust, 0.03% in atmosphere), carbon's immense significance stems from its unique ability to form stable covalent bonds with itself and other elements. This leads to the formation of long chains, branched structures, and rings, creating a vast diversity of complex molecules essential for all known life forms. Its tetravalency and ability to form single, double, and triple bonds allow for intricate molecular architectures that no other element can replicate."
+    },
+    {
+      "front": "Explain the electron configuration of carbon (atomic number 6) and why it predominantly forms covalent bonds rather than ionic bonds.",
+      "back": "Carbon has 6 electrons, with an electronic configuration of 2, 4. It has 4 valence electrons. To achieve a stable noble gas configuration (like Helium or Neon), it would need to either gain 4 electrons (forming a C⁴⁻ ion) or lose 4 electrons (forming a C⁴⁺ ion). Gaining 4 electrons is energetically unfavorable as the nucleus with 6 protons would struggle to hold 10 electrons. Losing 4 electrons requires a very high amount of energy. Therefore, carbon overcomes this by sharing its 4 valence electrons with other atoms, forming covalent bonds."
+    },
+    {
+      "front": "Compare and contrast the properties of typical ionic compounds (like NaCl) with typical carbon compounds (like methane or ethanol) based on their bonding and structure.",
+      "back": "Ionic compounds have strong electrostatic forces between ions, leading to high melting/boiling points, hardness, and electrical conductivity in molten/aqueous states. Carbon compounds, typically formed by covalent bonds, have weaker intermolecular forces. This results in lower melting/boiling points, often being liquids or gases at room temperature, and poor electrical conductivity as they don't form ions."
+    },
+    {
+      "front": "What is the significance of the C-C single bond, C=C double bond, and C≡C triple bond in terms of bond strength and length?",
+      "back": "C-C single bonds are the longest and weakest. C=C double bonds are shorter and stronger than single bonds. C≡C triple bonds are the shortest and strongest. This variation in bond strength and length allows carbon to form molecules with diverse stability and reactivity."
+    },
+    {
+      "front": "Consider a hypothetical scenario where carbon forms a C⁴⁺ ion. Would it be stable? Justify your answer based on electrostatic principles.",
+      "back": "A C⁴⁺ ion would be highly unstable. The nucleus of carbon has 6 protons. To form a C⁴⁺ ion, it would need to lose 4 electrons, leaving only 2 electrons. The positive charge of the 6 protons would be concentrated over a very small region with only 2 electrons. This would result in an extremely high positive charge density, making it energetically unfavorable to exist and highly reactive, likely attracting electrons very strongly."
+    },
+    {
+      "front": "Explain the concept of allotropy using carbon as an example, and provide at least two distinct allotropes.",
+      "back": "Allotropy is the property of an element to exist in two or more different forms in the same physical state. These different forms are called allotropes. For carbon, examples include: 1. Diamond: A hard, crystalline solid where each carbon atom is bonded to four other carbon atoms in a tetrahedral structure, making it very strong and an electrical insulator. 2. Graphite: A soft, layered structure where carbon atoms are arranged in hexagonal rings, with weak forces between layers, making it a lubricant and a good electrical conductor."
+    },
+    {
+      "front": "When a carbon compound is burnt, what is a common test to confirm the presence of carbon, and what are the expected products?",
+      "back": "When a carbon compound is burnt in excess oxygen, the primary product is carbon dioxide (CO₂). To test for CO₂, the combustion products are passed through limewater (calcium hydroxide solution). If CO₂ is present, the limewater turns milky due to the formation of insoluble calcium carbonate (CaCO₃). The equation is: CO₂ (g) + Ca(OH)₂ (aq) → CaCO₃ (s) + H₂O (l)."
+    },
+    {
+      "front": "What is meant by 'catena tion' in carbon chemistry, and why is this property exceptionally prominent in carbon compared to other elements?",
+      "back": "Catenation is the ability of an atom to form long chains with itself. Carbon exhibits catenation to a remarkable extent due to the strength and stability of C-C single, double, and triple covalent bonds. This allows carbon to form very long, branched, and cyclic chains, a property not found to the same degree in other elements. For example, silicon, which is in the same group, can form short chains but not as long or complex as carbon."
+    },
+    {
+      "front": "Explain the difference between saturated and unsaturated hydrocarbons, providing examples of each.",
+      "back": "Saturated hydrocarbons contain only single bonds between carbon atoms. They are less reactive. Example: Methane (CH₄), Ethane (C₂H₆). Unsaturated hydrocarbons contain at least one double (C=C) or triple (C≡C) bond between carbon atoms. They are more reactive due to the presence of pi bonds. Example: Ethene (C₂H₄) with a double bond, Ethyne (C₂H₂) with a triple bond."
+    },
+    {
+      "front": "Why are carbon compounds generally poor conductors of electricity?",
+      "back": "Carbon compounds are typically formed by covalent bonds, where electrons are shared between atoms. These shared electrons are localized within the molecule and are not free to move. Unlike ionic compounds, which dissociate into mobile ions in solution or molten state, covalent compounds do not have free-moving charged particles, hence they are poor conductors of electricity."
+    },
+    {
+      "front": "Derive the electronic configuration of the first four members of the alkane series (methane to butane) and identify the general formula for alkanes.",
+      "back": "Electronic configuration of Carbon (atomic number 6) is 2, 4. Alkanes are saturated hydrocarbons with single bonds. \nMethane (CH₄): C (2,4) + 4H (1) → shares electrons, each H gets 2, C gets 8. \nEthane (C₂H₆): 2C (2,4) + 6H (1) → C-C single bond and C-H single bonds. \nPropane (C₃H₈): 3C (2,4) + 8H (1) → C-C-C chain and C-H single bonds. \nButane (C₄H₁₀): 4C (2,4) + 10H (1) → C-C-C-C chain and C-H single bonds. \nGeneral Formula for alkanes: CnH₂n+₂"
+    },
+    {
+      "front": "What is the role of electron sharing in forming a covalent bond, and how does it help atoms achieve a stable electronic configuration?",
+      "back": "In covalent bonding, atoms share valence electrons to achieve a stable noble gas configuration, typically having 8 electrons in their outermost shell (octet rule) or 2 electrons in the case of hydrogen (duplet rule). By sharing, the electrons become part of the outermost shell of both participating atoms. This mutual sharing allows each atom to 'count' the shared electrons towards its valence shell, effectively filling it and leading to stability."
+    },
+    {
+      "front": "Consider the compound ethanol (C₂H₅OH). Explain why it is a poor conductor of electricity, even though it contains oxygen.",
+      "back": "Ethanol is a covalent compound. While it contains oxygen, the bonds within the ethanol molecule (C-C, C-H, C-O, O-H) are all covalent. This means electrons are shared, not transferred, and no free ions are formed. Therefore, even with the presence of oxygen, the molecule remains electrically neutral and lacks mobile charge carriers, making it a poor conductor of electricity."
+    },
+    {
+      "front": "Why is carbon able to form such a vast number of compounds compared to elements like oxygen or nitrogen?",
+      "back": "Carbon's ability to form an extensive variety of compounds is due to: 1. Catenation: Its strong tendency to form long, stable chains with itself. 2. Tetravalency: It can form four covalent bonds, allowing for complex branching and ring structures. 3. Ability to form single, double, and triple bonds: This introduces diversity in molecular structures and reactivity. 4. Formation of stable bonds with other elements like H, O, N, S, P, halogens: This further increases the possibilities for complex molecules."
+    },
+    {
+      "front": "Explain the difference between 'ionic bonding' and 'covalent bonding' in terms of electron transfer vs. electron sharing.",
+      "back": "Ionic bonding involves the complete transfer of one or more valence electrons from one atom to another, forming oppositely charged ions (cations and anions) that are held together by electrostatic attraction. Covalent bonding involves the sharing of one or more pairs of valence electrons between atoms to achieve a stable electronic configuration. This sharing is typically seen between non-metals."
+    },
+    {
+      "front": "What is the role of carbon in living organisms? Give an example of a vital carbon-based biomolecule.",
+      "back": "Carbon is the fundamental building block of all organic molecules essential for life. Its ability to form diverse structures allows for the creation of complex biomolecules. Example: Carbohydrates (like glucose, C₆H₁₂O₆), proteins, fats, and nucleic acids (DNA/RNA) are all carbon-based structures vital for energy, structure, and genetic information."
+    },
+    {
+      "front": "How does the presence of a double bond (C=C) in an unsaturated hydrocarbon affect its reactivity compared to a single bond (C-C) in a saturated hydrocarbon?",
+      "back": "A C=C double bond consists of one sigma bond and one pi bond. The pi bond is weaker and more exposed, making it susceptible to addition reactions where the pi bond breaks, and new atoms add across the double bond. Saturated hydrocarbons with only C-C single bonds are less reactive and primarily undergo substitution reactions, which require breaking a strong sigma bond."
+    },
+    {
+      "front": "Explain why carbon has a special place in the periodic table and its implications for its bonding behavior.",
+      "back": "Carbon is in Group 14 and Period 2. Its position signifies its tetravalency (4 valence electrons). Being in Period 2, it is relatively small, allowing for efficient overlap of atomic orbitals to form strong covalent bonds. Its location also places it as a non-metal, which, when reacting with other non-metals, favors electron sharing (covalent bonding) over electron transfer (ionic bonding)."
+    },
+    {
+      "front": "If a compound contains only hydrogen and carbon, what is it called, and what are the two main types?",
+      "back": "A compound containing only hydrogen and carbon is called a hydrocarbon. The two main types are: 1. Alkanes: Contain only single bonds between carbon atoms (saturated). 2. Alkenes and Alkynes: Contain at least one double bond (alkenes) or triple bond (alkynes) between carbon atoms (unsaturated)."
+    },
+    {
+      "front": "Consider the combustion of methane (CH₄) in limited oxygen. What are the possible products other than carbon dioxide and water, and why?",
+      "back": "In limited oxygen, incomplete combustion of methane occurs. Instead of fully oxidizing to CO₂, carbon can form carbon monoxide (CO) or even solid carbon (soot). The reaction producing CO is: 2CH₄ + 3O₂ → 2CO + 4H₂O. The reaction producing soot is: CH₄ + O₂ → C + 2H₂O. This is due to insufficient oxygen to completely oxidize all carbon to CO₂."
+    },
+    {
+      "front": "Why are carbon compounds generally soluble in organic solvents but insoluble in water?",
+      "back": "Most carbon compounds are covalent and thus non-polar or weakly polar. Water is a polar solvent. The general rule 'like dissolves like' applies. Covalent compounds tend to dissolve in other covalent (non-polar or weakly polar) organic solvents. Polar substances like water effectively dissolve ionic compounds and other highly polar substances."
+    },
+    {
+      "front": "What is the difference between structural isomers, using an example of two different compounds with the molecular formula C₄H₁₀?",
+      "back": "Structural isomers are compounds with the same molecular formula but different structural arrangements of atoms. For C₄H₁₀ (butane), the isomers are: 1. n-butane: A straight chain of four carbon atoms. (CH₃-CH₂-CH₂-CH₃) 2. Isobutane (2-methylpropane): A branched chain where the third carbon is attached to the second carbon of a three-carbon chain. (CH₃-CH(CH₃)-CH₃)"
+    },
+    {
+      "front": "Explain the process by which carbon dioxide is formed during the respiration of living organisms.",
+      "back": "Respiration is a process where glucose (a carbon-based molecule) is broken down in the presence of oxygen to release energy. This biochemical process involves a series of reactions. Ultimately, the carbon atoms from glucose are oxidized and combine with oxygen to form carbon dioxide, which is then released from the organism. C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + Energy."
+    },
+    {
+      "front": "Diamond and graphite are allotropes of carbon. Despite both being pure carbon, explain the key difference in their electrical conductivity and the reason behind it.",
+      "back": "Diamond is an electrical insulator because each carbon atom is sp³ hybridized and bonded to four other carbon atoms in a rigid tetrahedral structure. All valence electrons are localized in strong sigma bonds. Graphite is a good electrical conductor because each carbon atom is sp² hybridized, forming three sigma bonds and one delocalized pi electron per atom. These delocalized electrons are free to move along the layers, facilitating electrical conductivity."
+    },
+    {
+      "front": "If an unknown compound turns limewater milky when burnt, what can you definitively conclude about its elemental composition?",
+      "back": "If an unknown compound turns limewater milky when burnt (in the presence of oxygen), it definitively concludes that the compound contains carbon, as the milkiness is due to the formation of calcium carbonate from carbon dioxide produced during combustion. It doesn't exclude the presence of other elements like hydrogen, oxygen, nitrogen, etc., but carbon must be present."
+    }
+  ]
+}

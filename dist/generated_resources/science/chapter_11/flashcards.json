@@ -1,0 +1,86 @@
+{
+  "chapter": "Electricity",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "What is an electric current?",
+      "back": "Electric current is the rate of flow of electric charges through a conductor. It is expressed by the amount of charge flowing through a particular area in unit time. (I = Q/t)"
+    },
+    {
+      "front": "What is the SI unit of electric charge?",
+      "back": "The SI unit of electric charge is the coulomb (C)."
+    },
+    {
+      "front": "How many electrons make up one coulomb of charge?",
+      "back": "Approximately 6 × 10^18 electrons constitute one coulomb of charge."
+    },
+    {
+      "front": "What is the SI unit of electric current?",
+      "back": "The SI unit of electric current is the ampere (A)."
+    },
+    {
+      "front": "Define one ampere.",
+      "back": "One ampere is constituted by the flow of one coulomb of charge per second (1 A = 1 C/1 s)."
+    },
+    {
+      "front": "What are milliampere (mA) and microampere (µA) in terms of amperes?",
+      "back": "1 mA = 10⁻³ A and 1 µA = 10⁻⁶ A."
+    },
+    {
+      "front": "What instrument is used to measure electric current?",
+      "back": "An ammeter is used to measure electric current in a circuit."
+    },
+    {
+      "front": "How is an ammeter connected in a circuit?",
+      "back": "An ammeter is always connected in series in a circuit."
+    },
+    {
+      "front": "In which direction does electric current conventionally flow in a circuit?",
+      "back": "Conventionally, electric current flows from the positive terminal to the negative terminal of the source."
+    },
+    {
+      "front": "What is the actual direction of flow of electrons in a metallic conductor?",
+      "back": "Electrons, being negative charges, actually flow from the negative terminal to the positive terminal."
+    },
+    {
+      "front": "What is an electric circuit?",
+      "back": "A continuous and closed path of an electric current is called an electric circuit."
+    },
+    {
+      "front": "What happens to the electric current if the circuit is broken?",
+      "back": "If the circuit is broken anywhere, the current stops flowing."
+    },
+    {
+      "front": "What causes electric charges to flow in a conductor?",
+      "back": "A difference of electric pressure, called the potential difference, along the conductor causes electric charges to flow."
+    },
+    {
+      "front": "What is potential difference?",
+      "back": "Potential difference is the electric 'pressure' that causes charges to flow."
+    },
+    {
+      "front": "How can potential difference be produced?",
+      "back": "Potential difference can be produced by a battery, which consists of one or more electric cells. Chemical action within a cell generates this difference."
+    },
+    {
+      "front": "What is the formula for calculating electric current (I) if charge (Q) flows in time (t)?",
+      "back": "I = Q/t"
+    },
+    {
+      "front": "Example: If a current of 0.5 A flows for 10 minutes, what is the charge flow?",
+      "back": "Charge (Q) = I × t = 0.5 A × (10 × 60 s) = 0.5 A × 600 s = 300 C."
+    },
+    {
+      "front": "What is the charge of an electron?",
+      "back": "An electron possesses a negative charge of approximately 1.6 × 10⁻¹⁹ C."
+    },
+    {
+      "front": "What is a schematic diagram of an electric circuit?",
+      "back": "A schematic diagram shows the components of an electric circuit like cells, bulbs, ammeters, and keys using standard symbols."
+    },
+    {
+      "front": "What is the role of a switch in an electric circuit?",
+      "back": "A switch makes or breaks the conducting link between the components of the circuit, controlling the flow of current."
+    }
+  ]
+}

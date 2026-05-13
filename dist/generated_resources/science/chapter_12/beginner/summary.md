@@ -1,0 +1,1 @@
+When electricity flows through a wire, it creates a magnetic field around it, just like a magnet. This means electricity and magnetism are connected! This magnetic field is invisible, but we can see its effect. A compass needle shows us the direction of this invisible magnetic field.

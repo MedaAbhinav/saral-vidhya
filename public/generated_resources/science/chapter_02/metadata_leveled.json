@@ -1,0 +1,26 @@
+{
+  "chapter_number": 2,
+  "chapter_name": "Acids, Bases and Salts",
+  "subject": "Science",
+  "pdf": "jesc102.pdf",
+  "completed": {
+    "beginner": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "intermediate": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "advanced": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ]
+  }
+}

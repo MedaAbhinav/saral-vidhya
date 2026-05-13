@@ -1,0 +1,87 @@
+{
+  "chapter": "Control and Coordination",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "What is the primary role of control and coordination in living organisms?",
+      "back": "To enable living organisms to detect environmental changes and respond to them appropriately, ensuring survival and optimal functioning."
+    },
+    {
+      "front": "What are the two main systems responsible for control and coordination in animals?",
+      "back": "The nervous system and the muscular system."
+    },
+    {
+      "front": "What is a neuron?",
+      "back": "A nerve cell, which is the basic structural and functional unit of the nervous system, specialized for conducting information via electrical impulses."
+    },
+    {
+      "front": "What are the main parts of a neuron?",
+      "back": "Dendrites, cell body (cyton), and axon."
+    },
+    {
+      "front": "Where is information acquired by a neuron?",
+      "back": "At the dendrites (specialized tips of nerve cells)."
+    },
+    {
+      "front": "Through which part of a neuron does information travel as an electrical impulse?",
+      "back": "Along the axon."
+    },
+    {
+      "front": "What happens at the end of the axon to transmit the impulse to the next cell?",
+      "back": "The electrical impulse triggers the release of chemical signals that cross the synapse."
+    },
+    {
+      "front": "What is a synapse?",
+      "back": "The gap or junction between the axon terminal of one neuron and the dendrite of another neuron (or another cell like a muscle cell)."
+    },
+    {
+      "front": "What is a reflex action?",
+      "back": "A rapid, involuntary, and automatic response to a stimulus."
+    },
+    {
+      "front": "What is a reflex arc?",
+      "back": "The neural pathway that mediates a reflex action, typically involving a sensory neuron, interneuron (relay neuron), and motor neuron."
+    },
+    {
+      "front": "Why are reflex actions important?",
+      "back": "They provide a quick and essential protective response to potentially harmful stimuli without conscious thought, minimizing injury."
+    },
+    {
+      "front": "What are receptors?",
+      "back": "Specialized cells or organs that detect specific stimuli from the environment (e.g., heat, light, sound, taste, smell)."
+    },
+    {
+      "front": "Name the different types of receptors and the stimuli they detect.",
+      "back": "Gustatory receptors (taste), olfactory receptors (smell), auditory receptors (sound), photoreceptors (light), thermoreceptors (heat/cold)."
+    },
+    {
+      "front": "What is the role of the spinal cord in reflex actions?",
+      "back": "The spinal cord often acts as the central coordinating center for many reflex actions, bypassing the brain for faster responses."
+    },
+    {
+      "front": "What is the difference between a reflex action and a voluntary action?",
+      "back": "Reflex actions are involuntary and rapid, controlled by the spinal cord or lower brain centers. Voluntary actions are conscious, controlled by the brain (cerebrum), and involve deliberate thought and decision-making."
+    },
+    {
+      "front": "What is the function of the brain?",
+      "back": "The brain is the main coordinating center for all voluntary actions, thinking, memory, intelligence, emotions, and also controls involuntary actions like heartbeat and breathing."
+    },
+    {
+      "front": "What are the main parts of the human brain?",
+      "back": "Forebrain (cerebrum), Midbrain, and Hindbrain (cerebellum, pons, medulla oblongata)."
+    },
+    {
+      "front": "How does the brain receive information from the body and send instructions?",
+      "back": "Through nerves that connect to the spinal cord, which in turn connects to the brain. The brain processes this information and sends motor commands via nerves."
+    },
+    {
+      "front": "What is the role of muscles in control and coordination?",
+      "back": "Muscles are effector organs that contract or relax in response to signals from the nervous system, enabling movement."
+    },
+    {
+      "front": "What is the importance of coordinating sensory input and motor output?",
+      "back": "Effective coordination between what is sensed (sensory input) and how the body responds (motor output) is crucial for survival, learning, and interacting with the environment."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+"The Sermon at Benares" highlights Gautama Buddha's journey from Prince Siddhartha, who renounced worldly life after witnessing suffering, to enlightenment. He then delivered his first sermon at Benares, revealing profound truths about life and death.
+
+The central narrative involves Kisa Gotami, grief-stricken by her only son's death, who desperately sought medicine for him. Buddha, instead of a cure, asked her to procure mustard seeds from a house untouched by death. Kisa went from door to door, but found no such house, as every family had experienced loss. This brought her to the profound realization: death is universal and unavoidable.
+
+The Buddha's sermon underscores that life is transient and filled with pain, with death being an inescapable truth for all mortals. Excessive grieving only intensifies suffering, offering no peace. Wisdom lies in accepting death's universality, understanding that it is common to all. True peace comes from surrendering personal sorrow and embracing this reality, rather than lamenting what is an inevitable part of existence.

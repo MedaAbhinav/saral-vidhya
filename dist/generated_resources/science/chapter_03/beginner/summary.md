@@ -1,0 +1,1 @@
+Metals are shiny, can be hammered into thin sheets, and drawn into wires. They also conduct heat and electricity well, and make a sound when hit. Non-metals are generally the opposite. Think of them like this: metals are tough and useful for making things like wires and pots, while non-metals are like the air we breathe.

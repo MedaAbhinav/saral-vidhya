@@ -1,0 +1,107 @@
+{
+  "chapter": "Metals and Non-metals",
+  "subject": "Science",
+  "level": "advanced",
+  "flashcards": [
+    {
+      "front": "A sample of an unknown element is tested. It is found to be a lustrous solid, exhibits high malleability and ductility, conducts heat and electricity well, and produces a ringing sound when struck. Based on these observations, classify the element and provide a chemical justification for its likely behavior in bonding.",
+      "back": "The unknown element is a metal. The observed properties – metallic lustre, malleability, ductility, good conductivity of heat and electricity, and sonorous nature – are characteristic physical properties of metals. Chemically, metals tend to lose electrons to form positive ions (cations) due to their low ionization energies and few valence electrons. This electron-donating tendency leads to ionic bonding with non-metals and metallic bonding among themselves."
+    },
+    {
+      "front": "Explain why sodium reacts vigorously with water, producing hydrogen gas and a significant amount of heat, while copper does not react with water at all. Relate this difference in reactivity to their positions in the reactivity series.",
+      "back": "Sodium is a highly reactive metal, positioned high in the reactivity series. It readily displaces hydrogen from water, forming sodium hydroxide and hydrogen gas, releasing substantial heat that can ignite the hydrogen. Copper, conversely, is a less reactive metal, positioned much lower in the reactivity series. It is below hydrogen, meaning it cannot displace hydrogen from water, hence exhibiting no reaction."
+    },
+    {
+      "front": "While most metals are solid at room temperature, mercury is an exception. Explain the anomalous physical state of mercury at room temperature in terms of its atomic structure and bonding characteristics.",
+      "back": "Mercury is a metal with a relatively high atomic number and a complex electronic configuration. The valence electrons in mercury are held more tightly to the nucleus due to relativistic effects and effective nuclear charge. This results in weaker metallic bonding compared to other metals, leading to a low melting point and its existence as a liquid at room temperature."
+    },
+    {
+      "front": "Compare and contrast the processes of roasting and calcination, specifying the conditions under which each is applied and providing examples of ores treated by these methods.",
+      "back": "Both roasting and calcination are processes used to extract metals from their ores by heating. Roasting involves heating the ore in the presence of excess air, typically used for sulfide ores (e.g., ZnS to ZnO). Calcination involves heating the ore in the absence of air or with limited air, primarily used for carbonate ores (e.g., ZnCO3 to ZnO) and some hydroxides."
+    },
+    {
+      "front": "Iron reacts with steam at high temperatures to form iron oxide and hydrogen gas, while aluminum forms a protective oxide layer when exposed to air. Explain the contrasting behavior of iron and aluminum in terms of their reactivity and the nature of their oxides.",
+      "back": "Iron is more reactive than aluminum in this context. When iron reacts with steam, it forms a stable oxide (Fe3O4) and releases hydrogen. Aluminum, though generally reactive, forms a very thin, tough, and impermeable layer of aluminum oxide (Al2O3) on its surface when exposed to air. This protective layer passivates the metal, preventing further reaction with air or steam."
+    },
+    {
+      "front": "Why is it essential to prevent the formation of rust on iron objects, and what is the electrochemical principle behind the rusting process? Propose a method to prevent rusting that utilizes a more reactive metal.",
+      "back": "Rusting weakens iron objects, making them prone to structural failure and loss of function. The electrochemical process involves iron acting as the anode, getting oxidized to Fe²⁺ ions. Oxygen acts as the cathode, and water facilitates the movement of ions. Fe²⁺ is further oxidized to Fe³⁺, which then reacts with water to form hydrated ferric oxide (rust). To prevent rusting, 'sacrificial protection' can be employed by coating iron with a more reactive metal like zinc (galvanization). Zinc preferentially oxidizes, protecting the iron."
+    },
+    {
+      "front": "Consider the extraction of copper from its low-grade ores. Explain the process of leaching, followed by purification of the leached metal using electrolysis, highlighting the role of each step.",
+      "back": "Low-grade copper ores are treated with a dilute acid (like sulfuric acid) to dissolve the copper as copper ions (leaching). The resulting solution, containing copper ions, is then purified by electrolysis. In electrolytic refining, the impure copper acts as the anode, a thin strip of pure copper as the cathode, and copper sulfate solution as the electrolyte. Pure copper gets deposited on the cathode, while impurities either settle as anode sludge or remain dissolved."
+    },
+    {
+      "front": "Aluminum is a highly reactive metal, yet it is widely used in aircraft construction. Explain this apparent contradiction by considering the specific properties of aluminum and its alloys that make it suitable for such applications.",
+      "back": "While aluminum is reactive, its oxide layer (Al2O3) is extremely stable and protective, preventing further corrosion. Aluminum also has a low density, giving it a high strength-to-weight ratio, which is crucial for aircraft. Furthermore, aluminum alloys, with additions of elements like copper, magnesium, and zinc, exhibit enhanced strength, hardness, and fatigue resistance, making them ideal for aircraft construction despite aluminum's inherent reactivity."
+    },
+    {
+      "front": "Differentiate between amphoteric oxides and basic oxides, providing chemical equations to illustrate the reaction of an amphoteric oxide with both an acid and a base.",
+      "back": "Basic oxides react with acids to form salt and water. Amphoteric oxides, on the other hand, can react with both acids and bases. For example, Aluminum oxide (Al2O3) is amphoteric: With an acid: Al2O3(s) + 6HCl(aq) → 2AlCl3(aq) + 3H2O(l) With a base: Al2O3(s) + 2NaOH(aq) + 3H2O(l) → 2Na[Al(OH)4](aq)"
+    },
+    {
+      "front": "Explain the process of thermite reaction and its applications. Why is it considered a highly exothermic reaction, and what are the typical reactants involved?",
+      "back": "The thermite reaction is a highly exothermic redox reaction between a metal oxide and a more reactive metal, typically iron(III) oxide (Fe2O3) and aluminum powder. The reaction produces molten iron and aluminum oxide: Fe2O3(s) + 2Al(s) → 2Fe(l) + Al2O3(s) + Heat. Its high exothermicity is due to the formation of very stable aluminum oxide. Applications include welding of railway tracks and in incendiary devices."
+    },
+    {
+      "front": "Despite being a non-metal, graphite is a good conductor of electricity. Explain the reason for this electrical conductivity in graphite, relating it to its structure.",
+      "back": "Graphite has a layered structure where carbon atoms are arranged in hexagonal rings within each layer. Each carbon atom is covalently bonded to three other carbon atoms. This leaves one delocalized electron per carbon atom, which is free to move within the layers. These delocalized electrons are responsible for graphite's excellent electrical conductivity, a property unusual for non-metals."
+    },
+    {
+      "front": "Why are cooking utensils generally made of metals that are good conductors of heat and have high melting points, but not from metals like lead or mercury?",
+      "back": "Metals like copper, aluminum, and stainless steel are good conductors of heat, efficiently transferring heat to the food. They also have high melting points, ensuring they don't melt or deform during cooking. Lead and mercury, while conductors, are toxic and have low melting points (mercury is liquid at room temperature). Lead's toxicity poses a health risk when used in contact with food, and mercury's low melting point makes it unsuitable for high-temperature cooking."
+    },
+    {
+      "front": "A scientist is trying to extract a metal from its ore. The ore is a sulfide and is insoluble in dilute acids but reacts with a strong base. Which method would be most suitable for the preliminary treatment of this ore, and why?",
+      "back": "The ore is likely to be an amphoteric sulfide. Since it reacts with a strong base, leaching with a strong base (like sodium hydroxide) would be suitable. This process is called leaching with alkali. For example, aluminum oxide (Al2O3) reacts with NaOH. If the metal forms an amphoteric oxide or hydroxide, this method can be used to separate it from impurities. For example, bauxite (Al2O3.2H2O) is purified by this method. Some metal sulfides that form soluble complexes with bases might also be amenable to this process."
+    },
+    {
+      "front": "Explain the concept of 'passivation' as it applies to metals like aluminum and chromium. How does this property contribute to their widespread use in various applications?",
+      "back": "Passivation is the formation of a thin, protective, and non-reactive oxide layer on the surface of a metal. For aluminum, this oxide layer (Al2O3) is formed spontaneously in air and prevents further corrosion. For chromium, it's the formation of chromium oxide (Cr2O3). This self-healing protective layer makes these metals resistant to corrosion, allowing them to be used in applications where durability and aesthetic appeal are important, such as in cookware, outdoor structures, and automotive parts."
+    },
+    {
+      "front": "Consider a scenario where a metal alloy is used as an electrical fuse. Explain the properties that make a metal alloy suitable for this purpose, and why using a pure metal with a very high melting point would be less effective.",
+      "back": "Fuse alloys typically have low melting points and low electrical resistance. When excessive current flows, the alloy heats up rapidly due to its resistance, melts, and breaks the circuit, preventing damage to appliances. A pure metal with a very high melting point would require an extremely large current to melt, defeating the purpose of a fuse for protection against moderate overloads."
+    },
+    {
+      "front": "Explain the phenomenon of 'anodization' as applied to aluminum. What is its purpose, and how does it enhance the properties of the aluminum surface?",
+      "back": "Anodization is an electrochemical process where an aluminum surface is converted into a durable, corrosion-resistant, and decorative anodic oxide layer. The aluminum part is made the anode in an electrolytic cell, typically containing sulfuric acid. The controlled oxidation creates a thicker oxide layer than what forms naturally. This enhanced oxide layer improves corrosion resistance, wear resistance, and allows for dyeing the surface in various colors."
+    },
+    {
+      "front": "Compare the reactivity of alkali metals (like sodium) with alkaline earth metals (like magnesium) with respect to their reactions with water and oxygen. Relate these differences to their positions in the periodic table.",
+      "back": "Alkali metals (Group 1) are more reactive than alkaline earth metals (Group 2). Alkali metals react vigorously with cold water to produce hydrogen gas and metal hydroxides, while magnesium reacts with steam (or hot water) and is less vigorous. Alkali metals readily react with oxygen to form oxides, peroxides, and superoxides, whereas alkaline earth metals typically form simple oxides. This difference is due to alkali metals having one valence electron (easier to lose) and alkaline earth metals having two valence electrons (require more energy to lose both)."
+    },
+    {
+      "front": "Explain why alloys are generally harder and stronger than pure metals. Provide an example of an alloy and its application, highlighting the role of alloy formation.",
+      "back": "Alloys are generally harder and stronger than pure metals because the presence of different-sized atoms of alloying elements disrupts the regular lattice structure of the host metal. This disruption hinders the movement of dislocations, making it more difficult for the metal to deform. For example, brass (an alloy of copper and zinc) is harder and more corrosion-resistant than pure copper, making it suitable for making musical instruments and decorative items."
+    },
+    {
+      "front": "A student observes that a piece of metal tarnishes rapidly when exposed to air. They then try to polish it with a soft cloth, but it remains tarnished. What does this suggest about the nature of the tarnishing process and the metal itself?",
+      "back": "Rapid tarnishing suggests that the metal is quite reactive with the components of air, likely oxygen or sulfur compounds. The fact that polishing with a soft cloth doesn't remove the tarnish indicates that the tarnish is not a loose deposit but a chemically formed layer, such as an oxide, sulfide, or carbonate, which is strongly adhered to the metal surface. This points towards a reactive metal that undergoes significant surface oxidation or corrosion."
+    },
+    {
+      "front": "Why is it important to use specific containers, such as plastic or glass, when storing certain reactive metals like sodium or potassium, and what chemical reaction occurs if they are stored improperly?",
+      "back": "Sodium and potassium are extremely reactive alkali metals. They react violently with water and moisture in the air, producing hydrogen gas and heat, which can lead to ignition and explosion. Storing them under kerosene (a hydrocarbon) displaces water and prevents contact with air, thus preventing hazardous reactions. Storing them in glass or plastic containers is suitable as these materials are generally unreactive with them."
+    },
+    {
+      "front": "Explain the term 'gang' and 'matrix' in the context of ore processing. How are these impurities removed during the initial stages of ore concentration?",
+      "back": "'Gang' refers to the unwanted rocky and earthy impurities present in an ore (e.g., sand, clay). The 'matrix' is the same concept, referring to the earthy or rocky material with which the ore is found mixed. These are removed through various physical or chemical methods like magnetic separation (if gang or ore is magnetic), froth flotation (for sulfide ores where the ore particles attach to froth and rise), or gravity separation, depending on the difference in physical properties between the ore and the gangue."
+    },
+    {
+      "front": "Consider the preparation of an alloy like solder. Explain the constituent metals and the reason for choosing a low melting point alloy for soldering electrical connections.",
+      "back": "Solder is typically an alloy of tin (Sn) and lead (Pb). The reason for choosing a low melting point alloy like solder is to allow for the joining of electrical components without damaging them. The solder melts at a relatively low temperature, flows into the joint, and solidifies, creating an electrical connection. Higher melting point metals would require excessive heat, potentially harming delicate electronic components."
+    },
+    {
+      "front": "Explain why elements like iodine and sulfur are classified as non-metals, focusing on their typical chemical behavior and electron configuration.",
+      "back": "Iodine (I) and sulfur (S) are non-metals because they tend to gain or share electrons to achieve a stable octet configuration. Iodine has 7 valence electrons and readily gains one electron to form I⁻ ions. Sulfur has 6 valence electrons and can gain two electrons to form S²⁻ ions or share electrons in covalent bonds. Their higher ionization energies and electronegativity also distinguish them from metals, which tend to lose electrons."
+    },
+    {
+      "front": "Why are noble gases (like Helium, Neon, Argon) considered to be elements with very low chemical reactivity? Relate this to their electron configurations.",
+      "back": "Noble gases are located in Group 18 of the periodic table and possess a full valence electron shell (e.g., Helium has 2, others have 8). This stable electron configuration means they have no tendency to gain, lose, or share electrons to achieve stability, as they are already stable. Consequently, they exhibit very low chemical reactivity and are often found in elemental form."
+    },
+    {
+      "front": "You are given a sample of a metal that reacts with dilute HCl to produce a gas, and this gas burns with a 'pop' sound. Another metal reacts with dilute HCl to produce a gas that does not burn. Classify these metals based on their reactivity relative to hydrogen.",
+      "back": "The first metal produces a gas that burns with a 'pop' sound. This is characteristic of hydrogen gas. Therefore, this metal is more reactive than hydrogen and displaces it from dilute HCl. Examples include zinc or iron. The second metal produces a gas that does not burn. This implies it does not react with dilute HCl to produce hydrogen, meaning it is less reactive than hydrogen. Examples include copper or silver."
+    }
+  ]
+}

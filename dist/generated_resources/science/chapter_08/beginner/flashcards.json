@@ -1,0 +1,67 @@
+{
+  "chapter": "Heredity",
+  "subject": "Science",
+  "level": "beginner",
+  "flashcards": [
+    {
+      "front": "What is heredity?",
+      "back": "Heredity is the process by which traits and characteristics are passed from parents to offspring."
+    },
+    {
+      "front": "What are traits?",
+      "back": "Traits are specific characteristics of an organism, like eye color or height."
+    },
+    {
+      "front": "What are variations?",
+      "back": "Variations are differences in traits among individuals of the same species."
+    },
+    {
+      "front": "How are variations created?",
+      "back": "Variations are created through small inaccuracies in DNA copying during reproduction and sexual reproduction."
+    },
+    {
+      "front": "Which type of reproduction creates more variations?",
+      "back": "Sexual reproduction creates more variations compared to asexual reproduction."
+    },
+    {
+      "front": "What is an inherited trait?",
+      "back": "An inherited trait is a characteristic that is passed down from parents to their children."
+    },
+    {
+      "front": "Who is Gregor Mendel?",
+      "back": "Gregor Mendel was a scientist who worked out the main rules of inheritance."
+    },
+    {
+      "front": "How much genetic material does a child receive from each parent?",
+      "back": "A child receives practically equal amounts of genetic material from both the father and the mother."
+    },
+    {
+      "front": "What influences a trait in a child?",
+      "back": "Each trait in a child can be influenced by both paternal and maternal DNA."
+    },
+    {
+      "front": "How many versions of a trait can a child have?",
+      "back": "For each trait, a child will have two versions, one from each parent."
+    },
+    {
+      "front": "What are earlobes?",
+      "back": "Earlobe type (free or attached) is an example of an inherited trait in humans."
+    },
+    {
+      "front": "If a trait is common in an asexually reproducing population, what does it suggest?",
+      "back": "If a trait is common in an asexually reproducing population, it likely arose earlier."
+    },
+    {
+      "front": "How do variations help a species survive?",
+      "back": "Variations can give individuals advantages that help them survive better in their environment."
+    },
+    {
+      "front": "What is DNA?",
+      "back": "DNA (Deoxyribonucleic acid) carries genetic information from parents to offspring."
+    },
+    {
+      "front": "What is the basic body design of an organism inherited from?",
+      "back": "The basic body design of an organism is inherited from the previous generation."
+    }
+  ]
+}

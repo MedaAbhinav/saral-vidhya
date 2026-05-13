@@ -1,0 +1,86 @@
+{
+  "chapter": "Human Eye and Colourful World",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "What is the primary function of the human eye?",
+      "back": "To enable us to see the wonderful world and the colours around us."
+    },
+    {
+      "front": "What is the light-sensitive screen inside the human eye called?",
+      "back": "Retina"
+    },
+    {
+      "front": "What is the transparent bulge on the front surface of the eyeball called?",
+      "back": "Cornea"
+    },
+    {
+      "front": "Where does most of the refraction of light entering the eye occur?",
+      "back": "At the outer surface of the cornea."
+    },
+    {
+      "front": "What is the function of the iris in the eye?",
+      "back": "The iris is a muscular diaphragm that controls the size of the pupil, regulating the amount of light entering the eye."
+    },
+    {
+      "front": "What kind of image does the eye lens form on the retina?",
+      "back": "An inverted real image."
+    },
+    {
+      "front": "What is the ability of the eye lens to adjust its focal length called?",
+      "back": "Power of Accommodation"
+    },
+    {
+      "front": "How does the eye lens change when focusing on distant objects?",
+      "back": "The ciliary muscles relax, the lens becomes thin, and its focal length increases."
+    },
+    {
+      "front": "How does the eye lens change when focusing on nearby objects?",
+      "back": "The ciliary muscles contract, the lens becomes thicker, and its focal length decreases."
+    },
+    {
+      "front": "What is the minimum distance at which objects can be seen most distinctly without strain?",
+      "back": "Least distance of distinct vision (or near point), approximately 25 cm for a young adult."
+    },
+    {
+      "front": "What is the far point of a normal eye?",
+      "back": "Infinity"
+    },
+    {
+      "front": "What is the approximate diameter of the human eyeball?",
+      "back": "2.3 cm"
+    },
+    {
+      "front": "What is cataract?",
+      "back": "A condition where the crystalline lens of people in old age becomes milky and cloudy, causing partial or complete loss of vision."
+    },
+    {
+      "front": "What are the three common refractive defects of vision?",
+      "back": "Myopia (near-sightedness), Hypermetropia (far-sightedness), and Presbyopia."
+    },
+    {
+      "front": "What is myopia (near-sightedness)?",
+      "back": "A defect where a person can see nearby objects clearly but cannot see distant objects clearly."
+    },
+    {
+      "front": "What is hypermetropia (far-sightedness)?",
+      "back": "A defect where a person can see distant objects clearly but cannot see nearby objects clearly."
+    },
+    {
+      "front": "What is presbyopia?",
+      "back": "A defect usually associated with old age, where the eye's ability to accommodate decreases, making it difficult to focus on nearby objects."
+    },
+    {
+      "front": "How can refractive defects of vision be corrected?",
+      "back": "By the use of suitable spherical lenses."
+    },
+    {
+      "front": "What part of the eye generates electrical signals that are sent to the brain?",
+      "back": "The light-sensitive cells in the retina."
+    },
+    {
+      "front": "What is the approximate age-related condition affecting vision due to clouding of the lens?",
+      "back": "Cataract"
+    }
+  ]
+}

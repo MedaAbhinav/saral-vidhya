@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google API Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .test-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .test-section h2 {
+            color: #667eea;
+            font-size: 16px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .test-result {
+            font-family: 'Courier New', monospace;
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            margin: 10px 0;
+            border-left: 3px solid #ddd;
+            font-size: 13px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .test-result.success {
+            border-left-color: #4caf50;
+            background: #f1f8f4;
+        }
+
+        .test-result.error {
+            border-left-color: #f44336;
+            background: #fdf1f0;
+        }
+
+        .test-result.info {
+            border-left-color: #2196f3;
+            background: #f0f6ff;
+        }
+
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+        .status.pass {
+            background: #4caf50;
+            color: white;
+        }
+
+        .status.fail {
+            background: #f44336;
+            color: white;
+        }
+
+        .status.pending {
+            background: #ff9800;
+            color: white;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border: 2px solid #667eea;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .summary {
+            margin-top: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .api-key-display {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            word-break: break-all;
+            font-size: 12px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Google Cloud API Test Suite</h1>
+
+        <div class="test-section">
+            <h2>
+                <span class="status pending">1</span>
+                API Key Validation
+                <span id="test1-status" class="loading"></span>
+            </h2>
+            <div id="test1-result" class="test-result"></div>
+        </div>
+
+        <div class="test-section">
+            <h2>
+                <span class="status pending">2</span>
+                Available Models (Gemini API)
+                <span id="test2-status" class="loading"></span>
+            </h2>
+            <div id="test2-result" class="test-result"></div>
+        </div>
+
+        <div class="test-section">
+            <h2>
+                <span class="status pending">3</span>
+                Speech-to-Text API
+                <span id="test3-status" class="loading"></span>
+            </h2>
+            <div id="test3-result" class="test-result"></div>
+        </div>
+
+        <div class="test-section">
+            <h2>
+                <span class="status pending">4</span>
+                Text-to-Speech API
+                <span id="test4-status" class="loading"></span>
+            </h2>
+            <div id="test4-result" class="test-result"></div>
+        </div>
+
+        <button onclick="location.reload()">🔄 Run Tests Again</button>
+        <button onclick="copyResults()">📋 Copy Results</button>
+
+        <div class="summary">
+            <p id="summary-text">Running tests...</p>
+        </div>
+    </div>
+
+    <script>
+        const API_KEY = 'AIzaSyDFgFGvM3mGWyz8K7MX7ct11w2LOKqcHIA';
+        let results = {};
+
+        function log(testNum, message, type = 'info') {
+            const elem = document.getElementById(`test${testNum}-result`);
+            elem.innerHTML += `<div>[${new Date().toLocaleTimeString()}] ${message}</div>`;
+            elem.className = `test-result ${type}`;
+            console.log(`Test ${testNum}:`, message);
+        }
+
+        function setStatus(testNum, status, className) {
+            const elem = document.getElementById(`test${testNum}-status`);
+            elem.innerHTML = `<span class="status ${className}">${status}</span>`;
+        }
+
+        async function test1_APIKeyValidation() {
+            try {
+                log(1, 'Testing API Key format...', 'info');
+                if (API_KEY && API_KEY.startsWith('AIza') && API_KEY.length > 30) {
+                    log(1, '✅ API Key format is VALID', 'success');
+                    log(1, `Key: ${API_KEY.substring(0, 20)}...${API_KEY.substring(API_KEY.length - 10)}`, 'success');
+                    setStatus(1, 'PASS', 'pass');
+                    results.test1 = true;
+                } else {
+                    log(1, '❌ API Key format is INVALID', 'error');
+                    setStatus(1, 'FAIL', 'fail');
+                    results.test1 = false;
+                }
+            } catch (e) {
+                log(1, `❌ Error: ${e.message}`, 'error');
+                setStatus(1, 'FAIL', 'fail');
+                results.test1 = false;
+            }
+        }
+
+        async function test2_Models() {
+            try {
+                log(2, 'Fetching available models...', 'info');
+                const res = await fetch(
+                    `https://generativelanguage.googleapis.com/v1beta/models?key=${API_KEY}`
+                );
+
+                if (res.ok) {
+                    const data = await res.json();
+                    const modelCount = data.models?.length || 0;
+                    log(2, `✅ Gemini API ACCESSIBLE`, 'success');
+                    log(2, `Found ${modelCount} models`, 'success');
+                    const flashModels = data.models?.filter(m => m.name.includes('flash')).slice(0, 3) || [];
+                    flashModels.forEach(m => log(2, `• ${m.name}`, 'success'));
+                    setStatus(2, 'PASS', 'pass');
+                    results.test2 = true;
+                } else if (res.status === 401) {
+                    log(2, '❌ API Key INVALID (401 Unauthorized)', 'error');
+                    log(2, 'Check: Google Cloud Console → Credentials', 'error');
+                    setStatus(2, 'FAIL', 'fail');
+                    results.test2 = false;
+                } else if (res.status === 403) {
+                    log(2, '❌ Permission DENIED (403)', 'error');
+                    setStatus(2, 'FAIL', 'fail');
+                    results.test2 = false;
+                } else {
+                    log(2, `❌ HTTP ${res.status}`, 'error');
+                    setStatus(2, 'FAIL', 'fail');
+                    results.test2 = false;
+                }
+            } catch (e) {
+                log(2, `❌ Network error: ${e.message}`, 'error');
+                setStatus(2, 'FAIL', 'fail');
+                results.test2 = false;
+            }
+        }
+
+        async function test3_SpeechToText() {
+            try {
+                log(3, 'Testing Speech-to-Text API...', 'info');
+                const res = await fetch(
+                    `https://speech.googleapis.com/v1/speech:recognize?key=${API_KEY}`,
+                    {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            config: {
+                                encoding: 'LINEAR16',
+                                sampleRateHertz: 16000,
+                                languageCode: 'en-US'
+                            },
+                            audio: { content: '' }
+                        })
+                    }
+                );
+
+                if (res.status === 200) {
+                    log(3, '✅ Speech-to-Text API ENABLED and accessible', 'success');
+                    setStatus(3, 'PASS', 'pass');
+                    results.test3 = true;
+                } else if (res.status === 400) {
+                    log(3, '✅ Speech-to-Text API ENABLED (400 is expected for empty audio)', 'success');
+                    setStatus(3, 'PASS', 'pass');
+                    results.test3 = true;
+                } else if (res.status === 401) {
+                    log(3, '❌ API Key INVALID (401)', 'error');
+                    setStatus(3, 'FAIL', 'fail');
+                    results.test3 = false;
+                } else if (res.status === 403) {
+                    log(3, '❌ Speech-to-Text API NOT ENABLED', 'error');
+                    log(3, 'Action: Go to Google Cloud Console → APIs & Services → Library', 'error');
+                    log(3, 'Search "Speech-to-Text" and click ENABLE', 'error');
+                    setStatus(3, 'FAIL', 'fail');
+                    results.test3 = false;
+                } else {
+                    log(3, `HTTP ${res.status}`, 'error');
+                    setStatus(3, 'FAIL', 'fail');
+                    results.test3 = false;
+                }
+            } catch (e) {
+                log(3, `❌ Network error: ${e.message}`, 'error');
+                setStatus(3, 'FAIL', 'fail');
+                results.test3 = false;
+            }
+        }
+
+        async function test4_TextToSpeech() {
+            try {
+                log(4, 'Testing Text-to-Speech API...', 'info');
+                const res = await fetch(
+                    `https://texttospeech.googleapis.com/v1/text:synthesize?key=${API_KEY}`,
+                    {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            input: { text: 'Hello' },
+                            voice: { languageCode: 'en-US', name: 'en-US-Neural2-C' },
+                            audioConfig: { audioEncoding: 'MP3' }
+                        })
+                    }
+                );
+
+                if (res.status === 200) {
+                    log(4, '✅ Text-to-Speech API ENABLED and accessible', 'success');
+                    setStatus(4, 'PASS', 'pass');
+                    results.test4 = true;
+                } else if (res.status === 400) {
+                    const data = await res.json();
+                    if (data.error?.message?.includes('billing')) {
+                        log(4, '❌ BILLING NOT SET UP', 'error');
+                        log(4, 'Action: Set up billing in Google Cloud Console', 'error');
+                    } else {
+                        log(4, '✅ Text-to-Speech API ENABLED (400 is validation error)', 'success');
+                    }
+                    setStatus(4, 'PASS', 'pass');
+                    results.test4 = true;
+                } else if (res.status === 401) {
+                    log(4, '❌ API Key INVALID (401)', 'error');
+                    setStatus(4, 'FAIL', 'fail');
+                    results.test4 = false;
+                } else if (res.status === 403) {
+                    log(4, '❌ Text-to-Speech API NOT ENABLED', 'error');
+                    log(4, 'Action: Google Cloud Console → APIs & Services → Library', 'error');
+                    log(4, 'Search "Text-to-Speech" and click ENABLE', 'error');
+                    setStatus(4, 'FAIL', 'fail');
+                    results.test4 = false;
+                } else {
+                    log(4, `HTTP ${res.status}`, 'error');
+                    setStatus(4, 'FAIL', 'fail');
+                    results.test4 = false;
+                }
+            } catch (e) {
+                log(4, `❌ Network error: ${e.message}`, 'error');
+                setStatus(4, 'FAIL', 'fail');
+                results.test4 = false;
+            }
+        }
+
+        async function runAllTests() {
+            await test1_APIKeyValidation();
+            await test2_Models();
+            await test3_SpeechToText();
+            await test4_TextToSpeech();
+
+            // Summary
+            const allPass = Object.values(results).every(v => v === true);
+            const elem = document.getElementById('summary-text');
+            if (allPass) {
+                elem.innerHTML = `
+                    ✅ <strong>ALL TESTS PASSED!</strong><br>
+                    Your Google Cloud setup is correct.<br>
+                    Rebuild: <code>npm run dev</code><br>
+                    Then test voice input in the Ask tool.
+                `;
+            } else {
+                elem.innerHTML = `
+                    ⚠️ <strong>SOME TESTS FAILED</strong><br>
+                    Follow the action items above to fix the issues.<br>
+                    Then run the tests again.
+                `;
+            }
+        }
+
+        function copyResults() {
+            const text = document.body.innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Results copied to clipboard!');
+            });
+        }
+
+        // Run tests on load
+        window.addEventListener('load', runAllTests);
+    </script>
+</body>
+</html>

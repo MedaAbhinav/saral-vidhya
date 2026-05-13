@@ -1,0 +1,87 @@
+{
+  "chapter": "How do Organisms Reproduce?",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "Why do organisms reproduce?",
+      "back": "Organisms reproduce to ensure the continuity of their species. While not essential for an individual's survival, reproduction is crucial for the existence and propagation of a species over time."
+    },
+    {
+      "front": "What is the basic event in reproduction?",
+      "back": "The basic event in reproduction is the creation of a DNA copy. This DNA contains the blueprint for the organism's body design."
+    },
+    {
+      "front": "What is DNA?",
+      "back": "DNA (Deoxyribonucleic Acid) is a molecule found in the nucleus of cells that contains the genetic information for inheritance of features from parents to the next generation."
+    },
+    {
+      "front": "How does DNA copying lead to variation?",
+      "back": "Biochemical reactions involved in DNA copying are not absolutely reliable. Minor changes or errors can occur during copying, leading to variations in the DNA, which in turn can result in altered body designs."
+    },
+    {
+      "front": "Why is variation important for species survival?",
+      "back": "Variation provides a chance for some individuals in a population to survive drastic changes in their environment (niche). If the environment changes, individuals with advantageous variations are more likely to survive and reproduce, ensuring the species' continued existence."
+    },
+    {
+      "front": "What is the role of cellular apparatus in reproduction?",
+      "back": "Besides DNA copying, the creation of an additional cellular apparatus is necessary. This apparatus ensures that the DNA copy has an organized structure to maintain life processes, allowing the new cell to survive."
+    },
+    {
+      "front": "What happens if DNA copying variations are too drastic?",
+      "back": "If the variations in the DNA copy are too drastic, the new DNA copy may not work with the inherited cellular apparatus. In such cases, the new cell will simply die."
+    },
+    {
+      "front": "How does reproduction lead to the creation of new individuals that look similar to parents?",
+      "back": "Reproduction involves copying the DNA, which carries the blueprint for the body design. Accurate DNA copying ensures that the new individuals inherit similar body designs, making them look very much like their parents."
+    },
+    {
+      "front": "What is a niche?",
+      "back": "A niche is the well-defined place or role that a population of organisms occupies within an ecosystem, utilizing their ability to reproduce and survive."
+    },
+    {
+      "front": "Explain the process of cell division in reproduction.",
+      "back": "In reproduction, a cell divides to give rise to two new cells. This division involves the duplication of DNA and the formation of new cellular apparatus, ensuring each new cell contains a copy of the genetic material and the machinery for life."
+    },
+    {
+      "front": "What are the similarities and differences between the two new cells formed after reproduction?",
+      "back": "The two new cells are generally similar due to accurate DNA copying. However, they may not be absolutely identical due to minor variations that occur during the DNA replication process. These variations can lead to subtle differences in their traits."
+    },
+    {
+      "front": "How does sexual reproduction differ from asexual reproduction in terms of DNA copying?",
+      "back": "This excerpt doesn't detail the difference between sexual and asexual reproduction. However, asexual reproduction involves a single parent producing genetically identical offspring, while sexual reproduction involves two parents contributing genetic material, leading to offspring that are genetically similar but not identical to either parent."
+    },
+    {
+      "front": "What is the advantage of having a large population of a species?",
+      "back": "A large population of organisms belonging to a single species is more noticeable. Also, in a large population, there is a higher chance of variations existing, which can help the species survive environmental changes."
+    },
+    {
+      "front": "How does the environment impact species survival?",
+      "back": "Environmental changes (e.g., temperature, water levels) can alter the niche occupied by a species. If the changes are drastic, a population suited only to the original niche might be wiped out. Variation within the population increases the chances of some individuals surviving such changes."
+    },
+    {
+      "front": "What are proteins and their role in body design?",
+      "back": "Proteins are molecules made by cells based on the information in DNA. Different proteins lead to different characteristics and eventually contribute to the specific body design of an organism."
+    },
+    {
+      "front": "Define 'inheritance'.",
+      "back": "Inheritance is the passing of traits and features from parents to their offspring through genetic material (DNA)."
+    },
+    {
+      "front": "What is the relationship between DNA and body design?",
+      "back": "DNA contains the information that directs the synthesis of proteins, which are the building blocks and functional units of an organism. Therefore, the DNA sequence directly dictates the organism's body design."
+    },
+    {
+      "front": "How does global warming relate to species survival based on the excerpt?",
+      "back": "If global warming increases water temperature, most bacteria in temperate waters might die. However, any variants that are naturally resistant to heat would survive and reproduce, demonstrating the importance of variation for survival in changing conditions."
+    },
+    {
+      "front": "What is the fundamental necessity of reproduction for a species?",
+      "back": "The fundamental necessity of reproduction for a species is to create more individuals, ensuring its continuity and existence over generations."
+    },
+    {
+      "front": "Why are biochemical reactions not absolutely reliable in DNA copying?",
+      "back": "Biochemical reactions are complex processes that involve numerous steps and molecules. Even slight inaccuracies or fluctuations in these reactions can lead to errors in the copying of DNA, resulting in variations."
+    }
+  ]
+}

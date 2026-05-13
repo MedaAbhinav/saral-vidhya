@@ -1,0 +1,86 @@
+{
+  "chapter": "Carbon and its Compounds",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "What is the approximate percentage of carbon in the Earth's crust?",
+      "back": "0.02% in the form of minerals like carbonates, hydrogen-carbonates, coal, and petroleum."
+    },
+    {
+      "front": "What is the approximate percentage of carbon in the Earth's atmosphere?",
+      "back": "0.03% in the form of carbon dioxide."
+    },
+    {
+      "front": "What type of compounds do most carbon compounds resemble in terms of electrical conductivity?",
+      "back": "Poor conductors of electricity."
+    },
+    {
+      "front": "How do the melting and boiling points of most carbon compounds compare to ionic compounds?",
+      "back": "They have low melting and boiling points compared to ionic compounds."
+    },
+    {
+      "front": "What does the low melting and boiling points of carbon compounds suggest about the forces between their molecules?",
+      "back": "The forces of attraction between the molecules are not very strong."
+    },
+    {
+      "front": "What can be concluded about the bonding in carbon compounds that are poor conductors of electricity?",
+      "back": "The bonding does not give rise to any ions."
+    },
+    {
+      "front": "What is the atomic number of carbon?",
+      "back": "6"
+    },
+    {
+      "front": "How many valence electrons does a carbon atom have?",
+      "back": "4"
+    },
+    {
+      "front": "Why is it difficult for carbon to gain four electrons to form a C4- anion?",
+      "back": "The nucleus with six protons would struggle to hold on to ten electrons (six original + four gained)."
+    },
+    {
+      "front": "Why is it difficult for carbon to lose four electrons to form a C4+ cation?",
+      "back": "A large amount of energy would be required to remove four electrons, leaving a cation with only two electrons."
+    },
+    {
+      "front": "How does carbon overcome the difficulty of gaining or losing electrons?",
+      "back": "By sharing its valence electrons with other atoms."
+    },
+    {
+      "front": "What is the term for the bond formed by sharing of electrons?",
+      "back": "Covalent bond."
+    },
+    {
+      "front": "What is the simplest molecule formed by sharing of valence electrons, as described in the text?",
+      "back": "Hydrogen molecule (H2)."
+    },
+    {
+      "front": "How does hydrogen attain noble gas configuration by forming H2?",
+      "back": "Two hydrogen atoms share their single electrons, allowing each to effectively have two electrons in its K shell, like helium."
+    },
+    {
+      "front": "What is the electron distribution in the shells of a carbon atom?",
+      "back": "K shell: 2 electrons, L shell: 4 electrons."
+    },
+    {
+      "front": "What is the goal of elements when they form chemical bonds?",
+      "back": "To attain a completely filled outer shell, i.e., noble gas configuration."
+    },
+    {
+      "front": "What property of carbon compounds makes them significant in living structures?",
+      "back": "Carbon is the basis of all living structures."
+    },
+    {
+      "front": "Name two common minerals found in Earth's crust that contain carbon.",
+      "back": "Carbonates and hydrogen-carbonates."
+    },
+    {
+      "front": "What are the products when a compound containing carbon is burnt?",
+      "back": "Primarily carbon dioxide and water (depending on the compound and conditions)."
+    },
+    {
+      "front": "What kind of compounds do elements that form ionic compounds achieve noble gas configuration by?",
+      "back": "By either gaining or losing electrons from the outermost shell."
+    }
+  ]
+}

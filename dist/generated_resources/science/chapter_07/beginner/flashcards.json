@@ -1,0 +1,67 @@
+{
+  "chapter": "How do Organisms Reproduce?",
+  "subject": "Science",
+  "level": "beginner",
+  "flashcards": [
+    {
+      "front": "What is reproduction?",
+      "back": "Reproduction is the process by which organisms create new individuals of the same kind."
+    },
+    {
+      "front": "Why do organisms reproduce?",
+      "back": "Organisms reproduce to ensure the continuation of their species and to avoid extinction."
+    },
+    {
+      "front": "What is the role of DNA in reproduction?",
+      "back": "DNA contains the blueprints for an organism's body design, and making copies of DNA is essential for reproduction."
+    },
+    {
+      "front": "What is a fundamental event in reproduction?",
+      "back": "A fundamental event in reproduction is the creation of a DNA copy."
+    },
+    {
+      "front": "How does a cell divide to reproduce?",
+      "back": "A cell creates copies of its DNA, along with cellular apparatus, and then divides into two cells."
+    },
+    {
+      "front": "Are DNA copies always identical?",
+      "back": "No, DNA copies may not be absolutely identical to the original due to minor variations in the copying process."
+    },
+    {
+      "front": "What is variation in the context of reproduction?",
+      "back": "Variation refers to the subtle differences that arise in DNA copies during reproduction."
+    },
+    {
+      "front": "Why are variations important for species?",
+      "back": "Variations are important for the survival of species by allowing some individuals to adapt to changing environments."
+    },
+    {
+      "front": "What happens if a DNA copy is too different from the original?",
+      "back": "If a new DNA copy is too different, the resulting cell might not be able to survive and function, and may die."
+    },
+    {
+      "front": "What does 'species' refer to?",
+      "back": "A species is a group of organisms that look similar to each other and can reproduce to create more individuals like themselves."
+    },
+    {
+      "front": "Where is the genetic information stored in a cell?",
+      "back": "The genetic information for inheritance is stored in the DNA molecules within the nucleus of a cell."
+    },
+    {
+      "front": "What is the main purpose of making DNA copies?",
+      "back": "The main purpose is to create blueprints for similar body designs in the new individuals."
+    },
+    {
+      "front": "What is a 'niche' in an ecosystem?",
+      "back": "A niche is the specific place or role that an organism fills within its ecosystem."
+    },
+    {
+      "front": "How does variation help a population survive environmental changes?",
+      "back": "If the environment changes, individuals with variations suited to the new conditions are more likely to survive."
+    },
+    {
+      "front": "Does reproduction help an individual organism stay alive?",
+      "back": "No, reproduction is not necessary for an individual organism to stay alive, unlike processes like respiration or excretion."
+    }
+  ]
+}

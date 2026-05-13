@@ -1,0 +1,1 @@
+Our eyes are like cameras that help us see. They have a lens that makes a picture on the back part, called the retina. This lens can change shape to focus on things close up or far away. Sometimes, this focusing doesn't work perfectly, and we need glasses to help us see clearly. Also, light bends in water and in the sky, which makes rainbows and the sky look blue!

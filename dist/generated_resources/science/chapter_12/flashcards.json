@@ -1,0 +1,86 @@
+{
+  "chapter": "Magnetic Effects of Electric Current",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "What did Hans Christian Oersted discover in 1820?",
+      "back": "He discovered that an electric current passing through a metallic wire produced a magnetic effect, deflecting a compass needle placed nearby."
+    },
+    {
+      "front": "Define Magnetic Field.",
+      "back": "The region surrounding a magnet or an electric current-carrying conductor, in which the magnetic force of interaction can be detected, is called a magnetic field."
+    },
+    {
+      "front": "What are magnetic field lines?",
+      "back": "Magnetic field lines are imaginary lines drawn around a magnet along which iron filings align themselves, representing the direction and strength of the magnetic field."
+    },
+    {
+      "front": "What is the behavior of magnetic field lines near the poles of a bar magnet?",
+      "back": "Magnetic field lines are most crowded near the poles of a bar magnet, indicating the magnetic field is strongest in these regions."
+    },
+    {
+      "front": "What happens when like poles of two magnets are brought near each other?",
+      "back": "Like poles repel each other."
+    },
+    {
+      "front": "What happens when unlike poles of two magnets are brought near each other?",
+      "back": "Unlike poles attract each other."
+    },
+    {
+      "front": "Describe the pattern of magnetic field lines around a straight current-carrying conductor.",
+      "back": "The magnetic field lines around a straight current-carrying conductor are concentric circles with the conductor at their center. The direction of the field lines depends on the direction of the current."
+    },
+    {
+      "front": "State the Right-Hand Thumb Rule.",
+      "back": "If you grasp a current-carrying straight conductor in your right hand such that your thumb points in the direction of the current, then your fingers encircling the conductor will point in the direction of the magnetic field lines."
+    },
+    {
+      "front": "What is the unit of magnetic field strength named in honor of Hans Christian Oersted?",
+      "back": "The unit is the 'oersted'."
+    },
+    {
+      "front": "What is a compass needle?",
+      "back": "A compass needle is a small bar magnet, with one end pointing towards the north (north pole) and the other towards the south (south pole)."
+    },
+    {
+      "front": "How do magnetic field lines of a bar magnet behave?",
+      "back": "Magnetic field lines emerge from the north pole of a bar magnet and enter the south pole. They form closed loops and are directed from north to south outside the magnet, and from south to north inside the magnet."
+    },
+    {
+      "front": "Are magnetic field lines visible?",
+      "back": "No, magnetic field lines are imaginary lines."
+    },
+    {
+      "front": "What can you say about the density of magnetic field lines?",
+      "back": "The density of magnetic field lines indicates the strength of the magnetic field. Where field lines are crowded, the field is strong, and where they are spread out, the field is weak."
+    },
+    {
+      "front": "Do magnetic field lines intersect?",
+      "back": "No, magnetic field lines never intersect. If they did, the compass needle would point in two different directions at the point of intersection, which is impossible."
+    },
+    {
+      "front": "What happens to the magnetic field lines when current flows through a circular loop of wire?",
+      "back": "The magnetic field lines are concentrated inside the loop, and resemble those of a bar magnet. The field is stronger inside the loop."
+    },
+    {
+      "front": "What is an electromagnet?",
+      "back": "An electromagnet is a temporary magnet made by passing an electric current through a coil of wire wrapped around a magnetic material (like iron)."
+    },
+    {
+      "front": "How can the strength of an electromagnet be increased?",
+      "back": "The strength of an electromagnet can be increased by: 1. Increasing the number of turns in the coil. 2. Increasing the current flowing through the coil. 3. Using a soft iron core."
+    },
+    {
+      "front": "What are the uses of electromagnets?",
+      "back": "Electromagnets are used in electric bells, loudspeakers, electric motors, generators, and in lifting heavy iron objects."
+    },
+    {
+      "front": "What is the relationship between electricity and magnetism according to Oersted's discovery?",
+      "back": "Oersted's discovery established that electric currents produce magnetic fields."
+    },
+    {
+      "front": "Describe the magnetic field produced by a solenoid.",
+      "back": "A solenoid produces a magnetic field similar to that of a bar magnet. The field inside the solenoid is uniform, and the field lines are parallel and closely spaced. The end of the solenoid nearer to you acts as the north pole if the current flows counterclockwise when viewed from that end."
+    }
+  ]
+}

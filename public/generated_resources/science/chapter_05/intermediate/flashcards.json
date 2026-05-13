@@ -1,0 +1,87 @@
+{
+  "chapter": "Life Processes",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "What are Life Processes?",
+      "back": "The continuous maintenance functions carried out by living organisms to survive, prevent damage, and breakdown are collectively known as Life Processes."
+    },
+    {
+      "front": "Why are molecular movements necessary for life?",
+      "back": "Living organisms are organised structures made of molecules. Environmental factors can cause these structures to break down. Molecular movements are needed to transport and assemble molecules for the constant repair and maintenance of these structures, and to sustain life."
+    },
+    {
+      "front": "What is the primary source of energy for most living organisms?",
+      "back": "The primary source of energy for most living organisms is 'food', which is taken from outside the body. This food is usually carbon-based."
+    },
+    {
+      "front": "Define Nutrition.",
+      "back": "Nutrition is the process by which organisms take in and utilize food from their environment. It involves obtaining raw materials and energy for life processes."
+    },
+    {
+      "front": "What are Autotrophs?",
+      "back": "Autotrophs are organisms that produce their own food, usually through photosynthesis, using simple inorganic materials like carbon dioxide and water."
+    },
+    {
+      "front": "What is Photosynthesis?",
+      "back": "Photosynthesis is the process by which green plants and some other organisms use sunlight, water, and carbon dioxide to create their own food (glucose) and release oxygen as a byproduct. Equation: 6CO₂ + 6H₂O + Light Energy → C₆H₁₂O₆ + 6O₂"
+    },
+    {
+      "front": "What are the raw materials required for photosynthesis?",
+      "back": "The raw materials required for photosynthesis are carbon dioxide (CO₂) from the atmosphere and water (H₂O) absorbed from the soil."
+    },
+    {
+      "front": "What is the role of chlorophyll in photosynthesis?",
+      "back": "Chlorophyll is the green pigment found in chloroplasts that absorbs light energy from the sun, which is essential to drive the process of photosynthesis."
+    },
+    {
+      "front": "Where does photosynthesis take place in a plant cell?",
+      "back": "Photosynthesis takes place in the chloroplasts, which are organelles within plant cells that contain chlorophyll."
+    },
+    {
+      "front": "What are Heterotrophs?",
+      "back": "Heterotrophs are organisms that cannot produce their own food and rely on other organisms (plants or animals) for nutrition."
+    },
+    {
+      "front": "Name the different types of heterotrophic nutrition.",
+      "back": "The different types of heterotrophic nutrition are: Saprophytic, Parasitic, Holozoic, and Insectivorous (though often grouped under parasitic or other categories)."
+    },
+    {
+      "front": "Describe Saprophytic Nutrition.",
+      "back": "Saprophytic nutrition is when organisms obtain nutrients by breaking down dead and decaying organic matter externally before absorbing them. Examples: Fungi, Bacteria."
+    },
+    {
+      "front": "Describe Parasitic Nutrition.",
+      "back": "Parasitic nutrition is when organisms (parasites) feed on other living organisms (hosts) without typically killing them immediately, deriving nutrients from the host. Examples: Cuscuta (dodder), Ticks, Tapeworms."
+    },
+    {
+      "front": "Describe Holozoic Nutrition.",
+      "back": "Holozoic nutrition is when organisms ingest solid food, digest it internally, absorb the nutrients, and then egest the undigested waste. This is common in animals. It involves stages like ingestion, digestion, absorption, assimilation, and egestion."
+    },
+    {
+      "front": "What is Respiration?",
+      "back": "Respiration is the process by which organisms break down food molecules, usually glucose, to release energy in the form of ATP for cellular activities. It often involves the intake of oxygen and release of carbon dioxide."
+    },
+    {
+      "front": "Differentiate between Aerobic and Anaerobic Respiration.",
+      "back": "Aerobic respiration occurs in the presence of oxygen and breaks down glucose completely to produce a large amount of ATP, CO₂, and H₂O. Anaerobic respiration occurs in the absence of oxygen, breaks down glucose partially, and produces a small amount of ATP, along with end products like ethanol and CO₂ (in yeast) or lactic acid (in muscles)."
+    },
+    {
+      "front": "Write the equation for aerobic respiration.",
+      "back": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + Energy (ATP)"
+    },
+    {
+      "front": "What is ATP and its significance?",
+      "back": "ATP (Adenosine Triphosphate) is the primary energy currency of the cell. The energy released during respiration is stored in ATP molecules and is used to power various cellular processes."
+    },
+    {
+      "front": "How do plants exchange gases?",
+      "back": "Plants exchange gases (CO₂ and O₂) through stomata, which are small pores usually located on the surface of leaves. Diffusion is the primary mechanism for this exchange."
+    },
+    {
+      "front": "Describe the process of gas exchange in animals (e.g., humans).",
+      "back": "In humans, gas exchange occurs in the lungs via the alveoli. Oxygen diffuses from the alveoli into the blood, and carbon dioxide diffuses from the blood into the alveoli to be exhaled. This process is facilitated by the circulatory system."
+    }
+  ]
+}

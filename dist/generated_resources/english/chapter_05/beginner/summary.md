@@ -1,0 +1,3 @@
+Imagine Goa, a place where bakers are super important, even today! Long ago, during Portuguese times, they made special bread in big ovens. You can still hear their bamboo stick jingling when they come in the morning, just like in the old days.
+
+Kids loved the baker, not just for regular bread, but for special bread-bangles! In Goa, you need different kinds of bread for every party, wedding, or festival. Bakers were often plump and happy, showing their job was good and they never went hungry!

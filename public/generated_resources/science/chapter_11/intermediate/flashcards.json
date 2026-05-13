@@ -1,0 +1,87 @@
+{
+  "chapter": "Electricity",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "What is meant by electric current?",
+      "back": "Electric current is the rate of flow of electric charges through a conductor. It is conventionally taken as the direction of flow of positive charges, opposite to the flow of electrons."
+    },
+    {
+      "front": "What is the formula for electric current (I)?",
+      "back": "I = Q/t, where Q is the net charge flowing across a cross-section of a conductor in time t."
+    },
+    {
+      "front": "What is the SI unit of electric charge?",
+      "back": "The SI unit of electric charge is the coulomb (C)."
+    },
+    {
+      "front": "How many electrons constitute one coulomb of charge?",
+      "back": "Approximately 6 × 10^18 electrons constitute one coulomb of charge. (Given charge of electron is 1.6 × 10^-19 C)."
+    },
+    {
+      "front": "What is the SI unit of electric current?",
+      "back": "The SI unit of electric current is the ampere (A)."
+    },
+    {
+      "front": "Define one ampere.",
+      "back": "One ampere is constituted by the flow of one coulomb of charge per second (1 A = 1 C/s)."
+    },
+    {
+      "front": "What instrument is used to measure electric current?",
+      "back": "An ammeter is used to measure electric current in a circuit."
+    },
+    {
+      "front": "How is an ammeter connected in a circuit?",
+      "back": "An ammeter is always connected in series in the circuit through which the current is to be measured."
+    },
+    {
+      "front": "What is an electric circuit?",
+      "back": "A continuous and closed path of an electric current is called an electric circuit."
+    },
+    {
+      "front": "What causes electric charge to flow in a conductor?",
+      "back": "A difference of electric pressure, called the potential difference, along the conductor causes electric charges to flow."
+    },
+    {
+      "front": "What is electric potential difference?",
+      "back": "Electric potential difference is the difference of electric pressure between two points in a conductor that causes electric charges to flow."
+    },
+    {
+      "front": "What is the SI unit of electric potential difference?",
+      "back": "The SI unit of electric potential difference is the volt (V)."
+    },
+    {
+      "front": "Define one volt.",
+      "back": "One volt is the potential difference between two points in a conductor when one joule of work is done to move one coulomb of charge from one point to the other (1 V = 1 J/C)."
+    },
+    {
+      "front": "What instrument is used to measure potential difference?",
+      "back": "A voltmeter is used to measure potential difference across two points in a circuit."
+    },
+    {
+      "front": "How is a voltmeter connected in a circuit?",
+      "back": "A voltmeter is always connected in parallel across the two points between which the potential difference is to be measured."
+    },
+    {
+      "front": "State Ohm's Law.",
+      "back": "Ohm's Law states that the electric current (I) flowing through a conductor is directly proportional to the potential difference (V) across its ends, provided the temperature and other physical conditions remain unchanged. Mathematically, V ∝ I or V = RI."
+    },
+    {
+      "front": "What is meant by electrical resistance (R)?",
+      "back": "Electrical resistance is the opposition offered by the conductor to the flow of electric current. It is the ratio of potential difference (V) across the conductor to the current (I) flowing through it (R = V/I)."
+    },
+    {
+      "front": "What is the SI unit of electrical resistance?",
+      "back": "The SI unit of electrical resistance is the ohm (Ω)."
+    },
+    {
+      "front": "Define one ohm.",
+      "back": "One ohm is the resistance of a conductor through which a current of one ampere flows when a potential difference of one volt is applied across its ends (1 Ω = 1 V/A)."
+    },
+    {
+      "front": "What factors affect the resistance of a conductor?",
+      "back": "The resistance of a conductor depends on its length (l), area of cross-section (A), and the nature of the material (resistivity, ρ). It is given by R = ρl/A."
+    }
+  ]
+}

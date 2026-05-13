@@ -1,0 +1,26 @@
+{
+  "chapter_number": 9,
+  "chapter_name": "The Proposal",
+  "subject": "English",
+  "pdf": "jeff109.pdf",
+  "completed": {
+    "beginner": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "intermediate": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "advanced": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ]
+  }
+}

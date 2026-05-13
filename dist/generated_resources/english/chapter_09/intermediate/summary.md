@@ -1,0 +1,7 @@
+Here is a standard-level summary of "The Proposal" for Class 10:
+
+"The Proposal" is a one-act farce by the renowned Russian playwright Anton Chekhov, satirizing the materialistic nature of marriages among wealthy families. The play revolves around Ivan Lomov, a hypochondriac landowner, who visits his neighbour, Stepan Chubukov, to propose to his twenty-five-year-old daughter, Natalya.
+
+The underlying motivation for this marriage is not love but economic gain, as both families seek to expand their estates and social standing through this alliance. However, all three characters—Lomov, Natalya, and Chubukov—are depicted as extremely quarrelsome and temperamental. Instead of a smooth proposal, Lomov and Natalya engage in heated arguments over trivial matters. They fiercely dispute the ownership of Oxen Meadows and the superiority of their respective dogs, Guess and Squeezer.
+
+These petty squabbles repeatedly interrupt Lomov’s attempts to propose, causing him to suffer from palpitations and fainting spells. Chubukov, though initially welcoming, often fuels the arguments, exacerbating the chaotic situation. Despite the constant bickering and insults, the idea of a financially beneficial marriage ultimately prevails. Chubukov hastily pushes the couple together, and Lomov manages to make the proposal amidst another argument. The play concludes with the newly engaged couple immediately resuming their quarrel, highlighting how economic pragmatism often overshadows genuine affection and compatibility in such unions.

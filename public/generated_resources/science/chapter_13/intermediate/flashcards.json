@@ -1,0 +1,87 @@
+{
+  "chapter": "Our Environment",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "What is the environment?",
+      "back": "The environment includes all the living organisms (biotic components like plants, animals, microorganisms) and the non-living physical surroundings (abiotic components like temperature, rainfall, wind, soil, minerals) that interact with each other and maintain a balance in nature."
+    },
+    {
+      "front": "Define an ecosystem.",
+      "back": "An ecosystem is formed by all the interacting organisms in an area along with the non-living constituents of their environment. It consists of biotic (living) and abiotic (non-living) components."
+    },
+    {
+      "front": "What are the two main components of an ecosystem?",
+      "back": "The two main components of an ecosystem are: 1. Biotic components (living organisms like producers, consumers, decomposers). 2. Abiotic components (non-living physical factors like temperature, rainfall, wind, soil, minerals)."
+    },
+    {
+      "front": "Give an example of a natural ecosystem.",
+      "back": "Forests, ponds, and lakes are examples of natural ecosystems."
+    },
+    {
+      "front": "Give an example of a human-made (artificial) ecosystem.",
+      "back": "Gardens and crop-fields are examples of human-made (artificial) ecosystems."
+    },
+    {
+      "front": "What are producers in an ecosystem?",
+      "back": "Producers are organisms, primarily green plants and some bacteria, that can produce their own food using inorganic substances and the radiant energy of the Sun through photosynthesis. They are at the first trophic level."
+    },
+    {
+      "front": "What is photosynthesis?",
+      "back": "Photosynthesis is the process by which green plants and certain bacteria use sunlight, water, and carbon dioxide to create organic compounds (like sugar and starch) for their food, releasing oxygen as a byproduct."
+    },
+    {
+      "front": "What are consumers in an ecosystem?",
+      "back": "Consumers are organisms that depend on producers either directly or indirectly for their sustenance. They obtain food by consuming producers or other consumers."
+    },
+    {
+      "front": "Name the different types of consumers.",
+      "back": "Consumers can be classed as herbivores (plant-eaters), carnivores (meat-eaters), omnivores (eat both plants and animals), and parasites (live on or in a host and derive nutrients)."
+    },
+    {
+      "front": "What are decomposers?",
+      "back": "Decomposers are microorganisms, such as bacteria and fungi, that break down dead organic matter and waste products of organisms into simpler inorganic substances that are then returned to the soil."
+    },
+    {
+      "front": "What is the role of decomposers in an ecosystem?",
+      "back": "Decomposers play a crucial role in nutrient cycling by breaking down dead organisms and waste products, thus replenishing the soil with nutrients that can be used by plants. Without them, natural replenishment of the soil would not occur."
+    },
+    {
+      "front": "Define a food chain.",
+      "back": "A food chain is a series of organisms in which each organism takes part in feeding on another organism. It represents the flow of energy from one trophic level to the next."
+    },
+    {
+      "front": "What is a trophic level?",
+      "back": "Each step or level in a food chain, representing a particular feeding position, is called a trophic level."
+    },
+    {
+      "front": "What is the first trophic level?",
+      "back": "The first trophic level consists of the autotrophs or producers (green plants)."
+    },
+    {
+      "front": "What is the second trophic level?",
+      "back": "The second trophic level consists of herbivores (primary consumers) that feed on producers."
+    },
+    {
+      "front": "What is the third trophic level?",
+      "back": "The third trophic level typically consists of carnivores (secondary consumers) that feed on herbivores."
+    },
+    {
+      "front": "What is a food web?",
+      "back": "A food web is an interconnected network of multiple food chains in an ecosystem, showing the complex feeding relationships between different organisms."
+    },
+    {
+      "front": "What is the '10% law' in energy transfer?",
+      "back": "The 10% law states that only about 10% of the energy from one trophic level is transferred to the next trophic level. The remaining 90% is lost as heat during metabolic processes."
+    },
+    {
+      "front": "Why is the transfer of energy in a food chain unidirectional?",
+      "back": "Energy transfer is unidirectional because energy flows from producers to consumers and eventually dissipates as heat at each trophic level. It does not flow backward from higher trophic levels to lower ones."
+    },
+    {
+      "front": "What are the environmental impacts of human activities?",
+      "back": "Human activities like pollution (air, water, soil), deforestation, and excessive waste generation can disrupt ecosystems, deplete natural resources, and lead to environmental degradation."
+    }
+  ]
+}

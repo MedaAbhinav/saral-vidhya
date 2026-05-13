@@ -1,0 +1,5 @@
+## Electricity: A Summary
+
+Electricity is a crucial and convenient form of energy. **Electric current** is the flow of electric charge through a conductor, measured as the rate of charge flow per unit time (I = Q/t). The SI unit of current is the **ampere (A)**, where 1 ampere equals 1 coulomb per second (1 C/s). Electric current is conventionally defined as the direction of positive charge flow, opposite to the direction of electron flow. An **ammeter** is used to measure current and is always connected in **series** within a circuit.
+
+A **continuous and closed path** for electric current is called an **electric circuit**. For charges to flow, there must be a difference in **electric potential**, known as **potential difference**. This potential difference, often provided by a battery or cell, creates an "electric pressure" that drives the flow of charges.

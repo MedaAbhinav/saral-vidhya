@@ -1,0 +1,3 @@
+Imagine two rich neighbours, Lomov and Chubukov. Lomov wants to marry Chubukov's daughter, Natalya. He thinks it's a good idea because both families are wealthy, and it will make them even richer!
+
+But here's the funny part: Lomov, Natalya, and even her dad, Chubukov, are very fond of arguing. They fight about tiny things, like who owns a piece of land or whose dog is better. They quarrel so much that they almost forget about the marriage! In the end, they remember it's good for their money, so the proposal happens, even though they still squabble a lot.

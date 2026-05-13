@@ -1,0 +1,107 @@
+{
+  "chapter": "Control and Coordination",
+  "subject": "Science",
+  "level": "advanced",
+  "flashcards": [
+    {
+      "front": "Explain how a neuron converts an electrical impulse into a chemical signal at the synapse, and why this conversion is crucial for signal transmission between neurons. (Application/Multi-step Reasoning)",
+      "back": "At the axon terminal of a presynaptic neuron, an electrical impulse triggers the release of neurotransmitters (chemical messengers) into the synaptic cleft. These neurotransmitters diffuse across the cleft and bind to receptors on the postsynaptic neuron's dendrites. This binding initiates a chemical reaction that can generate a new electrical impulse in the postsynaptic neuron. This conversion is crucial because electrical impulses cannot directly cross the synaptic gap. The chemical signal allows for a controlled and regulated transmission of information, and can also allow for signal amplification or inhibition."
+    },
+    {
+      "front": "A patient experiences delayed reaction times and tremors. Which part of the nervous system is likely affected, and how does its dysfunction lead to these symptoms? (Application/Complex Reasoning)",
+      "back": "The cerebellum is likely affected. The cerebellum is responsible for coordinating voluntary movements such as posture, balance, coordination, and speech, resulting in smooth and balanced muscular activity. Its dysfunction leads to ataxia (lack of muscle control or coordination of voluntary movements), intention tremors (tremors that occur during voluntary movements), and difficulties with balance and posture, explaining the delayed reaction times and tremors."
+    },
+    {
+      "front": "Compare and contrast the roles of the central nervous system (CNS) and the peripheral nervous system (PNS) in the context of a sudden, painful stimulus like touching a hot stove. (Comparative Analysis)",
+      "back": "CNS (Brain and Spinal Cord): The spinal cord acts as the processing center for the reflex arc. It receives sensory input, processes it, and sends motor commands, often bypassing conscious brain involvement for speed. The brain is informed later. PNS (Nerves): The PNS carries sensory information from receptors (e.g., pain receptors in the skin) to the spinal cord (afferent pathway) and motor commands from the spinal cord to effectors (muscles) to withdraw the hand (efferent pathway). It acts as the communication link."
+    },
+    {
+      "front": "Why are reflex actions generally faster than voluntary actions? Explain the neural pathway involved in a reflex arc. (Competitive Exam Style Fact/Multi-step Reasoning)",
+      "back": "Reflex actions are faster because they involve a shorter neural pathway (reflex arc) that often bypasses the brain, particularly the conscious processing centers of the cerebrum. The pathway typically involves: Receptor -> Sensory Neuron -> Integration Center (spinal cord) -> Motor Neuron -> Effector. Voluntary actions involve processing in the brain, which takes more time."
+    },
+    {
+      "front": "Consider a plant bending towards a light source (phototropism). Is this a response to a stimulus, and if so, what is the stimulus, the receptor, and the effector? (Application)",
+      "back": "Yes, it is a response to a stimulus. Stimulus: Light. Receptor: Photoreceptors (light-sensitive pigments) located in the shoot apex. Effector: Cells in the stem that elongate unevenly due to the action of auxin, causing bending towards the light."
+    },
+    {
+      "front": "What is the role of auxin in phototropism? Explain how its uneven distribution causes bending. (Multi-step Reasoning)",
+      "back": "Auxin is a plant hormone that promotes cell elongation. When light shines on a plant shoot from one direction, auxin moves to the shaded side. This uneven distribution of auxin causes the cells on the shaded side to elongate faster than the cells on the illuminated side. This differential growth leads to the bending of the shoot towards the light source."
+    },
+    {
+      "front": "Differentiate between endocrine and nervous coordination. Provide an example of a situation where both are crucial for a coordinated response. (Comparative Analysis)",
+      "back": "Nervous coordination: Rapid, short-lived, uses electrical impulses and chemical neurotransmitters transmitted through neurons. Endocrine coordination: Slower, long-lasting, uses chemical hormones transported via the bloodstream. Example: During a 'fight or flight' response, the nervous system triggers immediate actions (e.g., increased heart rate), while the endocrine system releases adrenaline for sustained effects (e.g., increased blood sugar levels)."
+    },
+    {
+      "front": "Explain the 'fight or flight' response in terms of hormonal action and its physiological effects. (Application/Competitive Exam Style Fact)",
+      "back": "The 'fight or flight' response is mediated by adrenaline (epinephrine) and noradrenaline (norepinephrine), hormones released by the adrenal medulla. These hormones increase heart rate, blood pressure, breathing rate, and blood glucose levels, while diverting blood flow to muscles, preparing the body for intense physical activity to either confront or escape a threat."
+    },
+    {
+      "front": "What is a synapse? Describe the process of synaptic transmission, highlighting the role of neurotransmitters. (Competitive Exam Style Fact/Detailed Explanation)",
+      "back": "A synapse is the junction between two neurons or between a neuron and an effector cell (muscle or gland). Transmission involves: 1. Electrical impulse reaches the axon terminal of the presynaptic neuron. 2. This triggers the release of neurotransmitters into the synaptic cleft. 3. Neurotransmitters diffuse across the cleft and bind to receptors on the postsynaptic membrane. 4. This binding causes a change in the permeability of the postsynaptic membrane, leading to an electrical impulse (excitatory or inhibitory) in the postsynaptic neuron or a response in the effector."
+    },
+    {
+      "front": "Explain why iodine deficiency can lead to goitre. Identify the gland and the hormone involved. (Application/Competitive Exam Style Fact)",
+      "back": "Iodine is essential for the synthesis of thyroxine (thyroid hormone) by the thyroid gland. If iodine is deficient, the thyroid gland cannot produce sufficient thyroxine. The pituitary gland then releases more Thyroid Stimulating Hormone (TSH) to stimulate the thyroid. This continuous stimulation causes the thyroid gland to enlarge, resulting in goitre. Gland: Thyroid gland. Hormone: Thyroxine."
+    },
+    {
+      "front": "Consider a person who has accidentally ingested a bitter substance. Describe the sensory pathway involved, from detection to the feeling of disgust. (Multi-step Reasoning)",
+      "back": "1. Bitter substance stimulates gustatory receptors (taste buds) on the tongue. 2. This generates an electrical impulse. 3. Sensory neurons carry this impulse via the cranial nerves to the brainstem. 4. From the brainstem, the impulse travels to the thalamus, and then to the gustatory cortex in the cerebrum for conscious perception of taste. 5. Association areas of the brain interpret the bitter taste as unpleasant, leading to a feeling of disgust and a potential gagging reflex."
+    },
+    {
+      "front": "Compare the hormonal control of blood glucose levels by insulin and glucagon. What happens if the pancreas malfunctions and doesn't produce enough insulin? (Comparative Analysis/Application)",
+      "back": "Insulin lowers blood glucose by promoting glucose uptake by cells and conversion to glycogen. Glucagon raises blood glucose by stimulating glycogen breakdown in the liver. If the pancreas doesn't produce enough insulin, glucose remains in the blood, leading to hyperglycemia (high blood sugar), characteristic of diabetes mellitus. This can cause long-term damage to blood vessels, nerves, kidneys, and eyes."
+    },
+    {
+      "front": "Why is it important for a neuron to have a cell body and an axon? What would happen if a neuron lacked an axon? (Application/Multi-step Reasoning)",
+      "back": "The cell body (cyton) contains the nucleus and organelles, essential for maintaining the neuron's life and synthesizing neurotransmitters. The axon is a long projection that transmits electrical impulses away from the cell body to other neurons or effector cells. If a neuron lacked an axon, it would be unable to transmit signals to distant parts of the body, rendering it ineffective for communication within the nervous system."
+    },
+    {
+      "front": "Explain the role of the endocrine system in regulating growth and development in humans. Name one hormone involved and its specific function. (Competitive Exam Style Fact/Application)",
+      "back": "The endocrine system regulates growth and development through various hormones. For example, Growth Hormone (GH), secreted by the pituitary gland, stimulates cell growth, reproduction, and regeneration. Other hormones like thyroid hormones are crucial for development, especially of the nervous system."
+    },
+    {
+      "front": "In the context of plant movements, what is the difference between tropic movements and nastic movements? Provide an example of each. (Comparative Analysis)",
+      "back": "Tropic movements are directional growth movements in response to a stimulus (e.g., phototropism – bending towards light; geotropism – growth in response to gravity). Nastic movements are non-directional movements that occur in response to a stimulus, often independent of its direction (e.g., thigmonasty – rapid closing of Mimosa leaves upon touch; seismonasty – response to shock)."
+    },
+    {
+      "front": "A person suddenly withdraws their hand from a hot object. This is a reflex action. Identify the components of the reflex arc involved in this action. (Competitive Exam Style Fact)",
+      "back": "Receptor: Thermoreceptors in the skin of the hand. Sensory Neuron: Transmits the impulse from the receptor to the spinal cord. Integration Center: Spinal cord (interneuron in this case). Motor Neuron: Transmits the impulse from the spinal cord to the effector. Effector: Muscles in the arm that contract to withdraw the hand."
+    },
+    {
+      "front": "How do plants respond to stimuli in the absence of a nervous system? Explain the concept of chemical signaling. (Application/Multi-step Reasoning)",
+      "back": "Plants respond to stimuli using hormones (phytohormones) which act as chemical signals. These hormones are produced in one part of the plant and transported to another, where they influence growth and development. Examples include auxins (growth, bending), gibberellins (stem elongation), cytokinins (cell division), abscisic acid (dormancy, wilting), and ethylene (fruit ripening)."
+    },
+    {
+      "front": "What are the implications of damage to the spinal cord at different levels? For example, how would damage to the cervical region differ from damage to the lumbar region? (Complex Application/Reasoning)",
+      "back": "Damage to the cervical region (neck) of the spinal cord is generally more severe as it can lead to paralysis of all four limbs (quadriplegia) and affect breathing. Damage to the lumbar region (lower back) typically results in paralysis of the legs and lower body (paraplegia), with the upper body remaining functional. The extent of paralysis depends on the specific segments of the spinal cord affected."
+    },
+    {
+      "front": "Explain the concept of 'long-term potentiation' (LTP) as a potential mechanism for memory formation at the synaptic level. (Advanced Concept/Competitive Exam Style Fact)",
+      "back": "LTP is a persistent strengthening of synapses based on recent patterns of activity. It involves changes in neurotransmitter release and receptor sensitivity at the synapse, making communication between neurons more efficient. This sustained strengthening is believed to be a key cellular mechanism underlying learning and memory."
+    },
+    {
+      "front": "Why is it advantageous for the integration center of a reflex arc to be located in the spinal cord rather than the brain for rapid responses? (Multi-step Reasoning)",
+      "back": "Placing the integration center in the spinal cord for many reflexes reduces the distance the signal has to travel and bypasses the more complex processing in the brain. This shortens the reflex arc, leading to a much faster response, which is crucial for protecting the body from immediate harm (e.g., withdrawing from a painful stimulus)."
+    },
+    {
+      "front": "Describe the difference between the sympathetic and parasympathetic nervous systems in terms of their general functions and their effect on heart rate. (Comparative Analysis)",
+      "back": "Sympathetic nervous system ('fight or flight'): Prepares the body for action. Generally increases heart rate, dilates pupils, and mobilizes energy stores. Parasympathetic nervous system ('rest and digest'): Conserves energy and promotes housekeeping functions. Generally slows heart rate, constricts pupils, and stimulates digestion."
+    },
+    {
+      "front": "What is the significance of the myelin sheath in nerve impulse conduction? Are all neurons myelinated? (Competitive Exam Style Fact/Exception)",
+      "back": "The myelin sheath is an insulating layer around axons that speeds up nerve impulse conduction. It allows for saltatory conduction, where the impulse jumps from one node of Ranvier to the next. Not all neurons are myelinated; unmyelinated axons conduct impulses more slowly."
+    },
+    {
+      "front": "How does the plant hormone abscisic acid (ABA) contribute to survival during drought conditions? (Application)",
+      "back": "Abscisic acid plays a crucial role in drought tolerance. It causes stomata (pores on leaves for gas exchange) to close, reducing water loss through transpiration. ABA also induces dormancy in seeds and buds, helping the plant survive unfavorable conditions."
+    },
+    {
+      "front": "A person suddenly feels dizzy and unbalanced. Which part of the nervous system is most likely responsible for these symptoms, and why? (Application/Reasoning)",
+      "back": "The cerebellum is most likely responsible. The cerebellum plays a vital role in maintaining balance, posture, and coordinating voluntary movements. Damage or dysfunction in the cerebellum can lead to dizziness, loss of balance, and uncoordinated movements."
+    },
+    {
+      "front": "Explain the concept of neuromuscular junction and its importance in muscle contraction. (Competitive Exam Style Fact/Application)",
+      "back": "A neuromuscular junction is the synapse between a motor neuron and a muscle fiber. When a nerve impulse arrives at the axon terminal, it releases acetylcholine, a neurotransmitter. Acetylcholine binds to receptors on the muscle fiber membrane, causing depolarization and initiating a cascade of events leading to muscle contraction. It is the critical point where nervous system signals trigger muscle action."
+    }
+  ]
+}

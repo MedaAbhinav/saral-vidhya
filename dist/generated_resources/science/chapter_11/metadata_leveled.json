@@ -1,0 +1,26 @@
+{
+  "chapter_number": 11,
+  "chapter_name": "Electricity",
+  "subject": "Science",
+  "pdf": "jesc111.pdf",
+  "completed": {
+    "beginner": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "intermediate": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "advanced": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ]
+  }
+}

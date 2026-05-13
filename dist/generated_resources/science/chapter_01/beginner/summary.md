@@ -1,0 +1,1 @@
+When things change into something new, like food cooking or rust forming, it's a **chemical reaction**. We can tell a reaction happened if we see changes like gas, color, or temperature. We can write these changes using simple names or even shorter symbols for the ingredients and what they become. This helps us understand what's happening!

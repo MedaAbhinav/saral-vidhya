@@ -1,0 +1,87 @@
+{
+  "chapter": "Heredity",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "What is Heredity?",
+      "back": "Heredity refers to the process by which traits and characteristics are reliably inherited from parents to offspring through genetic material."
+    },
+    {
+      "front": "What is Variation?",
+      "back": "Variation refers to the subtle differences that arise among individuals of the same species, both within and between generations, due to differences in their genetic makeup and environmental factors."
+    },
+    {
+      "front": "How are variations created during reproduction?",
+      "back": "Variations are created due to small inaccuracies in DNA copying during reproduction. Sexual reproduction, in particular, generates greater diversity through recombination of genetic material from two parents."
+    },
+    {
+      "front": "Why do variations promote survival?",
+      "back": "Variations promote survival because some individuals within a population might possess traits that give them an advantage in a particular environment, allowing them to survive better and reproduce more successfully (e.g., heat-resistant bacteria surviving a heat wave)."
+    },
+    {
+      "front": "What is the role of the previous generation in heredity?",
+      "back": "The previous generation provides both a common basic body design and subtle changes (variations) to the next generation, influencing their traits and characteristics."
+    },
+    {
+      "front": "What is Mendel's contribution to heredity?",
+      "back": "Gregor Mendel worked out the main rules of inheritance, explaining how traits are passed from parents to offspring. His experiments laid the foundation for the modern science of genetics."
+    },
+    {
+      "front": "What is an inherited trait?",
+      "back": "An inherited trait is a characteristic or feature that is passed down from parents to their offspring through genes."
+    },
+    {
+      "front": "How much genetic material do parents contribute to a child?",
+      "back": "Both the father and the mother contribute practically equal amounts of genetic material (DNA) to the child."
+    },
+    {
+      "front": "How many versions of a trait are there in a child?",
+      "back": "For each trait, there will typically be two versions in each child, one inherited from the father and one from the mother."
+    },
+    {
+      "front": "Give an example of an inherited trait mentioned in the text.",
+      "back": "Earlobe type (free or attached) is given as an example of an inherited trait."
+    },
+    {
+      "front": "What are the two types of earlobes mentioned?",
+      "back": "The two types of earlobes mentioned are 'free earlobes' and 'attached earlobes'."
+    },
+    {
+      "front": "What determines the trait seen in a child if there are two versions?",
+      "back": "The specific trait that is expressed in the child depends on the dominance relationship between the two versions (alleles) inherited from the parents. This is explained by Mendel's laws."
+    },
+    {
+      "front": "What is DNA copying and its relevance to variation?",
+      "back": "DNA copying is the process of replicating the genetic material. Small inaccuracies or 'errors' during this copying process are a source of new variations in the DNA."
+    },
+    {
+      "front": "How does sexual reproduction contribute to diversity?",
+      "back": "Sexual reproduction contributes to greater diversity because it involves the combination of genetic material from two parents, leading to new combinations of traits in the offspring."
+    },
+    {
+      "front": "If a trait appears in 10% and another in 60% in an asexually reproducing population, which trait is older?",
+      "back": "The trait that exists in a larger percentage of the population (60%) is likely to have arisen earlier, as it has had more time to spread through asexual reproduction."
+    },
+    {
+      "front": "What is the basic unit of heredity?",
+      "back": "The basic unit of heredity is the gene, which is a segment of DNA that codes for a specific trait."
+    },
+    {
+      "front": "How do genes relate to traits?",
+      "back": "Genes carry the instructions for building and operating an organism. Each gene typically influences a specific trait."
+    },
+    {
+      "front": "What are alleles?",
+      "back": "Alleles are different versions of the same gene. For example, the gene for earlobe type might have an allele for free earlobes and an allele for attached earlobes."
+    },
+    {
+      "front": "What is the significance of Gregor Mendel's experiments?",
+      "back": "Mendel's experiments with pea plants established fundamental principles of inheritance, such as the concepts of dominant and recessive traits and the laws of segregation and independent assortment."
+    },
+    {
+      "front": "What is natural selection in the context of variations?",
+      "back": "Natural selection is the process by which environmental factors favor individuals with certain variations that enhance their survival and reproduction, leading to the prevalence of those advantageous traits in the population over time."
+    }
+  ]
+}

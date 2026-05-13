@@ -1,0 +1,107 @@
+{
+  "chapter": "Electricity",
+  "subject": "Science",
+  "level": "advanced",
+  "flashcards": [
+    {
+      "front": "Consider a circuit with two identical bulbs connected in series and another identical circuit with the same two bulbs connected in parallel. If the same voltage source is used for both circuits, what is the ratio of the total current drawn from the source in the parallel circuit to the total current drawn in the series circuit?",
+      "back": "In a series connection of two identical bulbs with resistance R each, the total resistance is R_series = R + R = 2R. The current drawn is I_series = V / (2R). In a parallel connection of two identical bulbs, the equivalent resistance is R_parallel = (R * R) / (R + R) = R/2. The total current drawn is I_parallel = V / (R/2) = 2V/R. The ratio I_parallel / I_series = (2V/R) / (V/2R) = 4. Therefore, the current in the parallel circuit is 4 times that in the series circuit."
+    },
+    {
+      "front": "An electric heater of resistance 20 Ohms draws a current of 5 Amperes for 30 seconds. A current of 3 Amperes flows through another resistor of 10 Ohms for the same duration. Compare the heat produced by both resistors.",
+      "back": "Heat produced (H) is given by H = I^2 * R * t. For the heater: H_heater = (5A)^2 * 20 Ohms * 30s = 25 * 20 * 30 = 15000 Joules. For the other resistor: H_other = (3A)^2 * 10 Ohms * 30s = 9 * 10 * 30 = 2700 Joules. Therefore, the electric heater produces significantly more heat than the other resistor under the given conditions. The ratio of heat produced is 15000/2700 = 50/9."
+    },
+    {
+      "front": "A wire of length L and uniform cross-sectional area A has resistance R. If the wire is stretched so that its length becomes 2L, while its volume remains constant, what will be its new resistance?",
+      "back": "Let the initial resistivity be ρ. So, R = ρL/A. When the wire is stretched to 2L, its volume (V = A * L) remains constant. The new cross-sectional area A' will be such that V = A' * (2L). Therefore, A' = V / (2L) = (A * L) / (2L) = A/2. The new resistance R' will be R' = ρ * (2L) / (A/2) = 4 * (ρL/A) = 4R. The new resistance will be four times the original resistance."
+    },
+    {
+      "front": "Explain why the filament of an electric bulb is made of tungsten and not copper or aluminum, despite copper and aluminum being good conductors.",
+      "back": "Tungsten has a very high melting point (around 3410°C) and a high resistance compared to copper and aluminum. The high melting point is crucial because when current flows through the filament, it heats up to very high temperatures, and it should not melt. The relatively high resistance allows it to heat up efficiently. Copper and aluminum have much lower melting points and resistances, which would cause them to melt or glow less brightly, making them unsuitable for incandescent bulb filaments."
+    },
+    {
+      "front": "A battery of 6V is connected across a resistor of 3 Ohms. What is the potential difference across the resistor if another resistor of 6 Ohms is connected in series with it?",
+      "back": "When only the 3 Ohm resistor is connected, the potential difference across it is equal to the battery voltage, 6V (assuming ideal battery). When a 6 Ohm resistor is connected in series with the 3 Ohm resistor, the total resistance of the circuit is 3 Ohms + 6 Ohms = 9 Ohms. The total current drawn from the battery is I = V/R_total = 6V / 9 Ohms = 2/3 A. The potential difference across the 3 Ohm resistor is then V_3ohm = I * R_3ohm = (2/3 A) * 3 Ohms = 2V. Therefore, the potential difference across the 3 Ohm resistor drops from 6V to 2V."
+    },
+    {
+      "front": "In the Joule heating effect (H = I^2Rt), if the current is doubled while the resistance and time remain constant, by what factor does the heat produced increase?",
+      "back": "The formula for heat produced is H = I^2Rt. If the current I is doubled to 2I, the new heat H' = (2I)^2 * R * t = 4 * I^2 * R * t = 4H. Therefore, the heat produced increases by a factor of 4."
+    },
+    {
+      "front": "Two resistors, R1 = 10 Ohms and R2 = 20 Ohms, are connected in parallel. If the potential difference across the parallel combination is 12V, calculate the current through each resistor and the total current drawn from the source.",
+      "back": "For R1: Current I1 = V / R1 = 12V / 10 Ohms = 1.2 A. For R2: Current I2 = V / R2 = 12V / 20 Ohms = 0.6 A. Total current I_total = I1 + I2 = 1.2 A + 0.6 A = 1.8 A. Alternatively, the equivalent resistance R_eq = (R1 * R2) / (R1 + R2) = (10 * 20) / (10 + 20) = 200 / 30 = 20/3 Ohms. Total current I_total = V / R_eq = 12V / (20/3 Ohms) = 12 * 3 / 20 = 36/20 = 1.8 A."
+    },
+    {
+      "front": "What is the convention for the direction of electric current in a circuit, and why was this convention adopted?",
+      "back": "The convention for the direction of electric current is from the positive terminal to the negative terminal of the source (like a battery). This convention was adopted when the phenomenon of electricity was first observed, and the nature of charge carriers (electrons) was not yet understood. It was assumed that current was the flow of positive charges, and their direction was taken as the direction of current. Later, when electrons were discovered to be the charge carriers in metallic conductors, it was found that they flow in the opposite direction of the conventional current."
+    },
+    {
+      "front": "An electric iron is rated 1500W at 220V. Can this iron be used with a 110V supply? If yes, what will be its power consumption, and if no, explain why.",
+      "back": "Yes, it can be used, but its power consumption will be significantly less. The rating 1500W at 220V means the resistance of the heating element is R = V^2 / P = (220V)^2 / 1500W = 48400 / 1500 = 32.27 Ohms (approx). When connected to a 110V supply, the power consumed will be P' = V'^2 / R = (110V)^2 / 32.27 Ohms = 12100 / 32.27 ≈ 375W. The iron will still work but will produce much less heat."
+    },
+    {
+      "front": "What is the relationship between electric potential difference and the work done to move a unit positive charge between two points?",
+      "back": "The electric potential difference (V) between two points is defined as the work done (W) in moving a unit positive charge (q=1 Coulomb) from one point to the other. Mathematically, V = W/q. Therefore, if a potential difference of V volts exists between two points, it means V Joules of work is done to move 1 Coulomb of charge between these two points."
+    },
+    {
+      "front": "Consider a circuit with a cell, a switch, and a bulb. If the switch is closed, a current flows and the bulb glows. What is the role of the switch in maintaining this continuous flow of charge?",
+      "back": "The switch acts as a device that establishes or breaks the conducting link between the cell and the bulb. When the switch is closed, it completes the circuit, forming a continuous and closed path for the electric charges to flow from the positive terminal of the cell, through the bulb, and back to the negative terminal. This continuous flow constitutes an electric current, causing the bulb to glow. When the switch is open, it creates a break in the circuit, interrupting the flow of charge."
+    },
+    {
+      "front": "A conductor has a resistance of 10 Ohms. If the potential difference across its ends is 5V, what is the current flowing through it? If the potential difference is increased to 10V, how does the current change?",
+      "back": "Using Ohm's Law, I = V/R. Initially, with V=5V and R=10 Ohms, the current is I = 5V / 10 Ohms = 0.5A. If the potential difference is increased to 10V while the resistance remains constant at 10 Ohms, the new current is I' = 10V / 10 Ohms = 1A. Thus, when the potential difference is doubled, the current also doubles, demonstrating the direct proportionality between voltage and current in an ohmic conductor."
+    },
+    {
+      "front": "What is the difference between electromotive force (EMF) and potential difference (PD)?",
+      "back": "EMF is the total energy supplied by the source (like a battery) per unit charge passing through it. It is the potential difference across the terminals of the source when no current is drawn. Potential difference (PD) is the energy dissipated or supplied per unit charge as it moves between two points in a circuit. When current flows, the PD across the terminals of a battery is slightly less than its EMF due to its internal resistance."
+    },
+    {
+      "front": "If 2 coulombs of charge flow through a wire in 5 seconds, calculate the current. If the resistance of the wire is 25 Ohms, calculate the heat produced in 10 seconds.",
+      "back": "Current I = Charge (Q) / Time (t) = 2 C / 5 s = 0.4 A. Heat produced (H) = I^2 * R * t = (0.4 A)^2 * 25 Ohms * 10 s = 0.16 A^2 * 25 Ohms * 10 s = 4 * 10 = 40 Joules."
+    },
+    {
+      "front": "Why are ammeters always connected in series, and voltmeters in parallel, in an electric circuit?",
+      "back": "An ammeter measures the current flowing *through* a point in the circuit. To measure the entire current passing through a component, the ammeter must be placed in series with it so that the current has to flow through the ammeter itself. An ideal ammeter has very low resistance to not affect the circuit's current. A voltmeter measures the potential difference *across* two points. To measure the potential difference between two points, the voltmeter must be connected in parallel across those points. An ideal voltmeter has very high resistance so that it draws negligible current from the circuit."
+    },
+    {
+      "front": "Consider two resistors, R1 and R2, connected in series to a voltage source. If R1 > R2, which resistor will dissipate more power and why?",
+      "back": "In a series connection, the current (I) through both resistors is the same. Power dissipated (P) is given by P = I^2R. Since I is the same for both, the power dissipated is directly proportional to the resistance. Therefore, the resistor with higher resistance (R1) will dissipate more power because P1 = I^2R1 and P2 = I^2R2. As R1 > R2, P1 > P2."
+    },
+    {
+      "front": "If the resistance of a conductor is zero, what can you say about the potential difference across it and the current flowing through it?",
+      "back": "According to Ohm's Law (V=IR), if the resistance (R) is zero, then for any finite current (I) to flow, the potential difference (V) across the conductor must also be zero (V = I * 0 = 0). Such a conductor is called a perfect conductor. Conversely, if there is a potential difference across a zero-resistance conductor, it would imply an infinite current, which is practically impossible."
+    },
+    {
+      "front": "A circuit has a battery and two bulbs. If the bulbs are connected in series, and one bulb has a higher resistance than the other, which bulb will glow brighter and why?",
+      "back": "In a series circuit, the current is the same through both bulbs. The brightness of a bulb is proportional to the power it dissipates. Power dissipated (P) is given by P = I^2R. Since the current (I) is the same for both, the bulb with the higher resistance will have a higher power dissipation (P = I^2R) and therefore will glow brighter."
+    },
+    {
+      "front": "What is the difference between milliampere (mA) and microampere (µA)?",
+      "back": "Milliampere (mA) and microampere (µA) are units of electric current. 1 milliampere (mA) is equal to 10⁻³ amperes (A), meaning one-thousandth of an ampere. 1 microampere (µA) is equal to 10⁻⁶ amperes (A), meaning one-millionth of an ampere. Thus, 1 mA = 1000 µA."
+    },
+    {
+      "front": "If you have three resistors of resistances 2 Ohms, 3 Ohms, and 6 Ohms, what is the minimum and maximum equivalent resistance you can achieve by combining them?",
+      "back": "To achieve the minimum resistance, connect all resistors in parallel. 1/R_min = 1/2 + 1/3 + 1/6 = (3+2+1)/6 = 6/6 = 1. So, R_min = 1 Ohm. To achieve the maximum resistance, connect all resistors in series. R_max = 2 Ohms + 3 Ohms + 6 Ohms = 11 Ohms."
+    },
+    {
+      "front": "Explain the concept of electric current as the rate of flow of electric charges, relating it to the formula I = Q/t.",
+      "back": "Electric current is a measure of how much electric charge passes through a specific cross-sectional area of a conductor per unit of time. The formula I = Q/t quantifies this relationship. Here, 'I' represents the electric current, 'Q' is the total amount of electric charge that flows, and 't' is the time taken for that charge to flow. A larger charge flowing in the same time, or the same charge flowing in a shorter time, results in a higher electric current."
+    },
+    {
+      "front": "Consider a 100W bulb and a 200W bulb, both rated for 220V. If they are connected in series to a 220V supply, which bulb will glow brighter?",
+      "back": "Brightness depends on power dissipated. In series, current is the same, and power P = I²R. First, find the resistance of each bulb: R_100W = V²/P = (220V)²/100W = 484 Ohms. R_200W = V²/P = (220V)²/200W = 242 Ohms. In series, the total resistance is R_total = 484 + 242 = 726 Ohms. The current is I = V/R_total = 220V/726 Ohms ≈ 0.303 A. Power dissipated by 100W bulb = I²R_100W ≈ (0.303A)² * 484 Ohms ≈ 44.6W. Power dissipated by 200W bulb = I²R_200W ≈ (0.303A)² * 242 Ohms ≈ 22.3W. The 100W bulb (which has higher resistance) will dissipate more power in series and thus glow brighter."
+    },
+    {
+      "front": "What is the significance of the SI unit of electric charge, the Coulomb (C), and its relation to the charge of an electron?",
+      "back": "The Coulomb (C) is the SI unit of electric charge. One Coulomb is defined as the amount of charge that flows through a conductor when a current of one Ampere flows for one second (1 C = 1 A * 1 s).  It is a very large unit, as the charge of a single electron is approximately -1.6 × 10⁻¹⁹ C. Therefore, one Coulomb of charge is equivalent to the charge of approximately 6 × 10¹⁸ electrons."
+    },
+    {
+      "front": "If a conductor has a constant resistance, how does the current flowing through it vary with the potential difference across its ends? State the law that governs this relationship.",
+      "back": "If the resistance of a conductor is constant, the current flowing through it is directly proportional to the potential difference across its ends, provided the temperature remains constant. This relationship is described by Ohm's Law, which states that V ∝ I or V = IR, where V is the potential difference, I is the current, and R is the constant resistance."
+    },
+    {
+      "front": "Explain the difference in how a torch cell and a household electrical outlet provide a potential difference for current flow.",
+      "back": "A torch cell (or battery) is a chemical source of energy. Chemical reactions within the cell create a potential difference between its terminals. This potential difference drives the current when a circuit is completed. A household electrical outlet is connected to a large-scale power generation and distribution system (e.g., a power grid). It provides a constant potential difference (usually 220V or 110V AC) that is maintained by the power supply infrastructure, enabling current to flow when a device is plugged in and switched on."
+    }
+  ]
+}

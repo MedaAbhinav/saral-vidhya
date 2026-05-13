@@ -1,0 +1,5 @@
+"Mijbil the Otter" describes Gavin Maxwell's decision to adopt an otter after his dog's death left him feeling lonely. While in Southern Iraq, he received a young otter, Mijbil, as a gift. Initially aloof, Mijbil soon developed a close bond with Maxwell, displaying a playful and curious nature. He quickly learned to open water taps and invented games, showcasing his intelligence.
+
+The journey to London was eventful and stressful. Maxwell faced challenges transporting Mijbil, who ultimately escaped his damaged box during a flight, causing panic among passengers before Maxwell safely retrieved him.
+
+In London, Mijbil adapted well to his new environment, enjoying walks and playful routines. His unusual appearance frequently led Londoners to misidentify him as various animals like a baby seal or a walrus, much to Maxwell's amusement. The story highlights the deep affection between humans and their pets and the unique joy an unconventional companion can bring.

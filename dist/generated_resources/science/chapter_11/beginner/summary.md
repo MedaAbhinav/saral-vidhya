@@ -1,0 +1,1 @@
+Electricity is like tiny particles called charges flowing through wires. When these charges flow continuously in a circle, we call it an electric circuit. The faster they flow, the more "electric current" there is. This flow is what makes things like bulbs light up!

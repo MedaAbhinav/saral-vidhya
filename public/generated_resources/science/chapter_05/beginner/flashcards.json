@@ -1,0 +1,67 @@
+{
+  "chapter": "Life Processes",
+  "subject": "Science",
+  "level": "beginner",
+  "flashcards": [
+    {
+      "front": "What are the basic maintenance functions of living organisms called?",
+      "back": "The processes that together perform the maintenance job of living organisms are called life processes."
+    },
+    {
+      "front": "Where do living organisms get energy for maintenance from?",
+      "back": "Living organisms get energy for maintenance from outside the body."
+    },
+    {
+      "front": "What is the process of obtaining food called?",
+      "back": "The process of transferring a source of energy (food) from outside the body to the inside is called nutrition."
+    },
+    {
+      "front": "What are most food sources based on?",
+      "back": "Most food sources are carbon-based molecules."
+    },
+    {
+      "front": "What is the process of acquiring and using oxygen for breaking down food called?",
+      "back": "The process of acquiring oxygen from outside the body and using it to break down food for cellular needs is called respiration."
+    },
+    {
+      "front": "Why are specialized tissues needed in multicellular organisms?",
+      "back": "In multicellular organisms, specialized tissues are needed for functions like taking in food and oxygen because not all cells are in direct contact with the environment."
+    },
+    {
+      "front": "What is the chemical process used to break down molecules?",
+      "back": "Oxidising-reducing reactions are common chemical means to break down molecules."
+    },
+    {
+      "front": "Why do living organisms need to repair and maintain their structures?",
+      "back": "Living organisms need to repair and maintain their structures because their organized nature is prone to breaking down over time due to environmental effects."
+    },
+    {
+      "front": "What is a defining characteristic of living beings, even when not visibly moving?",
+      "back": "Even when not visibly moving, living beings perform internal molecular movements and maintain their structures."
+    },
+    {
+      "front": "Why are viruses sometimes considered not truly alive?",
+      "back": "Viruses do not show any molecular movement within themselves until they infect a cell."
+    },
+    {
+      "front": "What is the difference between how single-celled and multicellular organisms get nutrients?",
+      "back": "Single-celled organisms can get nutrients through their entire surface, while multicellular organisms need specialized tissues."
+    },
+    {
+      "front": "What problem arises when food and oxygen are taken in at one place in multicellular organisms?",
+      "back": "The problem is how to supply these essential substances to all parts of the body that need them."
+    },
+    {
+      "front": "What do living structures need to keep them from breaking down?",
+      "back": "Living structures need to keep repairing and maintaining themselves, which requires molecular movement."
+    },
+    {
+      "front": "What is the source of energy that fuels life processes?",
+      "back": "The ultimate source of energy for most life processes on Earth is the Sun, often indirectly through food."
+    },
+    {
+      "front": "What are the raw materials needed for growth in organisms?",
+      "back": "Additional raw materials are needed from outside the body for growth, usually in the form of carbon-based molecules."
+    }
+  ]
+}

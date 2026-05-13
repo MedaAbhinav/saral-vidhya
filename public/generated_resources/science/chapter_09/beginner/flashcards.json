@@ -1,0 +1,67 @@
+{
+  "chapter": "Light – Reflection and Refraction",
+  "subject": "Science",
+  "level": "beginner",
+  "flashcards": [
+    {
+      "front": "What is the phenomenon when light bounces back from a surface?",
+      "back": "It is called reflection of light."
+    },
+    {
+      "front": "What is the phenomenon when light bends as it passes from one medium to another?",
+      "back": "It is called refraction of light."
+    },
+    {
+      "front": "What type of path does light travel in a uniform medium?",
+      "back": "Light travels in a straight line."
+    },
+    {
+      "front": "What do we call the light ray that strikes a surface?",
+      "back": "It is called the incident ray."
+    },
+    {
+      "front": "What do we call the light ray that bounces back from a surface?",
+      "back": "It is called the reflected ray."
+    },
+    {
+      "front": "What is the imaginary line perpendicular to the reflecting surface at the point of incidence called?",
+      "back": "It is called the normal."
+    },
+    {
+      "front": "What is the angle between the incident ray and the normal called?",
+      "back": "It is called the angle of incidence."
+    },
+    {
+      "front": "What is the angle between the reflected ray and the normal called?",
+      "back": "It is called the angle of reflection."
+    },
+    {
+      "front": "According to the laws of reflection, what is the relationship between the angle of incidence and the angle of reflection?",
+      "back": "The angle of incidence is equal to the angle of reflection."
+    },
+    {
+      "front": "Where do the incident ray, reflected ray, and normal lie?",
+      "back": "They all lie in the same plane."
+    },
+    {
+      "front": "What type of image is formed by a plane mirror that cannot be projected on a screen?",
+      "back": "It is a virtual image."
+    },
+    {
+      "front": "What type of image is formed by a plane mirror that can be projected on a screen?",
+      "back": "It is a real image (though plane mirrors form virtual images)."
+    },
+    {
+      "front": "What is the term for when the left and right sides of an image appear reversed compared to the object?",
+      "back": "It is called lateral inversion."
+    },
+    {
+      "front": "What kind of mirror has a reflecting surface curved inwards?",
+      "back": "It is a concave mirror."
+    },
+    {
+      "front": "What kind of mirror has a reflecting surface curved outwards?",
+      "back": "It is a convex mirror."
+    }
+  ]
+}

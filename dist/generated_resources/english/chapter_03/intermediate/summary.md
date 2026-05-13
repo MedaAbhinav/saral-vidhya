@@ -1,0 +1,7 @@
+Here is a standard-level summary of "His First Flight" from "Two Stories about Flying":
+
+"His First Flight" is a poignant story about a young seagull’s struggle to overcome his immense fear of flying. Despite his two brothers and sister having already mastered flight, he remains isolated and starving on his ledge, convinced his wings will never support him across the vast sea below. His parents try every method to encourage him, from cajoling and scolding to threatening to let him starve, but he cannot gather the courage to take the plunge.
+
+After twenty-four hours of intense hunger, his mother devises a clever strategy. She flies towards him with a piece of fish, stopping just out of his reach. Maddened by hunger, the young seagull finally dives for the food. For a brief moment, he experiences terrifying fear, but then his wings instinctively spread outwards, catching the wind, and he begins to soar, not fall.
+
+He quickly overcomes his initial dizziness and fear, joining his family in the sky, shrieking with joy. He forgets his earlier apprehension, now confidently diving, soaring, and curving. The story beautifully illustrates how initial fear, when confronted with necessity and a strategic push, can be conquered, leading to self-reliance and triumph.

@@ -1,0 +1,3 @@
+Valli was a smart eight-year-old girl who loved watching the bus pass by her house. Her biggest dream was to ride that bus to the nearby town, just once!
+
+She secretly saved her money and learned all about the bus trip, like how much it cost and how long it took. One day, Valli bravely got on the bus all by herself, paid her fare, and went on her first big adventure. The bus conductor was surprised and even playfully called her "Madam"! She saw many new things on her special ride.

@@ -1,0 +1,3 @@
+Imagine you're a copy machine. When you make copies, they are almost exactly the same, right? That's like how babies are born – they look a lot like their parents! But sometimes, the copy machine makes tiny mistakes, creating little differences. These differences are called **variations**.
+
+These variations happen when parents pass down "instructions" to their kids. Most of the time, these instructions are the same, making kids look like their parents. But sometimes, the instructions mix up a little, leading to new traits or features. These tiny changes can help living things survive better!

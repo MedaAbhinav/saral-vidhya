@@ -1,0 +1,3 @@
+In multicellular organisms, **control and coordination** are vital for responding to environmental changes. In animals, this is managed by the **nervous system** and **muscular system**.
+
+The nervous system utilizes specialized cells called **neurons**, which form an intricate network. Neurons receive stimuli through **receptors** (in sense organs), convert them into **electrical impulses**, and transmit these impulses along the neuron. At a **synapse**, these impulses are converted into chemical signals to pass to the next neuron, muscle cell, or gland, enabling rapid responses like **reflex actions**. These involuntary, quick reactions are crucial for protection.

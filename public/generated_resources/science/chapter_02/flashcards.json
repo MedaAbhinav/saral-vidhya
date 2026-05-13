@@ -1,0 +1,86 @@
+{
+  "chapter": "Acids, Bases and Salts",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "What is the general taste characteristic of acids?",
+      "back": "Sour"
+    },
+    {
+      "front": "What is the general taste characteristic of bases?",
+      "back": "Bitter"
+    },
+    {
+      "front": "What is a common home remedy for acidity mentioned in the text?",
+      "back": "Baking soda solution"
+    },
+    {
+      "front": "What happens to the color of blue litmus paper when exposed to an acid?",
+      "back": "It turns red."
+    },
+    {
+      "front": "What happens to the color of red litmus paper when exposed to a base?",
+      "back": "It turns blue."
+    },
+    {
+      "front": "Name a natural indicator other than litmus mentioned in the text.",
+      "back": "Turmeric, Red cabbage leaves, Hydrangea petals, Petunia petals, Geranium petals (any one)"
+    },
+    {
+      "front": "What color does a curry stain (containing turmeric) turn when soap (basic) is scrubbed on it?",
+      "back": "Reddish-brown"
+    },
+    {
+      "front": "Name two synthetic indicators used to test for acids and bases.",
+      "back": "Methyl orange and Phenolphthalein"
+    },
+    {
+      "front": "From which organism is litmus solution extracted?",
+      "back": "Lichen (a plant belonging to the division Thallophyta)"
+    },
+    {
+      "front": "What is the color of litmus solution when it is neither acidic nor basic?",
+      "back": "Purple"
+    },
+    {
+      "front": "How would you identify an acidic solution using only red litmus paper if you have an acidic, a basic, and distilled water solution?",
+      "back": "Use red litmus paper on all three. The one that turns blue is basic. Now use this blue litmus paper on the remaining two. The one that turns blue litmus red is acidic. The one that doesn't change either red or blue litmus is distilled water."
+    },
+    {
+      "front": "What are substances called whose odour changes in acidic or basic media?",
+      "back": "Olfactory indicators"
+    },
+    {
+      "front": "Name three substances mentioned as olfactory indicators.",
+      "back": "Onion, Vanilla essence, Clove oil"
+    },
+    {
+      "front": "How does the characteristic odour of onion change in a basic solution?",
+      "back": "It vanishes (or is destroyed)."
+    },
+    {
+      "front": "How does the characteristic odour of vanilla essence change in an acidic solution?",
+      "back": "It is retained."
+    },
+    {
+      "front": "What happens to the odour of clove oil when exposed to a basic solution (e.g., NaOH)?",
+      "back": "It vanishes (or is destroyed)."
+    },
+    {
+      "front": "Give one example of a strong acid listed in Activity 2.1.",
+      "back": "Hydrochloric acid (HCl), Sulphuric acid (H2SO4), Nitric acid (HNO3) (any one)"
+    },
+    {
+      "front": "Give one example of a strong base listed in Activity 2.1.",
+      "back": "Sodium hydroxide (NaOH), Potassium hydroxide (KOH) (any one)"
+    },
+    {
+      "front": "What is the chemical property being explored in section 2.1.2?",
+      "back": "How Acids and Bases React with Metals"
+    },
+    {
+      "front": "What is the common term for indicators that tell us whether a substance is acidic or basic by changing colour?",
+      "back": "Acid-base indicators (or simply indicators)"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+## The Human Eye and Colourful World: Standard Level Summary
+
+The human eye functions like a camera, with a lens system that forms an inverted, real image on the light-sensitive retina. Light enters through the cornea, passes through the pupil (whose size is controlled by the iris), and is focused by the eye lens. The retina contains light-sensitive cells that convert light into electrical signals, which are sent to the brain via the optic nerve for interpretation.
+
+The eye lens can change its focal length to focus objects at different distances. This ability is called **accommodation**. When relaxed, the lens is thin, allowing us to see distant objects; when contracted, it thickens to focus on near objects. The **least distance of distinct vision** for a normal eye is about 25 cm, and the **far point** is infinity.
+
+Common refractive defects include **myopia** (near-sightedness), where distant objects are blurred, and **hypermetropia** (far-sightedness), where near objects are blurred. **Presbyopia** is the age-related loss of accommodation. These defects can be corrected using spectacles with appropriate lenses. **Cataract** is a condition where the lens becomes cloudy, leading to vision loss, often treatable with surgery.

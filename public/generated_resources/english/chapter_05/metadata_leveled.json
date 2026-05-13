@@ -1,0 +1,26 @@
+{
+  "chapter_number": 5,
+  "chapter_name": "Glimpses of India",
+  "subject": "English",
+  "pdf": "jeff105.pdf",
+  "completed": {
+    "beginner": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "intermediate": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "advanced": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ]
+  }
+}

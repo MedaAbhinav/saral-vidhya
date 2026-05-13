@@ -1,0 +1,87 @@
+{
+  "chapter": "Magnetic Effects of Electric Current",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "What is the observation of Hans Christian Oersted's experiment?",
+      "back": "When an electric current passes through a metallic wire, a compass needle placed nearby gets deflected, indicating that the current produces a magnetic effect."
+    },
+    {
+      "front": "Define Magnetic Field.",
+      "back": "The region surrounding a magnet, or an electric current-carrying conductor, in which its magnetic force can be detected, is called a magnetic field."
+    },
+    {
+      "front": "What are Magnetic Field Lines?",
+      "back": "The imaginary lines along which iron filings align themselves around a magnet, or the path traced by a compass needle as it moves around a magnet, represent magnetic field lines."
+    },
+    {
+      "front": "What does the deflection of a compass needle near a current-carrying wire signify?",
+      "back": "It signifies that the electric current through the wire produces a magnetic effect and thus creates a magnetic field around the wire."
+    },
+    {
+      "front": "What is the property of a compass needle?",
+      "back": "A compass needle is a small bar magnet. Its ends point approximately towards the north and south directions. The end pointing towards north is the north-seeking (north) pole, and the other end pointing towards south is the south-seeking (south) pole."
+    },
+    {
+      "front": "How do poles of magnets interact?",
+      "back": "Like poles (north-north or south-south) repel each other, while unlike poles (north-south) attract each other."
+    },
+    {
+      "front": "Describe the direction of magnetic field lines around a bar magnet.",
+      "back": "Magnetic field lines emerge from the north pole and enter the south pole outside the magnet. Inside the magnet, they go from the south pole to the north pole, forming closed loops."
+    },
+    {
+      "front": "What is the behavior of magnetic field lines?",
+      "back": "Magnetic field lines are closed curves. They are directed from the north pole to the south pole outside the magnet and from the south pole to the north pole inside the magnet. They never intersect each other."
+    },
+    {
+      "front": "What is the unit of magnetic field strength named after Hans Christian Oersted?",
+      "back": "The unit of magnetic field strength named in his honor is the 'oersted'."
+    },
+    {
+      "front": "What is the key takeaway from Activity 12.1?",
+      "back": "An electric current flowing through a metallic conductor produces a magnetic effect."
+    },
+    {
+      "front": "What is the significance of the pattern formed by iron filings around a bar magnet?",
+      "back": "The pattern formed by iron filings demonstrates the presence of a magnetic field around the magnet and indicates the direction of the magnetic field lines."
+    },
+    {
+      "front": "How can magnetic field lines be drawn using a compass?",
+      "back": "By placing a compass near a magnet and marking the positions of its poles as it's moved step-by-step, forming a continuous curve, one can draw a magnetic field line."
+    },
+    {
+      "front": "Describe the magnetic field pattern around a straight current-carrying conductor.",
+      "back": "The magnetic field lines around a long straight current-carrying conductor are concentric circles with their center at the conductor."
+    },
+    {
+      "front": "What is the Right-Hand Thumb Rule?",
+      "back": "Imagine you are holding a straight current-carrying conductor in your right hand such that your thumb points in the direction of the current. Then, your fingers encircling the conductor will point in the direction of the magnetic field lines."
+    },
+    {
+      "front": "What is the magnetic field at the center of a circular current-carrying coil?",
+      "back": "The magnetic field at the center of a circular coil carrying current is perpendicular to the plane of the coil."
+    },
+    {
+      "front": "How does the magnetic field vary with distance from a straight current-carrying conductor?",
+      "back": "The magnetic field strength is inversely proportional to the distance from the conductor. It is strongest close to the wire and weaker farther away."
+    },
+    {
+      "front": "What is an electromagnet?",
+      "back": "An electromagnet is a type of magnet in which the magnetic field is produced by an electric current. It consists of a coil of wire wrapped around a magnetic core, typically made of iron."
+    },
+    {
+      "front": "What factors affect the strength of an electromagnet?",
+      "back": "The strength of an electromagnet depends on the number of turns in the coil, the current flowing through the coil, and the nature of the core material."
+    },
+    {
+      "front": "What is solenoid?",
+      "back": "A solenoid is a coil of wire wound in a closely packed helical or spiral form. When an electric current flows through a solenoid, it produces a magnetic field similar to that of a bar magnet."
+    },
+    {
+      "front": "What is Fleming's Left-Hand Rule?",
+      "back": "When the thumb, forefinger, and middle finger of the left hand are stretched mutually perpendicular to each other, if the forefinger points in the direction of the magnetic field and the middle finger points in the direction of the current, then the thumb will point in the direction of the motion (force) of the conductor."
+    }
+  ]
+}

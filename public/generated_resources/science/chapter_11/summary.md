@@ -1,0 +1,3 @@
+This chapter introduces electricity as a vital energy form.  It defines **electric current** as the rate of flow of electric charge (Q) through a conductor in unit time (t), mathematically expressed as I = Q/t. The SI unit of current is the **ampere (A)**, where 1A = 1 Coulomb/second.  An **ammeter** measures current and is connected in **series** in a circuit.
+
+The chapter also explains **electric potential difference** (potential difference) as the "electric pressure" that drives charge flow. This difference is established by devices like batteries, which create a potential difference across their terminals. The concept of a continuous, closed path for current flow, known as an **electric circuit**, is also crucial.

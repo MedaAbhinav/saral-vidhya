@@ -1,0 +1,26 @@
+{
+  "chapter_number": 7,
+  "chapter_name": "Madam Rides the Bus",
+  "subject": "English",
+  "pdf": "jeff107.pdf",
+  "completed": {
+    "beginner": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "intermediate": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ],
+    "advanced": [
+      "question_bank",
+      "study_guide",
+      "summary",
+      "flashcards"
+    ]
+  }
+}

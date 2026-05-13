@@ -1,0 +1,1 @@
+Acids taste sour and make blue things red. Bases taste bitter and make red things blue. They're like opposites! If you mix an acid and a base, they cancel each other out, like giving each other a hug and becoming neutral. We use special things called indicators (like litmus paper) to tell if something is an acid or a base by how their colors change.

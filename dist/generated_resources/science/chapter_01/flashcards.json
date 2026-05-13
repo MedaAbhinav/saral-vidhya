@@ -1,0 +1,86 @@
+{
+  "chapter": "Chemical Reactions and Equations",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "What is a chemical reaction?",
+      "back": "A chemical reaction is a process in which the nature and identity of the initial substance(s) change, resulting in the formation of new substance(s)."
+    },
+    {
+      "front": "Name any four observations that indicate a chemical reaction has taken place.",
+      "back": "1. Change in state\n2. Change in colour\n3. Evolution of a gas\n4. Change in temperature"
+    },
+    {
+      "front": "What happens when a magnesium ribbon is burnt in air?",
+      "back": "When a magnesium ribbon is burnt in air, it burns with a dazzling white flame and changes into a white powder called magnesium oxide."
+    },
+    {
+      "front": "What are reactants in a chemical reaction?",
+      "back": "Reactants are the substances that undergo a chemical change in a chemical reaction."
+    },
+    {
+      "front": "What are products in a chemical reaction?",
+      "back": "Products are the new substances formed during a chemical reaction."
+    },
+    {
+      "front": "How is a word-equation written for a chemical reaction?",
+      "back": "A word-equation is written by placing the reactants on the left-hand side (LHS) and the products on the right-hand side (RHS), separated by an arrow pointing towards the products. A plus sign (+) is used between multiple reactants or products."
+    },
+    {
+      "front": "Give the word-equation for the reaction of magnesium burning in air.",
+      "back": "Magnesium + Oxygen → Magnesium oxide"
+    },
+    {
+      "front": "What is a chemical equation?",
+      "back": "A chemical equation is a symbolic representation of a chemical reaction using chemical formulae of the reactants and products."
+    },
+    {
+      "front": "Write the chemical equation for the reaction of magnesium burning in air.",
+      "back": "Mg + O₂ → MgO"
+    },
+    {
+      "front": "What is a skeletal chemical equation?",
+      "back": "A skeletal chemical equation is an unbalanced chemical equation where the number of atoms of each element may not be the same on both sides of the arrow."
+    },
+    {
+      "front": "Why must a chemical equation be balanced?",
+      "back": "A chemical equation must be balanced to obey the law of conservation of mass, which states that mass can neither be created nor destroyed in a chemical reaction."
+    },
+    {
+      "front": "State the law of conservation of mass.",
+      "back": "The law of conservation of mass states that mass can neither be created nor destroyed in a chemical reaction."
+    },
+    {
+      "front": "What does the arrow in a chemical equation represent?",
+      "back": "The arrow in a chemical equation represents the direction of the reaction, showing the transformation of reactants into products."
+    },
+    {
+      "front": "How are multiple reactants or products indicated in a word-equation or chemical equation?",
+      "back": "A plus sign (+) is used between multiple reactants or multiple products."
+    },
+    {
+      "front": "In a chemical equation, which side represents the reactants and which side represents the products?",
+      "back": "The reactants are on the left-hand side (LHS) and the products are on the right-hand side (RHS)."
+    },
+    {
+      "front": "What are the components of a chemical equation?",
+      "back": "A chemical equation consists of reactants, products, and an arrow indicating the direction of the reaction."
+    },
+    {
+      "front": "What does it mean for a chemical equation to be balanced?",
+      "back": "A chemical equation is balanced when the number of atoms of each element is the same on both the reactant side and the product side."
+    },
+    {
+      "front": "What is the importance of using chemical formulae in chemical equations?",
+      "back": "Using chemical formulae makes chemical equations more concise and useful compared to word-equations."
+    },
+    {
+      "front": "What can we infer if a chemical equation is unbalanced?",
+      "back": "If a chemical equation is unbalanced, it means that the total mass of the elements is not the same on both sides of the equation, violating the law of conservation of mass."
+    },
+    {
+      "front": "What kind of change occurs in a chemical reaction?",
+      "back": "In a chemical reaction, the nature and identity of the initial substance(s) change."
+    }
+  ]
+}

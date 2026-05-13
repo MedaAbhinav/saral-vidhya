@@ -1,0 +1,5 @@
+Here's a standard-level summary for NCERT Class 10 Science – "Light – Reflection and Refraction":
+
+This chapter introduces the fundamental properties of light, starting with the observation that light travels in straight lines, evident from shadow formation. It then delves into **Reflection of Light**, where light bounces off a surface. The key laws of reflection are: the angle of incidence equals the angle of reflection, and the incident ray, reflected ray, and normal lie in the same plane. Plane mirrors form virtual, erect, same-sized, and laterally inverted images.
+
+The chapter also introduces **Spherical Mirrors**, which are curved. A **concave mirror** curves inwards (like the inside of a spoon), and a **convex mirror** curves outwards (like the back of a spoon). These mirrors are parts of a sphere. The principles of reflection are crucial for understanding how these mirrors form images, which can vary in size and nature depending on the type of mirror and object placement.

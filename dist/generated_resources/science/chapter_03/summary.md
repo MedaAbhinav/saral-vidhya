@@ -1,0 +1,5 @@
+Elements are broadly classified as metals or non-metals based on their distinct physical properties.
+
+**Metals** typically exhibit metallic lustre (shiny surface), are generally hard (though sodium, potassium are soft), malleable (can be beaten into thin sheets, like gold and silver), and ductile (can be drawn into thin wires, gold being most ductile). They are excellent conductors of heat (silver and copper are best, lead and mercury are poor) and electricity. Metals are also sonorous, producing sound when struck, and generally possess high melting points.
+
+In contrast, **Non-metals** usually lack lustre (except iodine), are generally soft (except diamond, the hardest natural substance), brittle (non-malleable and non-ductile), and are poor conductors of both heat and electricity (except graphite, which conducts electricity). Non-metals exist as solids, liquids (bromine), or gases at room temperature. Understanding these distinguishing properties and their key exceptions is vital.

@@ -1,0 +1,5 @@
+## Metals and Non-metals: A Summary
+
+This chapter introduces the fundamental differences between metals and non-metals based on their physical properties. Metals, such as iron and copper, are characterized by their lustrous appearance, hardness, and ability to be shaped into thin sheets (malleability) and wires (ductility). They are also excellent conductors of heat and electricity, making them suitable for cooking utensils and wiring. When struck, metals produce a ringing sound, a property called sonorousness.
+
+In contrast, non-metals, like carbon and sulphur, generally lack these properties. They are typically dull, brittle (breaking easily), and poor conductors of heat and electricity. Bromine is an exception as it is a liquid non-metal. Understanding these distinct physical properties helps explain the diverse uses of metals and non-metals in our daily lives, from construction and electronics to fuel and medicines.

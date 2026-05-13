@@ -1,0 +1,87 @@
+{
+  "chapter": "Chemical Reactions and Equations",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "What is a chemical reaction?",
+      "back": "A chemical reaction is a process in which new substances with new properties are formed. It involves a chemical change where the identity of the initial substance(s) changes."
+    },
+    {
+      "front": "What are the indicators that a chemical reaction has taken place?",
+      "back": "Any of the following observations indicate a chemical reaction: change in state, change in colour, evolution of a gas, or change in temperature."
+    },
+    {
+      "front": "What is a chemical equation?",
+      "back": "A chemical equation is a symbolic representation of a chemical reaction using chemical formulae of reactants and products."
+    },
+    {
+      "front": "What are reactants in a chemical equation?",
+      "back": "Reactants are the substances that undergo chemical change and are written on the left-hand side (LHS) of the chemical equation."
+    },
+    {
+      "front": "What are products in a chemical equation?",
+      "back": "Products are the new substances formed during a chemical reaction and are written on the right-hand side (RHS) of the chemical equation."
+    },
+    {
+      "front": "What is a word-equation?",
+      "back": "A word-equation is a way to represent a chemical reaction using words to describe the reactants and products, separated by an arrow (e.g., Magnesium + Oxygen → Magnesium oxide)."
+    },
+    {
+      "front": "What is a skeletal chemical equation?",
+      "back": "A skeletal chemical equation is an unbalanced chemical equation that uses chemical formulae but does not necessarily have an equal number of atoms of each element on both sides (e.g., Mg + O₂ → MgO)."
+    },
+    {
+      "front": "State the Law of Conservation of Mass.",
+      "back": "The Law of Conservation of Mass states that mass can neither be created nor destroyed in a chemical reaction. The total mass of the elements in reactants must equal the total mass of the elements in products."
+    },
+    {
+      "front": "What is a balanced chemical equation?",
+      "back": "A balanced chemical equation is a chemical equation in which the number of atoms of each element is the same on both the reactant and product sides, thereby obeying the Law of Conservation of Mass."
+    },
+    {
+      "front": "How do you balance a chemical equation?",
+      "back": "To balance a chemical equation, you adjust the stoichiometric coefficients (numbers in front of the chemical formulae) of the reactants and products so that the number of atoms of each element is equal on both sides."
+    },
+    {
+      "front": "Give an example of a skeletal chemical equation.",
+      "back": "Mg + O₂ → MgO (This represents the burning of magnesium in air but is unbalanced)."
+    },
+    {
+      "front": "Write the balanced chemical equation for the burning of magnesium.",
+      "back": "2Mg + O₂ → 2MgO"
+    },
+    {
+      "front": "What are the physical states of reactants and products often indicated in a chemical equation?",
+      "back": "The physical states are indicated using symbols: (g) for gas, (l) for liquid, (aq) for aqueous solution, and (s) for solid."
+    },
+    {
+      "front": "Write the chemical equation for the reaction between zinc and dilute sulphuric acid, including state symbols.",
+      "back": "Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g)"
+    },
+    {
+      "front": "What is hydrogen gas characterized by when it is produced in a reaction?",
+      "back": "Hydrogen gas is characterized by a 'pop' sound when a burning splinter is brought near it."
+    },
+    {
+      "front": "What is carbon dioxide gas characterized by when it is produced in a reaction?",
+      "back": "Carbon dioxide gas turns limewater (calcium hydroxide solution) milky."
+    },
+    {
+      "front": "What is heat represented by in a chemical equation?",
+      "back": "Heat can be represented by writing 'heat' or 'energy' on the reactant side (if absorbed) or product side (if released). It can also be indicated by a temperature change."
+    },
+    {
+      "front": "What is a combination reaction?",
+      "back": "A combination reaction is a reaction in which two or more reactants combine to form a single product. (A + B → AB)"
+    },
+    {
+      "front": "Give an example of a combination reaction.",
+      "back": "CaO(s) + H₂O(l) → Ca(OH)₂(aq) (Formation of slaked lime)."
+    },
+    {
+      "front": "What is a decomposition reaction?",
+      "back": "A decomposition reaction is a reaction in which a single compound breaks down into two or more simpler substances. (AB → A + B)"
+    }
+  ]
+}

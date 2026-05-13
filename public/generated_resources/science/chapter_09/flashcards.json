@@ -1,0 +1,86 @@
+{
+  "chapter": "Light – Reflection and Refraction",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "What makes things visible?",
+      "back": "Objects reflect light that falls on them. This reflected light, when received by our eyes, enables us to see things."
+    },
+    {
+      "front": "What is the straight-line path of light usually indicated as?",
+      "back": "A ray of light."
+    },
+    {
+      "front": "What is the effect where light bends around a small opaque object?",
+      "back": "Diffraction of light."
+    },
+    {
+      "front": "What is the basic concept used to study reflection and refraction of light in this chapter?",
+      "back": "The straight-line propagation of light."
+    },
+    {
+      "front": "State the first law of reflection.",
+      "back": "The angle of incidence is equal to the angle of reflection."
+    },
+    {
+      "front": "State the second law of reflection.",
+      "back": "The incident ray, the normal to the mirror at the point of incidence, and the reflected ray all lie in the same plane."
+    },
+    {
+      "front": "What are the properties of an image formed by a plane mirror?",
+      "back": "The image is always virtual and erect, its size is equal to that of the object, it is formed as far behind the mirror as the object is in front, and it is laterally inverted."
+    },
+    {
+      "front": "What is a spherical mirror?",
+      "back": "A mirror whose reflecting surface is a part of the surface of a sphere."
+    },
+    {
+      "front": "What is a concave mirror?",
+      "back": "A spherical mirror whose reflecting surface is curved inwards, facing towards the center of the sphere."
+    },
+    {
+      "front": "What is a convex mirror?",
+      "back": "A spherical mirror whose reflecting surface is curved outwards."
+    },
+    {
+      "front": "Which surface of a shining spoon can be approximated to a concave mirror?",
+      "back": "The surface that curves inwards."
+    },
+    {
+      "front": "Which surface of a shining spoon can be approximated to a convex mirror?",
+      "back": "The surface that bulges outwards."
+    },
+    {
+      "front": "What is the effect of light bending around an obstacle known as?",
+      "back": "Diffraction."
+    },
+    {
+      "front": "When does the straight-line treatment of optics using rays fail?",
+      "back": "When dealing with phenomena like diffraction, where light bends."
+    },
+    {
+      "front": "What phenomenon is associated with light's ability to transmit through a medium?",
+      "back": "Seeing through transparent objects."
+    },
+    {
+      "front": "What is the term for the phenomenon where light bends around a small opaque object?",
+      "back": "Diffraction."
+    },
+    {
+      "front": "What is the angle of incidence?",
+      "back": "The angle between the incident ray and the normal to the surface at the point of incidence."
+    },
+    {
+      "front": "What is the angle of reflection?",
+      "back": "The angle between the reflected ray and the normal to the surface at the point of incidence."
+    },
+    {
+      "front": "What is the meaning of 'lateral inversion' for an image?",
+      "back": "The image appears reversed from left to right."
+    },
+    {
+      "front": "What are the two main types of spherical mirrors?",
+      "back": "Concave mirrors and convex mirrors."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Imagine a farmer named Lencho. His field of corn, which was his only way to earn money, got completely destroyed by a big hailstorm. He was very sad and worried about his family having no food.
+
+But Lencho had huge faith in God. He believed God would surely help him. So, he decided to write a letter directly to God! In his letter, he asked God to send him 100 pesos so he could plant new crops and feed his family until the next harvest. He truly believed God would send the money.

@@ -1,0 +1,7 @@
+**Summary: Nelson Mandela: Long Walk to Freedom**
+
+"Nelson Mandela: Long Walk to Freedom" recounts the historic inauguration of Nelson Mandela as South Africa's first Black President on May 10, 1994. This momentous event marked the official end of the brutal system of apartheid, which had enforced racial segregation and white supremacy for over three centuries.
+
+The grand ceremony took place in the sandstone amphitheatre of the Union Buildings in Pretoria, a site that once symbolized white dominance but now hosted a "rainbow gathering" of international leaders and dignitaries from over 140 countries. This global presence affirmed the dawn of a new democratic, non-racial government in South Africa.
+
+Mandela, whose African National Congress (ANC) secured a landslide victory, pledged to uphold the Constitution and dedicate himself to the well-being of his nation. In his address, he spoke of a "newborn liberty" emerging from a long "extraordinary human disaster." He declared that South Africa, once an "outlaw" nation, was now celebrating a common victory for justice, peace, and human dignity. Mandela solemnly vowed that "never, never, and never again" would the beautiful land experience oppression, promising to liberate all its people from poverty, deprivation, suffering, and all forms of discrimination. The event symbolized a new era of freedom and equality for all.

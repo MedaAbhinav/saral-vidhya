@@ -1,0 +1,107 @@
+{
+  "chapter": "Heredity",
+  "subject": "Science",
+  "level": "advanced",
+  "flashcards": [
+    {
+      "front": "Gregor Mendel studied pea plants. If he crossed a pure-bred tall pea plant (TT) with a pure-bred dwarf pea plant (tt), what would be the genotype and phenotype of all the offspring in the F1 generation?",
+      "back": "The genotype of all offspring in the F1 generation would be Tt. This is because the tall allele (T) is dominant over the dwarf allele (t). Therefore, the phenotype of all offspring in the F1 generation would be tall. This illustrates Mendel's Law of Dominance."
+    },
+    {
+      "front": "In a monohybrid cross, when a heterozygous tall pea plant (Tt) is self-pollinated, what is the expected genotypic ratio of the offspring in the F2 generation? Explain the reasoning.",
+      "back": "The expected genotypic ratio in the F2 generation is 1:2:1. This is because the heterozygous parent (Tt) produces gametes with T and t alleles in equal proportions. When these gametes combine randomly during self-pollination (T from one parent with T from another, T with t, t with T, and t with t), the resulting genotypes are TT (homozygous dominant), Tt (heterozygous), and tt (homozygous recessive) in a 1:2:1 ratio respectively. This exemplifies Mendel's Law of Segregation."
+    },
+    {
+      "front": "Consider a genetic cross between two pea plants where one is heterozygous for flower color (Pp) and homozygous recessive for seed shape (rr). The other parent is homozygous recessive for flower color (pp) and heterozygous for seed shape (Rr). What are the possible genotypes of the offspring, and what is the probability of offspring having purple flowers and round seeds?",
+      "back": "This is a dihybrid cross problem. Let's break down the inheritance for each trait separately. For flower color, Pp x pp will produce Pp and pp in a 1:1 ratio. For seed shape, Rr x rr will produce Rr and rr in a 1:1 ratio. To find the combined genotypes, we multiply the probabilities of each trait:  Possible genotypes are: PpRr, Pprr, ppRr, pprr.  To have purple flowers (dominant P) and round seeds (dominant R), the genotype must be PpRr. The probability of Pp from the first cross is 1/2. The probability of Rr from the second cross is 1/2. Therefore, the probability of PpRr offspring is (1/2) * (1/2) = 1/4. The probability of purple flowers and round seeds is 1/4."
+    },
+    {
+      "front": "Explain the phenomenon of 'incomplete dominance' with an example, and how it differs from complete dominance as observed by Mendel.",
+      "back": "Incomplete dominance occurs when neither allele is completely dominant over the other, resulting in a heterozygous phenotype that is an intermediate blend of the two parental phenotypes. For example, in Snapdragon flowers, crossing a red-flowered plant (RR) with a white-flowered plant (WW) results in pink-flowered offspring (RW). This differs from complete dominance, where the dominant allele masks the expression of the recessive allele, and the heterozygote expresses the dominant trait."
+    },
+    {
+      "front": "What is the significance of DNA as the molecule of heredity? How does its structure facilitate inheritance?",
+      "back": "DNA (Deoxyribonucleic Acid) is the molecule of heredity because it carries the genetic instructions for the development, functioning, growth, and reproduction of all known organisms. Its double-helix structure, composed of complementary base pairs (A-T, G-C), allows for precise replication. During DNA replication, each strand serves as a template for synthesizing a new complementary strand, ensuring that genetic information is accurately passed from one generation to the next."
+    },
+    {
+      "front": "Differentiate between genes and alleles. Provide an example related to human eye color.",
+      "back": "A gene is a segment of DNA that codes for a specific trait. Alleles are different versions of the same gene. For example, the gene for eye color determines whether an individual has a certain eye color. Alleles for this gene could be the allele for brown eyes (let's say 'B') and the allele for blue eyes (let's say 'b'). A person can have the genotype BB, Bb, or bb for eye color."
+    },
+    {
+      "front": "If a trait is sex-linked, what is the probability of a father passing it to his son? What about a mother passing it to her son? Explain with reference to sex chromosomes.",
+      "back": "Sex-linked traits are typically located on the X chromosome.  Fathers (XY) pass their Y chromosome to their sons and their X chromosome to their daughters. Therefore, a father **cannot** pass a sex-linked trait to his son, as the son receives the Y chromosome from the father. A mother (XX) passes one of her X chromosomes to her son. If she carries an allele for a sex-linked trait on one of her X chromosomes, there is a 50% chance she will pass that X chromosome to her son, thus passing the trait to him."
+    },
+    {
+      "front": "What is a Punnett square and how is it used to predict the outcome of genetic crosses?",
+      "back": "A Punnett square is a graphical tool used to predict the genotypes and phenotypes of offspring from a genetic cross. It involves listing the possible gametes produced by each parent along the top and side of a grid. The boxes within the grid represent the possible genotypes of the offspring, formed by combining the alleles from the corresponding gametes. This allows for the determination of genotypic and phenotypic ratios."
+    },
+    {
+      "front": "Explain Mendel's Law of Independent Assortment using an example of a dihybrid cross. What is the condition under which this law holds true?",
+      "back": "Mendel's Law of Independent Assortment states that alleles for different traits segregate independently of each other during gamete formation. For example, in a dihybrid cross involving seed shape (round/wrinkled) and seed color (yellow/green), the inheritance of seed shape does not influence the inheritance of seed color. The alleles for shape (e.g., Rr) and color (e.g., Yy) assort randomly into gametes (RY, Ry, rY, ry). This law holds true when the genes for the traits are located on different chromosomes or are far apart on the same chromosome (i.e., not linked)."
+    },
+    {
+      "front": "Define 'mutation' and explain its role in creating variation. Are all mutations beneficial?",
+      "back": "A mutation is a permanent change in the DNA sequence of an organism. Mutations can be caused by errors during DNA replication, exposure to mutagens (like radiation or chemicals), or other factors. They are a primary source of new genetic variation. However, not all mutations are beneficial. They can be neutral, harmful (deleterious), or, rarely, advantageous. The effect of a mutation depends on where it occurs in the DNA and its impact on protein function."
+    },
+    {
+      "front": "Consider a scenario where a population of insects exhibits variation in wing color, with some being green and others brown. If the environment changes, and birds that prey on these insects are better able to spot green insects against a new brown-leaf background, what is the likely long-term effect on the insect population's wing color?",
+      "back": "The likely long-term effect is a shift towards a higher frequency of brown-winged insects in the population. This is an example of natural selection. The birds act as a selective pressure, preying more heavily on green-winged insects. Brown-winged insects have a survival advantage because they are better camouflaged. Over generations, the genes for brown wings will become more common in the population as brown-winged survivors reproduce and pass on their traits."
+    },
+    {
+      "front": "What is the difference between acquired traits and inherited traits? Give examples for each.",
+      "back": "Inherited traits are passed from parents to offspring through genes. They are present from birth and are determined by the genetic makeup. Examples include eye color, hair color, and blood type. Acquired traits are developed during an organism's lifetime due to environmental influences or learned behaviors. They are not encoded in the genes and are not passed on to offspring. Examples include a bodybuilder's muscles, a scar from an injury, or knowledge gained from education."
+    },
+    {
+      "front": "Explain the concept of 'genotype' and 'phenotype' using the example of pea plant height.",
+      "back": "Genotype refers to the genetic makeup of an organism, specifically the alleles present for a particular gene. Phenotype refers to the observable physical or biochemical characteristics of an organism, which are the result of the interaction between its genotype and the environment. For pea plant height, the genotype could be TT (homozygous dominant), Tt (heterozygous), or tt (homozygous recessive). The phenotype for TT and Tt would be 'tall' (as T is dominant), while the phenotype for tt would be 'dwarf'."
+    },
+    {
+      "front": "In humans, blood types are determined by alleles I^A, I^B, and i. Alleles I^A and I^B are codominant, and both are dominant over i. If a mother has blood type AB and a father has blood type O, what are the possible blood types of their children? Explain the genetic basis.",
+      "back": "The mother's genotype is I^A I^B (since AB blood type is codominant). The father's genotype is ii (since type O is recessive). The mother can produce gametes with I^A or I^B. The father can only produce gametes with i.  When these gametes combine, the possible genotypes of the children are I^A i and I^B i.  The phenotype for I^A i is blood type A, and the phenotype for I^B i is blood type B. Therefore, the possible blood types of their children are A and B, each with a 50% probability."
+    },
+    {
+      "front": "What is genetic drift? How does it differ from natural selection in terms of the mechanism of change in allele frequencies?",
+      "back": "Genetic drift is a random change in allele frequencies within a population, occurring by chance rather than by selective advantage. It has a more significant effect in small populations. Natural selection, on the other hand, is a non-random process where individuals with traits better suited to their environment are more likely to survive and reproduce, leading to an increase in the frequency of advantageous alleles. Genetic drift is driven by chance events, while natural selection is driven by environmental pressures and differential survival/reproduction."
+    },
+    {
+      "front": "Explain the concept of 'homologous chromosomes' and their role in inheritance.",
+      "back": "Homologous chromosomes are pairs of chromosomes that have the same genes in the same order, one inherited from each parent. They are similar in size, shape, and centromere position. During meiosis, homologous chromosomes pair up and can exchange genetic material (crossing over), contributing to genetic recombination. They then segregate independently, ensuring that each gamete receives one chromosome from each homologous pair, which is crucial for maintaining the correct chromosome number and genetic diversity."
+    },
+    {
+      "front": "If a recessive trait appears in a generation, what can you definitively conclude about the genotypes of the parents?",
+      "back": "If a recessive trait appears in a generation, it means that the offspring expressing the trait must have inherited one recessive allele from each parent. Therefore, both parents must be at least heterozygous carriers of the recessive allele. If the recessive allele is 'a', then the parents' genotypes must include 'Aa' (heterozygous) or 'aa' (if one parent also expresses the trait). They cannot be homozygous dominant (AA) as they would not possess the recessive allele to pass on."
+    },
+    {
+      "front": "Define 'autosomes' and 'sex chromosomes'. How do they differ in terms of their role in determining sex and inheritance patterns?",
+      "back": "Autosomes are chromosomes that are not sex chromosomes. Humans have 22 pairs of autosomes. They carry genes for most of the body's traits and are inherited in the same manner by both males and females. Sex chromosomes (X and Y) determine an individual's biological sex. Females typically have two X chromosomes (XX), while males have one X and one Y chromosome (XY). Sex-linked traits are carried on sex chromosomes, leading to different inheritance patterns in males and females."
+    },
+    {
+      "front": "What is the primary advantage of sexual reproduction over asexual reproduction in terms of generating variation for evolution?",
+      "back": "The primary advantage of sexual reproduction over asexual reproduction in generating variation for evolution is the recombination of genetic material from two different parents. This process creates novel combinations of alleles, leading to significantly greater genetic diversity within a population compared to asexual reproduction, where offspring are essentially clones of the parent with only minor mutations. This increased variation provides more raw material for natural selection to act upon, potentially leading to faster adaptation and evolution."
+    },
+    {
+      "front": "Explain the concept of 'linked genes' and how it deviates from Mendel's Law of Independent Assortment. Provide a real-world scenario where linkage is observed.",
+      "back": "Linked genes are genes located close together on the same chromosome and tend to be inherited together. This deviates from Mendel's Law of Independent Assortment, which states that alleles for different traits segregate independently. When genes are linked, they do not assort independently. For example, in fruit flies, the genes for body color and wing shape are located on the same chromosome and are often inherited together, meaning a fly with a grey body is more likely to have normal wings, and a fly with a black body is more likely to have vestigial wings."
+    },
+    {
+      "front": "If a plant breeder wants to develop a new variety of disease-resistant wheat, which type of variation would be most useful to them, and why?",
+      "back": "The plant breeder would be most interested in heritable variations (genetic variations) that confer disease resistance. Acquired traits, like temporary immunity due to a specific treatment, are not useful for developing a new variety because they cannot be passed to offspring. They need genetic mutations or combinations that inherently make the wheat plants resistant to specific diseases, so these resistance genes can be bred into subsequent generations."
+    },
+    {
+      "front": "What is the function of gametes in sexual reproduction, and how does their formation contribute to genetic diversity?",
+      "back": "Gametes (sperm and egg cells) are haploid reproductive cells that contain half the number of chromosomes of a somatic cell. During meiosis, the process of gamete formation, homologous chromosomes pair up and undergo crossing over (exchange of genetic material), creating new allele combinations. Furthermore, the independent assortment of homologous chromosomes during meiosis ensures that each gamete receives a unique mix of maternal and paternal chromosomes. When these gametes fuse during fertilization, they restore the diploid number of chromosomes, and the combination of genetic material from two parents creates offspring with a unique genotype and phenotype."
+    },
+    {
+      "front": "How can the principles of heredity be applied in agriculture to improve crop yields or pest resistance?",
+      "back": "The principles of heredity are fundamental to plant breeding. By understanding inheritance patterns, breeders can select parent plants with desirable traits (like high yield, disease resistance, or drought tolerance) and cross them to produce offspring with enhanced characteristics. Techniques like selective breeding and hybridization utilize knowledge of dominant and recessive alleles, gene linkage, and quantitative inheritance to develop new crop varieties that are more productive, resilient, and nutritious."
+    },
+    {
+      "front": "Consider a population of butterflies where wing patterns are determined by a single gene with two alleles: 'splotchy' (S) and 'plain' (s).  If the frequency of the 'plain' allele (s) in the population is 0.4, what would be the frequency of the 'splotchy' allele (S) under Hardy-Weinberg equilibrium? And what would be the expected frequency of homozygous 'splotchy' butterflies?",
+      "back": "Under Hardy-Weinberg equilibrium, the sum of allele frequencies for a gene is 1: p + q = 1, where p is the frequency of the dominant allele and q is the frequency of the recessive allele.  Given q (frequency of 's') = 0.4, then p (frequency of 'S') = 1 - 0.4 = 0.6.  The frequency of homozygous dominant individuals (SS) is p², so (0.6)² = 0.36. Therefore, the frequency of the 'splotchy' allele (S) is 0.6, and the expected frequency of homozygous 'splotchy' butterflies (SS) is 0.36."
+    },
+    {
+      "front": "Explain the concept of 'pleiotropy' with an example. How does this challenge the idea of one gene controlling only one trait?",
+      "back": "Pleiotropy is the phenomenon where a single gene influences multiple, seemingly unrelated phenotypic traits. This challenges the simple 'one gene, one trait' idea. A classic example is Phenylketonuria (PKU), a genetic disorder caused by a mutation in a single gene that codes for an enzyme involved in phenylalanine metabolism. This single gene defect can lead to intellectual disability, reduced hair and skin pigmentation, and other issues."
+    }
+  ]
+}

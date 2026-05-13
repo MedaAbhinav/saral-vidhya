@@ -1,0 +1,107 @@
+{
+  "chapter": "Acids, Bases and Salts",
+  "subject": "Science",
+  "level": "advanced",
+  "flashcards": [
+    {
+      "front": "A solution turns blue litmus red and gives a fizzing sound when a piece of zinc is added to it. Which type of substance is it, and what gas is evolved?",
+      "back": "The solution is acidic. The fizzing sound indicates the evolution of hydrogen gas, which is characteristic of the reaction between an acid and a reactive metal like zinc. The general reaction is: Acid + Metal → Salt + Hydrogen gas."
+    },
+    {
+      "front": "Explain why antacids are used to treat indigestion. Mention the chemical nature of antacids and the process involved.",
+      "back": "Indigestion is often caused by excess stomach acid (HCl). Antacids are basic substances (e.g., magnesium hydroxide, aluminum hydroxide) that neutralize this excess acid. The process is neutralization: Acid (in stomach) + Base (antacid) → Salt + Water. This brings relief from the burning sensation."
+    },
+    {
+      "front": "Compare the reaction of dilute sulfuric acid with sodium hydroxide and calcium hydroxide. What common product is formed, and how do the physical properties of the products differ?",
+      "back": "Both reactions are neutralization reactions: \n1. H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l) (Sodium sulfate is soluble).\n2. H₂SO₄(aq) + Ca(OH)₂(aq) → CaSO₄(s) + 2H₂O(l) (Calcium sulfate is sparingly soluble, forming a precipitate).\n\nThe common product is water. Sodium sulfate remains dissolved, while calcium sulfate is a solid precipitate, making the solution cloudy."
+    },
+    {
+      "front": "A student adds dilute hydrochloric acid to a substance and observes that no gas is evolved, but the resulting solution turns phenolphthalein pink. What could be the original substance, and why does phenolphthalein turn pink?",
+      "back": "The original substance is likely a basic oxide or a strong base. While no gas evolved (suggesting it's not a metal reacting to produce H₂), the solution turning phenolphthalein pink indicates it's basic. If it were a metal carbonate or bicarbonate, CO₂ would evolve. The pink color of phenolphthalein is characteristic in basic solutions."
+    },
+    {
+      "front": "Why is it dangerous to mix concentrated sulfuric acid with water in a laboratory? What is the correct procedure?",
+      "back": "Mixing concentrated sulfuric acid with water is highly exothermic. The acid releases a large amount of heat. If water is added to the acid, the water can boil explosively, splattering the corrosive acid. The correct procedure is to always add acid slowly to water, with constant stirring, to dissipate the heat generated."
+    },
+    {
+      "front": "What is meant by the term 'amphoteric oxide'? Give an example of an amphoteric oxide and write its reaction with both an acid and a base.",
+      "back": "An amphoteric oxide is an oxide that can react with both acids and bases to form salt and water. Example: Aluminum oxide (Al₂O₃).\nReaction with acid: Al₂O₃(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂O(l)\nReaction with base: Al₂O₃(s) + 2NaOH(aq) + 3H₂O(l) → 2Na[Al(OH)₄](aq) (Sodium tetrahydroxoaluminate)"
+    },
+    {
+      "front": "You are given solutions of sodium chloride, sodium hydroxide, and hydrochloric acid. Using only red litmus paper, how can you identify each solution?",
+      "back": "1. Test each solution with red litmus. The solution that turns red litmus blue is sodium hydroxide (base).\n2. Take the remaining two solutions. Add a little of the identified basic solution (NaOH) to each of them. The solution that shows no change with the base and the original red litmus paper is distilled water.\n3. The remaining solution, which will react with the base (though not immediately obvious without other indicators or tests), is hydrochloric acid. (Alternatively, if one assumes neutral NaCl, it won't change red litmus, nor will it react noticeably with NaOH to change its basicity). A more robust method would involve taking an unknown and adding NaOH to it. If it forms a precipitate or gets warmer (neutralization), it's an acid. If it remains unchanged and doesn't turn red litmus blue, it's likely NaCl."
+    },
+    {
+      "front": "Explain the term 'anhydrous salt' and how it differs from a hydrated salt. Give an example of each.",
+      "back": "An anhydrous salt is a salt that does not contain any water molecules in its crystalline structure. Example: Anhydrous copper(II) sulfate (CuSO₄).\nA hydrated salt is a salt that contains a definite number of water molecules in its crystalline structure, known as water of crystallization. Example: Hydrated copper(II) sulfate (CuSO₄·5H₂O), which is blue."
+    },
+    {
+      "front": "What is the role of the 'water of crystallization' in hydrated salts?",
+      "back": "Water of crystallization is chemically bound water molecules within the crystal lattice of a salt. It contributes to the specific colour, shape, and other physical properties of the hydrated crystal. For instance, anhydrous copper sulfate is white, while copper sulfate pentahydrate is blue due to the water of crystallization."
+    },
+    {
+      "front": "A metal oxide reacts with an acid to produce salt and water. If the metal oxide is insoluble in water, does it necessarily mean it is a basic oxide?",
+      "back": "Not necessarily. While most metal oxides are basic and insoluble, some metal oxides are amphoteric (like Al₂O₃, ZnO) and can react with acids. There are also non-metal oxides which are acidic and can be insoluble in water (e.g., SiO₂). Therefore, insolubility alone does not confirm a basic oxide; reaction with an acid to form salt and water is the key characteristic."
+    },
+    {
+      "front": "Can a strong acid and a weak base neutralize each other completely? Explain with an example.",
+      "back": "Yes, a strong acid and a weak base can neutralize each other completely. When reacted in stoichiometric amounts, the resulting solution will be acidic because the conjugate base of the weak base will hydrolyze water to produce H⁺ ions. Example: HCl (strong acid) + NH₄OH (weak base) → NH₄Cl (salt) + H₂O. The salt NH₄Cl, when dissolved in water, forms NH₄⁺ ions, which react with water to produce NH₃ and H₃O⁺ ions, making the solution acidic."
+    },
+    {
+      "front": "Why is it important to use dilute acids in laboratory experiments involving reactions with metals?",
+      "back": "Dilute acids are generally used because they react at a controlled and manageable rate, producing hydrogen gas safely. Concentrated acids are highly corrosive and oxidizing, and their reactions with metals can be violent, producing heat and potentially other gases besides hydrogen, making them dangerous and less predictable for typical qualitative experiments."
+    },
+    {
+      "front": "What is the chemical reaction occurring when baking soda is heated? Write its balanced chemical equation.",
+      "back": "When baking soda (sodium bicarbonate, NaHCO₃) is heated, it decomposes to form sodium carbonate, water, and carbon dioxide gas. \nBalanced equation: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g)"
+    },
+    {
+      "front": "How does the addition of phenolphthalein to a solution help in identifying its acidic or basic nature? Mention the colour changes.",
+      "back": "Phenolphthalein is an acid-base indicator. In acidic and neutral solutions, it is colourless. In basic (alkaline) solutions, it turns pink or magenta. Therefore, if phenolphthalein is added to a solution and it remains colourless, the solution is acidic or neutral. If it turns pink, the solution is basic."
+    },
+    {
+      "front": "Can a salt solution turn red litmus blue? If yes, under what conditions? Give an example.",
+      "back": "Yes, a salt solution can turn red litmus blue if the salt is formed from a strong base and a weak acid. In this case, the salt solution will be basic due to hydrolysis of the anion. Example: Sodium acetate (CH₃COONa), formed from NaOH (strong base) and CH₃COOH (weak acid), gives a basic solution and will turn red litmus blue."
+    },
+    {
+      "front": "Explain the difference between a strong acid and a weak acid in terms of ionization in water.",
+      "back": "A strong acid is an acid that completely or almost completely ionizes in aqueous solution, producing a high concentration of H⁺ ions. Example: HCl → H⁺ + Cl⁻. A weak acid only partially ionizes in aqueous solution, producing a lower concentration of H⁺ ions. Example: CH₃COOH ⇌ H⁺ + CH₃COO⁻ (equilibrium)."
+    },
+    {
+      "front": "What is the common name for calcium hydroxide, and why is it used as a whitewash?",
+      "back": "The common name for calcium hydroxide is slaked lime. It is used for whitewashing because when applied to walls, it reacts with the carbon dioxide present in the air to form a thin layer of calcium carbonate, which gives a shiny white finish. The reaction is: Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l)."
+    },
+    {
+      "front": "A chemist wants to prepare a neutral solution. They have a strong acid and a strong base. What is the critical factor in ensuring complete neutralization?",
+      "back": "The critical factor is using the exact stoichiometric (molar) ratio of the strong acid and strong base. This ensures that all the H⁺ ions from the acid react with all the OH⁻ ions from the base, resulting in a neutral solution (pH 7 at 25°C) containing only salt and water."
+    },
+    {
+      "front": "Why are acids good conductors of electricity in aqueous solution?",
+      "back": "Acids are good conductors of electricity in aqueous solution because when they dissolve in water, they ionize, forming mobile positive and negative ions (e.g., H⁺, Cl⁻ for HCl). These ions are charged particles that can move and carry electric current through the solution."
+    },
+    {
+      "front": "What is an 'allotrope' of an element, and how does it relate to the properties of acids and bases?",
+      "back": "An allotrope is one of two or more different physical forms in which an element can exist. For example, carbon has allotropes like diamond and graphite. While not directly related to typical acid-base reactions, some allotropes can exhibit acidic or basic properties in certain compounds or under specific conditions, but this is a more advanced concept usually not covered at this level."
+    },
+    {
+      "front": "You have a solution that causes turmeric to turn reddish-brown. What can you infer about the solution, and what would happen if you added dilute acid to it?",
+      "back": "The solution is basic. Turmeric is a natural indicator that turns reddish-brown in basic conditions. If dilute acid is added to this basic solution, the acid will neutralize the base, and the colour will change back to yellow (the original colour of turmeric)."
+    },
+    {
+      "front": "Explain the term 'efflorescence' in the context of hydrated salts.",
+      "back": "Efflorescence is the process where a hydrated salt loses one or more molecules of its water of crystallization when exposed to the air. The salt then becomes partially anhydrous or completely anhydrous. For example, sodium carbonate decahydrate (Na₂CO₃·10H₂O) loses water upon exposure to air and becomes sodium carbonate monohydrate or anhydrous sodium carbonate."
+    },
+    {
+      "front": "Why is it important to use specific indicators for specific pH ranges when titrating acids and bases?",
+      "back": "Different indicators change colour over specific pH ranges. For a titration to accurately determine the equivalence point (where neutralization is complete), the indicator's colour change range must coincide with the pH at the equivalence point. For example, strong acid-strong base titrations have an equivalence point at pH 7, where phenolphthalein or methyl orange can be used. Weak acid-strong base titrations have an equivalence point in the basic range, requiring phenolphthalein."
+    },
+    {
+      "front": "What is the universal indicator, and how is it useful in determining the pH of a solution?",
+      "back": "A universal indicator is a mixture of indicators that exhibits a range of colours over a wide pH scale, typically from pH 0 to pH 14. Each colour corresponds to a specific pH value. By observing the colour produced when the universal indicator is added to a solution, one can estimate the approximate pH of the solution, thus classifying it as strongly acidic, weakly acidic, neutral, weakly basic, or strongly basic."
+    },
+    {
+      "front": "A metal 'M' reacts with dilute sulfuric acid to produce a gas that turns limewater milky. Identify the metal 'M' and the gas evolved. Write the balanced chemical equation.",
+      "back": "The gas that turns limewater (calcium hydroxide solution) milky is carbon dioxide (CO₂). This indicates that the metal 'M' is not reacting directly, but rather the acid is reacting with a carbonate or bicarbonate of metal 'M'. If 'M' were a reactive metal producing H₂, it wouldn't turn limewater milky. Let's assume 'M' is a cation and it's a carbonate. For example, if M is Calcium (Ca).\nReaction: CaCO₃(s) + H₂SO₄(aq) → CaSO₄(s) + H₂O(l) + CO₂(g). \nGas evolved: Carbon dioxide (CO₂). Metal M is likely part of a carbonate compound, such as Calcium Carbonate."
+    }
+  ]
+}

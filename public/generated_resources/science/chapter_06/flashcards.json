@@ -1,0 +1,86 @@
+{
+  "chapter": "Control and Coordination",
+  "subject": "Science",
+  "flashcards": [
+    {
+      "front": "What is the role of specialized tissues in control and coordination in multicellular organisms?",
+      "back": "Specialized tissues provide control and coordination activities by forming organized networks."
+    },
+    {
+      "front": "What are the two main systems responsible for control and coordination in animals?",
+      "back": "The nervous system and the muscular system."
+    },
+    {
+      "front": "What is the function of nerve cells (neurons)?",
+      "back": "Neurons are specialized for conducting information via electrical impulses from one part of the body to another."
+    },
+    {
+      "front": "How is information detected by nerve cells?",
+      "back": "Information from the environment is detected by specialized tips of some nerve cells called receptors."
+    },
+    {
+      "front": "Where are receptors usually located?",
+      "back": "Receptors are usually located in our sense organs, such as the inner ear, nose, tongue, etc."
+    },
+    {
+      "front": "What are gustatory receptors responsible for?",
+      "back": "Gustatory receptors detect taste."
+    },
+    {
+      "front": "What are olfactory receptors responsible for?",
+      "back": "Olfactory receptors detect smell."
+    },
+    {
+      "front": "What happens when a receptor detects a stimulus?",
+      "back": "A chemical reaction is set off, creating an electrical impulse."
+    },
+    {
+      "front": "Describe the path of an electrical impulse in a neuron.",
+      "back": "The impulse travels from the dendrite to the cell body, and then along the axon to its end."
+    },
+    {
+      "front": "How are electrical impulses transmitted from one neuron to another?",
+      "back": "At the end of the axon, the electrical impulse triggers the release of chemicals that cross the synapse and start an impulse in the next neuron."
+    },
+    {
+      "front": "What is a synapse?",
+      "back": "A synapse is the gap between the end of one neuron's axon and the dendrite of the next neuron."
+    },
+    {
+      "front": "How can neurons communicate with other types of cells like muscle cells?",
+      "back": "A synapse allows the transmission of impulses from neurons to other cells, such as muscle cells or glands."
+    },
+    {
+      "front": "What is a neuron made of?",
+      "back": "A neuron is a nerve cell."
+    },
+    {
+      "front": "Identify the part of a neuron where information is acquired.",
+      "back": "Information is acquired at the dendritic tip."
+    },
+    {
+      "front": "Identify the part of a neuron through which information travels as an electrical impulse.",
+      "back": "Information travels as an electrical impulse through the axon."
+    },
+    {
+      "front": "Identify the part of a neuron where the impulse must be converted into a chemical signal for onward transmission.",
+      "back": "The impulse is converted into a chemical signal at the end of the axon."
+    },
+    {
+      "front": "What is a reflex action?",
+      "back": "A reflex action is a sudden, involuntary action in response to a stimulus in the environment."
+    },
+    {
+      "front": "Give an example of a reflex action.",
+      "back": "Jumping out of the way of a hot object."
+    },
+    {
+      "front": "What is the role of the nervous system in responding to environmental changes?",
+      "back": "The nervous system detects environmental changes and initiates appropriate, controlled movements in response."
+    },
+    {
+      "front": "How do sensory organs contribute to control and coordination?",
+      "back": "Sensory organs contain receptors that detect stimuli from the environment, providing information to the nervous system."
+    }
+  ]
+}

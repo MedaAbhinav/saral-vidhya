@@ -1,0 +1,67 @@
+{
+  "chapter": "Chemical Reactions and Equations",
+  "subject": "Science",
+  "level": "beginner",
+  "flashcards": [
+    {
+      "front": "What happens to milk left at room temperature in summer?",
+      "back": "Milk spoils or curdles. This is an example of a chemical change."
+    },
+    {
+      "front": "What is a chemical reaction?",
+      "back": "A chemical reaction is a process where the nature and identity of substances change."
+    },
+    {
+      "front": "What are the indicators that a chemical reaction has occurred?",
+      "back": "Indicators include a change in state, color, evolution of a gas, or change in temperature."
+    },
+    {
+      "front": "What is observed when magnesium ribbon is burnt in air?",
+      "back": "Magnesium ribbon burns with a dazzling white flame and changes into a white powder called magnesium oxide."
+    },
+    {
+      "front": "What are reactants in a chemical reaction?",
+      "back": "Reactants are the substances that undergo a chemical change in a reaction."
+    },
+    {
+      "front": "What is a product in a chemical reaction?",
+      "back": "A product is a new substance formed during a chemical reaction."
+    },
+    {
+      "front": "How is a word-equation written?",
+      "back": "Reactants are written on the left, products on the right, separated by an arrow."
+    },
+    {
+      "front": "What does the arrow in a chemical equation represent?",
+      "back": "The arrow shows the direction of the reaction, pointing from reactants to products."
+    },
+    {
+      "front": "How can chemical equations be made more concise?",
+      "back": "By using chemical formulae instead of words."
+    },
+    {
+      "front": "What is a skeletal chemical equation?",
+      "back": "It is an unbalanced chemical equation where the number of atoms of each element may not be the same on both sides."
+    },
+    {
+      "front": "What is the law of conservation of mass?",
+      "back": "Mass can neither be created nor destroyed in a chemical reaction."
+    },
+    {
+      "front": "What is a balanced chemical equation?",
+      "back": "An equation where the number of atoms of each element is the same on both the reactant and product sides."
+    },
+    {
+      "front": "Give an example of a physical change.",
+      "back": "Melting of ice into water is a physical change. The substance remains H2O."
+    },
+    {
+      "front": "Give an example of a chemical change.",
+      "back": "Burning of wood is a chemical change. New substances like ash and gases are formed."
+    },
+    {
+      "front": "What is the chemical formula for magnesium oxide?",
+      "back": "The chemical formula for magnesium oxide is MgO."
+    }
+  ]
+}

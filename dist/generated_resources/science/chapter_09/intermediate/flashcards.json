@@ -1,0 +1,87 @@
+{
+  "chapter": "Light – Reflection and Refraction",
+  "subject": "Science",
+  "level": "intermediate",
+  "flashcards": [
+    {
+      "front": "What is the straight-line path of light called?",
+      "back": "A ray of light."
+    },
+    {
+      "front": "What happens when light falls on a highly polished surface like a mirror?",
+      "back": "Most of the light is reflected."
+    },
+    {
+      "front": "State the first law of reflection.",
+      "back": "The angle of incidence is equal to the angle of reflection."
+    },
+    {
+      "front": "State the second law of reflection.",
+      "back": "The incident ray, the normal to the mirror at the point of incidence and the reflected ray, all lie in the same plane."
+    },
+    {
+      "front": "What are the characteristics of an image formed by a plane mirror?",
+      "back": "The image formed by a plane mirror is always virtual and erect, equal in size to the object, as far behind the mirror as the object is in front, and laterally inverted."
+    },
+    {
+      "front": "What is a spherical mirror?",
+      "back": "A spherical mirror is a mirror whose reflecting surface is a part of the surface of a sphere."
+    },
+    {
+      "front": "What is a concave mirror?",
+      "back": "A concave mirror is a spherical mirror whose reflecting surface is curved inwards, facing towards the center of the sphere."
+    },
+    {
+      "front": "What is a convex mirror?",
+      "back": "A convex mirror is a spherical mirror whose reflecting surface is curved outwards."
+    },
+    {
+      "front": "What is the center of the sphere from which a spherical mirror is formed called?",
+      "back": "The center of curvature (C)."
+    },
+    {
+      "front": "What is the radius of the sphere from which a spherical mirror is formed called?",
+      "back": "The radius of curvature (R)."
+    },
+    {
+      "front": "What is the point on the reflecting surface of a spherical mirror which is the center of the surface called?",
+      "back": "The pole (P)."
+    },
+    {
+      "front": "What is the line joining the pole and the center of curvature of a spherical mirror called?",
+      "back": "The principal axis."
+    },
+    {
+      "front": "What is the aperture of a spherical mirror?",
+      "back": "The diameter of the reflecting surface of the spherical mirror."
+    },
+    {
+      "front": "What is the focal length (f) of a spherical mirror in relation to its radius of curvature (R)?",
+      "back": "The focal length is half the radius of curvature: f = R/2."
+    },
+    {
+      "front": "What is the principal focus of a concave mirror?",
+      "back": "The principal focus (F) of a concave mirror is a point on the principal axis where rays parallel to the principal axis converge after reflection."
+    },
+    {
+      "front": "What is the principal focus of a convex mirror?",
+      "back": "The principal focus (F) of a convex mirror is a point on the principal axis from which rays parallel to the principal axis appear to diverge after reflection."
+    },
+    {
+      "front": "What is the focal plane of a spherical mirror?",
+      "back": "The focal plane is a plane passing through the principal focus and perpendicular to the principal axis."
+    },
+    {
+      "front": "What is the mirror formula for spherical mirrors?",
+      "back": "1/f = 1/v + 1/u, where f is the focal length, v is the image distance, and u is the object distance."
+    },
+    {
+      "front": "What is the formula for magnification (m) in spherical mirrors?",
+      "back": "m = height of image / height of object = -v/u."
+    },
+    {
+      "front": "What is lateral inversion?",
+      "back": "Lateral inversion is the phenomenon where the image formed by a mirror is reversed from left to right."
+    }
+  ]
+}
