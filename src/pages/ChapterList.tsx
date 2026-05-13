@@ -94,7 +94,7 @@ export default function ChapterList() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const { subjectId } = useParams<{ subjectId: string }>();
-  const treeLogoSrc = `${import.meta.env.BASE_URL}brand-tree-logo.png`;
+  const treeLogoSrc = `${import.meta.env.BASE_URL}brand-logo.png`;
   const [chapters, setChapters] = useState<Chapter[]>([]);
   const [loading, setLoading] = useState(true);
   const [bookOpen, setBookOpen] = useState(false);

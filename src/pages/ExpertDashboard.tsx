@@ -254,7 +254,7 @@ export default function ExpertDashboard() {
         boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <img src="/brand-logo.png" alt="logo" style={{ height: '34px', borderRadius: '8px' }} />
+          <img src="/brand-logo.png" alt="logo" style={{ height: '44px', background: 'transparent', borderRadius: 0 }} />
           <div>
             <span style={{ fontWeight: 800, fontSize: '1rem', color: '#111827' }}>Expert Mode</span>
             <span style={{ marginLeft: '10px', fontSize: '0.72rem', background: '#EDE9FE', color: '#5B21B6', padding: '2px 8px', borderRadius: '20px', fontWeight: 600 }}>ADMIN</span>

@@ -32,7 +32,7 @@ const PERSONAS = [
 export default function PersonaSelection() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const treeLogoSrc = `${import.meta.env.BASE_URL}brand-tree-logo.png`;
+  const treeLogoSrc = `${import.meta.env.BASE_URL}brand-logo.png`;
   const className = searchParams.get('className') || '';
   const semesterName = searchParams.get('semesterName') || '';
   const subjectName = searchParams.get('subjectName') || '';

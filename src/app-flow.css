@@ -293,7 +293,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   padding: 0;
 }
 
@@ -2335,6 +2335,16 @@
   box-shadow: 0 3px 10px rgba(124, 58, 237, 0.28);
 }
 
+mark.reading-mark {
+  background: #7c3aed;
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.1rem 0.25rem;
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.25);
+  font-style: inherit;
+  font-weight: inherit;
+}
+
 .qbank-card--highlighted {
   border-color: #7c3aed !important;
   background: linear-gradient(135deg, #f5f3ff 0%, #fff 100%) !important;
@@ -3109,7 +3119,7 @@
 
 .flashcards-stage {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   gap: 20px;
   width: 100%;
@@ -3133,6 +3143,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  align-self: center;
 }
 
 .flashcard-nav-button:hover:not(:disabled) {
@@ -3183,12 +3194,14 @@
 }
 
 .flashcard-content-static {
-  padding: 20px 28px 20px 28px;
+  padding: 16px 24px 16px 24px;
   display: flex;
   flex-direction: column;
   flex: 1;
   min-height: 0;
   overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(167, 139, 250, 0.3) transparent;
 }
 
 .flashcard-top-row {
@@ -3239,20 +3252,23 @@
   flex: 1;
   min-height: 0;
   overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(167, 139, 250, 0.3) transparent;
 }
 
 .flashcard-section.question-section {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  flex-shrink: 0;
 }
 
 .flashcard-section.answer-section {
-  padding-top: 20px;
-  flex: 1;
+  padding-top: 10px;
+  flex-shrink: 0;
 }
 
 .flashcard-title {
   margin: 0;
-  font-size: 1.6rem;
+  font-size: clamp(1rem, 2.2vw, 1.4rem);
   line-height: 1.4;
   font-weight: 800;
   color: #4c1d95;
@@ -3262,16 +3278,17 @@
   height: 2px;
   background: linear-gradient(90deg, transparent, rgba(167, 139, 250, 0.3), transparent);
   width: 100%;
-  margin: 8px 0;
+  margin: 6px 0;
   flex-shrink: 0;
 }
 
 .flashcard-back-content {
   margin: 0;
   color: #334155;
-  font-size: 1.1rem;
-  line-height: 1.7;
+  font-size: clamp(0.82rem, 1.5vw, 0.98rem);
+  line-height: 1.6;
   white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
 
 .flashcards-action-row {
@@ -3356,26 +3373,28 @@
     transform-origin: left center;
     filter: brightness(0.6) blur(1px);
     box-shadow: -20px 0 40px rgba(124, 58, 237, 0.4);
+    background: linear-gradient(180deg, rgba(255, 220, 235, 0.98), rgba(255, 200, 225, 0.95));
   }
   25% {
     opacity: 0.5;
     transform: perspective(1400px) rotateY(50deg) translateX(36px) scaleX(0.75);
     transform-origin: left center;
     filter: brightness(0.8) blur(0.5px);
-    box-shadow: -12px 0 30px rgba(124, 58, 237, 0.3);
+    background: linear-gradient(180deg, rgba(255, 230, 242, 0.98), rgba(255, 210, 235, 0.95));
   }
   55% {
     opacity: 0.85;
     transform: perspective(1400px) rotateY(18deg) translateX(12px) scaleX(0.95);
     transform-origin: left center;
     filter: brightness(1.05) blur(0px);
-    box-shadow: -4px 0 16px rgba(124, 58, 237, 0.15);
+    background: linear-gradient(180deg, rgba(255, 240, 248, 0.98), rgba(252, 230, 245, 0.95));
   }
   75% {
     opacity: 0.95;
     transform: perspective(1400px) rotateY(-4deg) translateX(-3px) scaleX(1.01);
     transform-origin: left center;
     filter: brightness(1.02);
+    background: linear-gradient(180deg, rgba(255, 248, 252, 0.98), rgba(250, 240, 250, 0.95));
   }
   100% {
     opacity: 1;
@@ -3383,6 +3402,7 @@
     transform-origin: left center;
     filter: brightness(1);
     box-shadow: none;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 245, 255, 0.95));
   }
 }
 
@@ -3393,26 +3413,28 @@
     transform-origin: right center;
     filter: brightness(0.6) blur(1px);
     box-shadow: 20px 0 40px rgba(124, 58, 237, 0.4);
+    background: linear-gradient(180deg, rgba(255, 220, 235, 0.98), rgba(255, 200, 225, 0.95));
   }
   25% {
     opacity: 0.5;
     transform: perspective(1400px) rotateY(-50deg) translateX(-36px) scaleX(0.75);
     transform-origin: right center;
     filter: brightness(0.8) blur(0.5px);
-    box-shadow: 12px 0 30px rgba(124, 58, 237, 0.3);
+    background: linear-gradient(180deg, rgba(255, 230, 242, 0.98), rgba(255, 210, 235, 0.95));
   }
   55% {
     opacity: 0.85;
     transform: perspective(1400px) rotateY(-18deg) translateX(-12px) scaleX(0.95);
     transform-origin: right center;
     filter: brightness(1.05) blur(0px);
-    box-shadow: 4px 0 16px rgba(124, 58, 237, 0.15);
+    background: linear-gradient(180deg, rgba(255, 240, 248, 0.98), rgba(252, 230, 245, 0.95));
   }
   75% {
     opacity: 0.95;
     transform: perspective(1400px) rotateY(4deg) translateX(3px) scaleX(1.01);
     transform-origin: right center;
     filter: brightness(1.02);
+    background: linear-gradient(180deg, rgba(255, 248, 252, 0.98), rgba(250, 240, 250, 0.95));
   }
   100% {
     opacity: 1;
@@ -3420,6 +3442,7 @@
     transform-origin: right center;
     filter: brightness(1);
     box-shadow: none;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 245, 255, 0.95));
   }
 }
 

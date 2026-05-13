@@ -111,6 +111,31 @@ export function getResourceContentUrl(
   return `${BASE}/${subject}/${chDir}/${level}/${resourceName}`;
 }
 
+/**
+ * Strips common AI-generated preamble lines from content.
+ * e.g. "Here is a standard-level summary of ... for Class 10, within the 150-200 word limit:"
+ */
+function cleanAiPreamble(text: string): string {
+  // Remove lines that are typical AI intro/outro preambles
+  const preamblePatterns = [
+    /^here is (a |an )?(standard|beginner|advanced|intermediate|easy|detailed|brief|short|long)?[-\s\w]*?(summary|guide|overview|explanation|analysis|notes|answer|question bank|study guide|flashcard|podcast script|mindmap|learning path)[^\n]*:\s*\n*/im,
+    /^here are (some |the )?(standard|beginner|advanced|intermediate|easy|detailed|brief|short|long)?[-\s\w]*?(flashcards?|questions?|notes?|answers?|summaries|guides?)[^\n]*:\s*\n*/im,
+    /^below is (a |an )?[^\n]*:\s*\n*/im,
+    /^the following is (a |an )?[^\n]*:\s*\n*/im,
+    /^this is (a |an )?[^\n]*:\s*\n*/im,
+    /^i('ve| have) (created|prepared|written|generated)[^\n]*:\s*\n*/im,
+    /^sure[,!]?[^\n]*:\s*\n*/im,
+    /^certainly[,!]?[^\n]*:\s*\n*/im,
+    /^of course[,!]?[^\n]*:\s*\n*/im,
+  ];
+
+  let cleaned = text.trim();
+  for (const pattern of preamblePatterns) {
+    cleaned = cleaned.replace(pattern, '').trim();
+  }
+  return cleaned;
+}
+
 export async function getResourceContent(
   subject: string,
   chapterNumber: number,
@@ -126,7 +151,8 @@ export async function getResourceContent(
       // Vite dev server returns 200 + text/html for missing static files — detect and reject
       const ct = res.headers.get('content-type') || '';
       if (ct.includes('text/html')) return null;
-      return res.text();
+      const text = await res.text();
+      return cleanAiPreamble(text);
     } catch {
       return null;
     }

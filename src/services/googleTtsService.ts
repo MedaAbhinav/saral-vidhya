@@ -12,7 +12,7 @@
 
 const GOOGLE_API_KEY: string =
   (import.meta as any).env?.VITE_GOOGLE_API_KEY ??
-  'AIzaSyBUScNU_AwtxZJvXF3IVBPhx3393_2fEq0';
+  'AIzaSyBOTK8jG7uIgYnnrOad2tS_XLtutk9yqYs';
 const TTS_ENDPOINT = `https://texttospeech.googleapis.com/v1/text:synthesize?key=${GOOGLE_API_KEY}`;
 
 // ── Language / voice mapping ───────────────────────────────────────────────────
@@ -134,11 +134,36 @@ function splitIntoChunks(text: string, maxLen: number): string[] {
 // ── Google Cloud TTS API call ──────────────────────────────────────────────────
 const inflightControllers = new Set<AbortController>();
 
-async function synthesizeChunk(text: string, voice: VoiceConfig): Promise<string> {
+/** Word timing entry returned from SSML mark timepoints */
+interface WordTiming { charIndex: number; timeSeconds: number; }
+
+async function synthesizeChunk(
+  text: string,
+  voice: VoiceConfig,
+): Promise<{ blobUrl: string; wordTimings: WordTiming[] }> {
   const gender = voice.ssmlGender ?? 'FEMALE';
   const selectedVoiceName = voice.name ?? getVoiceNameForGender(voice, gender === 'MALE');
+
+  // Build SSML with <mark> tags before each word for timepoint tracking
+  const words = text.split(/(\s+)/);
+  let charCursor = 0;
+  let ssmlParts = '<speak>';
+  const markMap: Record<string, number> = {}; // markName → charIndex
+
+  for (const part of words) {
+    if (part.trim()) {
+      const markName = `w${charCursor}`;
+      markMap[markName] = charCursor;
+      ssmlParts += `<mark name="${markName}"/>${part}`;
+    } else {
+      ssmlParts += part;
+    }
+    charCursor += part.length;
+  }
+  ssmlParts += '</speak>';
+
   const body = {
-    input: { text },
+    input: { ssml: ssmlParts },
     voice: {
       languageCode: voice.languageCode,
       name: selectedVoiceName,
@@ -149,6 +174,7 @@ async function synthesizeChunk(text: string, voice: VoiceConfig): Promise<string
       speakingRate: 0.95,
       pitch: 0,
     },
+    enableTimePointing: ['SSML_MARK'],
   };
 
   const controller = new AbortController();
@@ -173,12 +199,23 @@ async function synthesizeChunk(text: string, voice: VoiceConfig): Promise<string
   const base64Audio: string = data.audioContent;
   if (!base64Audio) throw new Error('No audioContent in response');
 
+  // Parse timepoints into word timings
+  const wordTimings: WordTiming[] = [];
+  if (Array.isArray(data.timepoints)) {
+    for (const tp of data.timepoints) {
+      const charIdx = markMap[tp.markName];
+      if (charIdx !== undefined) {
+        wordTimings.push({ charIndex: charIdx, timeSeconds: tp.timeSeconds });
+      }
+    }
+  }
+
   // Decode base64 → Blob → Object URL
   const binary = atob(base64Audio);
   const bytes = new Uint8Array(binary.length);
   for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
   const blob = new Blob([bytes], { type: 'audio/mp3' });
-  return URL.createObjectURL(blob);
+  return { blobUrl: URL.createObjectURL(blob), wordTimings };
 }
 
 // ── Player state ───────────────────────────────────────────────────────────────
@@ -257,10 +294,12 @@ function fallbackSpeak(
   // Some browsers never fire voiceschanged reliably. Use default voice immediately.
   if (!availableVoices.length) {
     if (!didFireStart) { onStartCallback?.(); didFireStart = true; }
-    startFallbackProgress();
     utter.rate = 0.95;
-    utter.onend = () => { clearFallbackProgress(); onProgress?.(text.length); isPlaying = false; onDone?.(); };
-    utter.onerror = () => { clearFallbackProgress(); isPlaying = false; onDone?.(); };
+    utter.onboundary = (e: SpeechSynthesisEvent) => {
+      if (e.name === 'word' && onProgress) onProgress(e.charIndex);
+    };
+    utter.onend = () => { onProgress?.(text.length); isPlaying = false; onDone?.(); };
+    utter.onerror = () => { isPlaying = false; onDone?.(); };
     window.speechSynthesis.speak(utter);
     return;
   }
@@ -273,8 +312,12 @@ function fallbackSpeak(
 
   if (matchingVoice) utter.voice = matchingVoice;
   if (!didFireStart) { onStartCallback?.(); didFireStart = true; }
-  startFallbackProgress();
   utter.rate = 0.95;
+  utter.onboundary = (e: SpeechSynthesisEvent) => {
+    if (e.name === 'word' && onProgress) {
+      onProgress(e.charIndex);
+    }
+  };
   utter.onend = () => { clearFallbackProgress(); onProgress?.(text.length); isPlaying = false; onDone?.(); };
   utter.onerror = () => { clearFallbackProgress(); isPlaying = false; onDone?.(); };
   window.speechSynthesis.speak(utter);
@@ -297,7 +340,7 @@ async function playNextChunk() {
   const chunk = chunkMeta.text;
 
   try {
-    const blobUrl = await synthesizeChunk(chunk, currentVoice);
+    const { blobUrl, wordTimings } = await synthesizeChunk(chunk, currentVoice);
     if (isStopped || localRunId !== runId) { URL.revokeObjectURL(blobUrl); return; }
 
     const audio = new Audio(blobUrl);
@@ -313,28 +356,41 @@ async function playNextChunk() {
     };
     const startChunkProgressTimer = () => {
       if (chunkProgressTimer != null) return;
+      // Only use interval as fallback when duration metadata is unavailable
       chunkProgressTimer = window.setInterval(() => {
-        if (isPaused) return;
-        if (!onProgressCallback) return;
-        const hasDuration = !!audio.duration && isFinite(audio.duration) && audio.duration > 0;
-        if (hasDuration) {
-          const ratio = Math.max(0, Math.min(1, audio.currentTime / audio.duration));
-          const spokenChars = Math.floor(ratio * chunk.length);
-          onProgressCallback(chunkMeta.start + spokenChars);
+        if (isPaused || !onProgressCallback) return;
+        if (audio.duration && isFinite(audio.duration) && audio.duration > 0) {
+          // Duration is available — ontimeupdate handles it, clear this timer
+          clearChunkProgressTimer();
           return;
         }
-        // Fallback progression when duration metadata is missing.
-        const approxChars = Math.floor(audio.currentTime * 14);
+        // No duration metadata — estimate from elapsed time
+        const approxChars = Math.floor(audio.currentTime * 15);
         onProgressCallback(chunkMeta.start + Math.min(chunk.length, Math.max(0, approxChars)));
-      }, 150);
+      }, 80);
       chunkProgressTimers.add(chunkProgressTimer);
     };
 
     audio.ontimeupdate = () => {
-      if (!onProgressCallback || !audio.duration || !isFinite(audio.duration)) return;
-      const ratio = Math.max(0, Math.min(1, audio.currentTime / audio.duration));
-      const spokenChars = Math.floor(ratio * chunk.length);
-      onProgressCallback(chunkMeta.start + spokenChars);
+      if (!onProgressCallback) return;
+      const t = audio.currentTime;
+
+      if (wordTimings.length > 0) {
+        // ── Accurate: use SSML mark timepoints ──
+        // Find the last mark whose timeSeconds <= current time
+        let lo = 0, hi = wordTimings.length - 1, best = 0;
+        while (lo <= hi) {
+          const mid = (lo + hi) >> 1;
+          if (wordTimings[mid].timeSeconds <= t) { best = mid; lo = mid + 1; }
+          else { hi = mid - 1; }
+        }
+        onProgressCallback(chunkMeta.start + wordTimings[best].charIndex);
+      } else if (audio.duration && isFinite(audio.duration) && audio.duration > 0) {
+        // ── Fallback: linear interpolation ──
+        const ratio = Math.max(0, Math.min(1, t / audio.duration));
+        const spokenChars = Math.floor(ratio * chunk.length);
+        onProgressCallback(chunkMeta.start + spokenChars);
+      }
     };
 
     audio.onended = () => {
@@ -368,7 +424,6 @@ async function playNextChunk() {
       URL.revokeObjectURL(blobUrl);
       currentAudio = null;
       if (localRunId !== runId) return;
-      // Fall back for all remaining text
       const remaining = [chunkMeta.text, ...chunkQueue.map(c => c.text)].join(' ');
       chunkQueue = [];
       const doneCb = onDoneCallback ?? undefined;

@@ -1,3 +1,5 @@
+Here is a standard-level summary of "A Letter to God" for Class 10, within the 150-200 word limit:
+
 "A Letter to God" tells the story of Lencho, a hardworking farmer whose entire livelihood depended on his cornfield. He eagerly awaited rain for a good harvest, initially rejoicing as large drops fell, comparing them to "new coins." However, his happiness was short-lived as the rain transformed into a fierce hailstorm, completely destroying his ripe crops and leaving him and his family in despair.
 
 Despite his misfortune, Lencho possessed an unwavering faith in God. He decided to write a letter directly to God, requesting one hundred pesos to replant his field and sustain his family. At the post office, a postman found the unusual letter addressed to "God" and, intrigued, showed it to the postmaster. Deeply moved by Lencho's immense faith, the kind-hearted postmaster resolved to answer the letter. He collected seventy pesos from his employees and contributed from his own salary, sending the money to Lencho, signed simply as "God."

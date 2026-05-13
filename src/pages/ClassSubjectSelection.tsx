@@ -104,7 +104,7 @@ import ResumePodcastToast from '@/components/ResumePodcastToast';
 
 export default function ClassSubjectSelection() {
   const navigate = useNavigate();
-  const treeLogoSrc = `${import.meta.env.BASE_URL}brand-tree-logo.png`;
+  const treeLogoSrc = `${import.meta.env.BASE_URL}brand-logo.png`;
   const [selectedClass, setSelectedClass] = useState<string | null>(null);
   const [selectedSemester, setSelectedSemester] = useState<string | null>(null);
 

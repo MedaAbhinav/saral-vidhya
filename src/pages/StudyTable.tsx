@@ -39,6 +39,8 @@ export default function StudyTable() {
   const [persona, setPersonaState] = useState<DifficultyLevel>(PERSONA_TO_LEVEL[personaRaw] || 'intermediate');
 
   const setPersona = (level: DifficultyLevel) => {
+    // Stop any active TTS/audio before switching persona
+    googleTtsStop();
     trackPersonaChange(persona, level);
     setPersonaState(level);
     setSearchParams(prev => { const p = new URLSearchParams(prev); p.set('persona', level); return p; }, { replace: true });
@@ -104,6 +106,12 @@ export default function StudyTable() {
       setQbankReadAloudText('');
     }
   }, [activeTool]);
+
+  // Stop TTS when persona changes — new content will load
+  useEffect(() => {
+    googleTtsStop();
+    setReadingHighlight({ active: false, startWord: -1, endWord: -1 });
+  }, [persona]);
   useEffect(() => {
     const handleResize = () => {
       clearRailCollapseTimer();
@@ -426,7 +434,7 @@ export default function StudyTable() {
 
         <div className="sv-content" style={{ display: 'flex', flexDirection: 'column', flex: 1, minHeight: 0, overflow: 'hidden' }}>
           {/* ── BODY ── */}
-          <div className="st-body" style={{ flex: 1, overflowY: activeTool === 'flashcards' || activeTool === 'popquiz' || activeTool === 'podcasts' ? 'hidden' : 'auto', padding: activeTool === 'flashcards' || activeTool === 'popquiz' || activeTool === 'podcasts' ? '8px 20px 0 20px' : '16px 20px', display: 'flex', flexDirection: 'column', minHeight: 0, background: 'transparent' }}>
+          <div className="st-body" style={{ flex: 1, overflowY: activeTool === 'flashcards' || activeTool === 'podcasts' ? 'hidden' : 'auto', padding: activeTool === 'flashcards' || activeTool === 'popquiz' || activeTool === 'podcasts' ? '8px 20px 0 20px' : '16px 20px', display: 'flex', flexDirection: 'column', minHeight: 0, background: 'transparent' }}>
             {/* ── COMPACT TOP BAR ── */}
             <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', gap: '20px', marginBottom: activeTool === 'flashcards' || activeTool === 'popquiz' ? '6px' : '12px', flexShrink: 0 }}>
               <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -548,8 +556,10 @@ export default function StudyTable() {
                 )}
                 {(activeTool === 'summary' || activeTool === 'detailed') && (
                   <ReadAloudBar
+                    key={`${persona}-${activeTool}`}
                     text={typeof content === 'string' ? content : ''}
                     subjectId={subjectId}
+                    persona={persona}
                     onPlay={() => { setIsSidebarOpen(false); }}
                     onHighlightChange={(payload) => setReadingHighlight(payload)}
                     activeTool={activeTool}
@@ -567,7 +577,7 @@ export default function StudyTable() {
               </div>
             </div>
 
-            <div className={`st-mainview ${activeTool === 'flashcards' || activeTool === 'popquiz' ? 'st-mainview--flashcards' : ''}`} style={{ flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', background: activeTool === 'flashcards' || activeTool === 'popquiz' || activeTool === 'podcasts' ? 'transparent' : (activeTool === 'summary' || activeTool === 'detailed' ? 'linear-gradient(135deg, #FFF5F8 0%, #FCE4EC 100%)' : '#fff'), borderRadius: '16px', border: activeTool === 'flashcards' || activeTool === 'popquiz' || activeTool === 'podcasts' ? 'none' : (activeTool === 'summary' || activeTool === 'detailed' ? '1px solid #F8BBD0' : '1px solid #E2E8F0'), overflowX: 'hidden', overflowY: activeTool === 'flashcards' || activeTool === 'ask' || activeTool === 'popquiz' || activeTool === 'podcasts' ? 'hidden' : 'auto', padding: activeTool === 'ask' ? '20px 30px 10px 30px' : (activeTool === 'flashcards' ? '0' : activeTool === 'popquiz' ? '12px 8px' : activeTool === 'podcasts' ? '16px 24px' : '30px') }}>
+            <div className={`st-mainview ${activeTool === 'flashcards' || activeTool === 'popquiz' ? 'st-mainview--flashcards' : ''}`} style={{ flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', background: activeTool === 'flashcards' || activeTool === 'popquiz' || activeTool === 'podcasts' ? 'transparent' : (activeTool === 'summary' || activeTool === 'detailed' ? 'linear-gradient(135deg, #FFF5F8 0%, #FCE4EC 100%)' : '#fff'), borderRadius: '16px', border: activeTool === 'flashcards' || activeTool === 'popquiz' || activeTool === 'podcasts' ? 'none' : (activeTool === 'summary' || activeTool === 'detailed' ? '1px solid #F8BBD0' : '1px solid #E2E8F0'), overflowX: 'hidden', overflowY: activeTool === 'flashcards' || activeTool === 'ask' || activeTool === 'podcasts' ? 'hidden' : 'auto', padding: activeTool === 'ask' ? '20px 30px 10px 30px' : (activeTool === 'flashcards' ? '0' : activeTool === 'popquiz' ? '12px 8px' : activeTool === 'podcasts' ? '16px 24px' : '30px') }}>
               {renderContent()}
             </div>
           </div>
@@ -604,6 +614,7 @@ function stripMarkdown(md: string): string {
 function ReadAloudBar({
   text,
   subjectId,
+  persona,
   onPlay,
   onHighlightChange,
   activeTool,
@@ -611,6 +622,7 @@ function ReadAloudBar({
 }: {
   text: string;
   subjectId: string;
+  persona?: string;
   onPlay?: () => void;
   onHighlightChange?: (payload: { active: boolean; startWord: number; endWord: number }) => void;
   activeTool?: string;
@@ -624,14 +636,16 @@ function ReadAloudBar({
   const wordRangesRef = useRef<{ start: number; end: number }[]>([]);
   const resumeCharRef = useRef(0);
   const lastHighlightRef = useRef<{ startWord: number; endWord: number }>({ startWord: 0, endWord: 2 });
+  const stoppedExternallyRef = useRef(false); // true = stopped by persona switch, not natural end
   const progressStorageKey = useMemo(() => {
+    if (!text) return `read_progress_${subjectId}_${persona ?? ''}_${activeTool ?? 'summary'}_empty`;
     const clean = stripMarkdown(text);
     let hash = 0;
     for (let i = 0; i < clean.length; i++) {
       hash = ((hash << 5) - hash + clean.charCodeAt(i)) | 0;
     }
-    return `read_progress_${subjectId}_${activeTool ?? 'summary'}_${Math.abs(hash)}`;
-  }, [text, subjectId, activeTool]);
+    return `read_progress_${subjectId}_${persona ?? ''}_${activeTool ?? 'summary'}_${Math.abs(hash)}`;
+  }, [text, subjectId, activeTool, persona]);
 
   const setPlayback = (state: 'idle' | 'playing' | 'paused') => {
     playbackRef.current = state;
@@ -695,33 +709,40 @@ function ReadAloudBar({
           };
         },
         () => {
-          setPlayback('idle');
-          localStorage.removeItem(progressStorageKey);
-          resumeCharRef.current = 0;
-          onHighlightChange?.({ active: false, startWord: -1, endWord: -1 });
+          // Only clear saved progress if audio ended naturally (not stopped by persona switch)
+          if (!stoppedExternallyRef.current) {
+            setPlayback('idle');
+            localStorage.removeItem(progressStorageKey);
+            resumeCharRef.current = 0;
+            onHighlightChange?.({ active: false, startWord: -1, endWord: -1 });
+          }
+          stoppedExternallyRef.current = false;
         },
         (localCharIndex) => {
           const rangesLocal = wordRangesRef.current;
           if (!rangesLocal.length) return;
           const globalCharIndex = Math.min(clean.length, resumeCharRef.current + Math.max(0, localCharIndex));
           localStorage.setItem(progressStorageKey, String(globalCharIndex));
-          let idx = 0;
-          for (let i = 0; i < rangesLocal.length; i++) {
-            if (globalCharIndex <= rangesLocal[i].end) {
-              idx = i;
-              break;
-            }
-            idx = i;
+
+          // Find the word at this char position using binary search
+          let lo = 0, hi = rangesLocal.length - 1, idx = 0;
+          while (lo <= hi) {
+            const mid = (lo + hi) >> 1;
+            if (rangesLocal[mid].end < globalCharIndex) { lo = mid + 1; idx = mid; }
+            else if (rangesLocal[mid].start > globalCharIndex) { hi = mid - 1; }
+            else { idx = mid; break; }
           }
+
+          // Highlight a window of 3 words centered on current position
+          const windowStart = Math.max(0, idx);
+          const windowEnd = Math.min(rangesLocal.length - 1, idx + 2);
+
           onHighlightChange?.({
             active: true,
-            startWord: Math.max(0, idx),
-            endWord: Math.min(rangesLocal.length - 1, idx + 2),
+            startWord: windowStart,
+            endWord: windowEnd,
           });
-          lastHighlightRef.current = {
-            startWord: Math.max(0, idx),
-            endWord: Math.min(rangesLocal.length - 1, idx + 2),
-          };
+          lastHighlightRef.current = { startWord: windowStart, endWord: windowEnd };
         },
       );
     }
@@ -729,13 +750,19 @@ function ReadAloudBar({
 
   const handleStop = () => {
     if (cooldownRef.current) return;
+    // Manual stop — clear saved progress so next play starts from beginning
+    stoppedExternallyRef.current = false;
     googleTtsStop();
     setPlayback('idle');
+    localStorage.removeItem(progressStorageKey);
+    resumeCharRef.current = 0;
     onHighlightChange?.({ active: false, startWord: -1, endWord: -1 });
   };
 
   useEffect(() => {
     return () => {
+      // Mark as externally stopped so onEnd doesn't clear saved progress
+      stoppedExternallyRef.current = true;
       googleTtsStop();
     };
   }, []);
@@ -832,55 +859,129 @@ function ReadingHighlightView({
   startWord: number;
   endWord: number;
 }) {
-  if (!active) return <MarkdownView content={content} />;
   const containerRef = useRef<HTMLDivElement>(null);
-  useEffect(() => {
+  const lastMarkRef = useRef<HTMLElement | null>(null);
+  // Pre-built map: wordIndex → { node, nodeOffset, length }
+  const wordMapRef = useRef<Array<{ node: Text; offset: number; length: number }>>([]);
+  const mapBuiltRef = useRef(false);
+
+  // Build the word map once after content renders
+  const buildWordMap = useCallback(() => {
     const el = containerRef.current;
     if (!el) return;
-    const target = el.querySelector('.reading-phrase-active') as HTMLElement | null;
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
-    }
-  }, [active, startWord, endWord]);
+    wordMapRef.current = [];
+    mapBuiltRef.current = false;
 
-  const plain = stripMarkdown(content);
-  const pieces = plain.split(/(\s+)/);
-  let wordCounter = -1;
-  const nodes: JSX.Element[] = [];
-  const hasPhrase = startWord >= 0 && endWord >= startWord;
+    // Collect all text nodes in document order
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const textNodes: Text[] = [];
+    let n: Text | null;
+    while ((n = walker.nextNode() as Text | null)) textNodes.push(n);
 
-  for (let idx = 0; idx < pieces.length; idx++) {
-    const part = pieces[idx];
-    if (!part.trim()) {
-      nodes.push(<span key={idx}>{part}</span>);
-      continue;
-    }
-
-    wordCounter += 1;
-    const inPhrase = hasPhrase && wordCounter >= startWord && wordCounter <= endWord;
-
-    if (hasPhrase && wordCounter === startWord) {
-      let phrase = part;
-      let localWord = wordCounter;
-      let j = idx + 1;
-      while (j < pieces.length && localWord < endWord) {
-        phrase += pieces[j];
-        if (pieces[j].trim()) localWord += 1;
-        j += 1;
+    // Walk through text nodes and split into words, recording exact position
+    const wordRegex = /\S+/g;
+    for (const node of textNodes) {
+      const text = node.textContent || '';
+      let m: RegExpExecArray | null;
+      wordRegex.lastIndex = 0;
+      while ((m = wordRegex.exec(text)) !== null) {
+        wordMapRef.current.push({ node, offset: m.index, length: m[0].length });
       }
-      nodes.push(<span key={`phrase-${idx}`} className="reading-phrase-active">{phrase}</span>);
-      idx = j - 1;
-      wordCounter = localWord;
-      continue;
+    }
+    mapBuiltRef.current = true;
+  }, []);
+
+  // Rebuild map when content changes (after MarkdownView re-renders)
+  useEffect(() => {
+    // Small delay to let MarkdownView finish rendering
+    const timer = setTimeout(buildWordMap, 50);
+    return () => clearTimeout(timer);
+  }, [content, buildWordMap]);
+
+  // Highlight the current word range
+  useEffect(() => {
+    if (!active) return;
+    if (!mapBuiltRef.current) { buildWordMap(); }
+
+    const map = wordMapRef.current;
+    if (!map.length || startWord < 0) return;
+
+    // Remove previous mark
+    if (lastMarkRef.current) {
+      const m = lastMarkRef.current;
+      const parent = m.parentNode;
+      if (parent) {
+        // Restore original text node
+        const textNode = document.createTextNode(m.textContent || '');
+        parent.replaceChild(textNode, m);
+        parent.normalize();
+        // After normalize, the map is stale — rebuild on next call
+        mapBuiltRef.current = false;
+      }
+      lastMarkRef.current = null;
     }
 
-    if (inPhrase) continue;
-    nodes.push(<span key={idx} className="reading-word">{part}</span>);
-  }
+    // Rebuild map if stale (after previous mark removal)
+    if (!mapBuiltRef.current) buildWordMap();
+
+    const freshMap = wordMapRef.current;
+    const idx = Math.min(startWord, freshMap.length - 1);
+    if (idx < 0 || idx >= freshMap.length) return;
+
+    const startEntry = freshMap[idx];
+    if (!startEntry || !startEntry.node.parentNode) return;
+
+    // Span up to 3 words
+    const endIdx = Math.min(idx + 2, freshMap.length - 1);
+    const endEntry = freshMap[endIdx];
+
+    try {
+      // If all words are in the same text node, wrap them all in one mark
+      if (startEntry.node === endEntry.node) {
+        const range = document.createRange();
+        range.setStart(startEntry.node, startEntry.offset);
+        range.setEnd(endEntry.node, endEntry.offset + endEntry.length);
+        const mark = document.createElement('mark');
+        mark.className = 'reading-mark reading-phrase-active';
+        range.surroundContents(mark);
+        lastMarkRef.current = mark;
+        mapBuiltRef.current = false;
+        mark.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      } else {
+        // Words span different nodes — wrap just the first word
+        const range = document.createRange();
+        range.setStart(startEntry.node, startEntry.offset);
+        range.setEnd(startEntry.node, startEntry.offset + startEntry.length);
+        const mark = document.createElement('mark');
+        mark.className = 'reading-mark reading-phrase-active';
+        range.surroundContents(mark);
+        lastMarkRef.current = mark;
+        mapBuiltRef.current = false;
+        mark.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    } catch {
+      // surroundContents can fail if range crosses element boundaries — skip
+    }
+  }, [active, startWord, endWord, buildWordMap]);
+
+  // Cleanup when inactive
+  useEffect(() => {
+    if (active) return;
+    if (lastMarkRef.current) {
+      const m = lastMarkRef.current;
+      const parent = m.parentNode;
+      if (parent) {
+        parent.replaceChild(document.createTextNode(m.textContent || ''), m);
+        parent.normalize();
+      }
+      lastMarkRef.current = null;
+      mapBuiltRef.current = false;
+    }
+  }, [active]);
 
   return (
-    <div className="reading-highlight-view" ref={containerRef}>
-      {nodes}
+    <div ref={containerRef}>
+      <MarkdownView content={content} />
     </div>
   );
 }
@@ -1216,7 +1317,7 @@ function AskBotView({ chapterName, subjectId, chapterNumber: _chapterNumber, dif
         const updated = [...prev];
         updated[updated.length - 1] = {
           role: 'bot',
-          text: '⚠️ Sorry, I could not connect to the AI. Please check your internet connection and try again.',
+          text: `⚠️ Sorry, I could not connect to the AI. ${err?.message || 'Please check your internet connection and try again.'}`,
         };
         return updated;
       });
@@ -1622,39 +1723,42 @@ function PodcastsView({ chapterName, subjectId, chapterNumber, persona, autoPlay
     if (audio) {
       audio.pause();
       setIsPlaying(false);
+      onPlayingChange?.(false);
       setAudioDuration(0);
       audio.load();
     }
   }, [selectedTrack]);
+
+  // ── Reset player when persona changes ──
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (audio) {
+      audio.pause();
+      setIsPlaying(false);
+      onPlayingChange?.(false);
+      setCurrentTime(0);
+      setAudioDuration(0);
+    }
+  }, [persona]);
 
   // ── Audio event listeners ──
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
     const onTimeUpdate = () => setCurrentTime(audio.currentTime);
-    const onEnded = () => { console.log('Audio ended'); setCurrentTime(0); };
-    const onPlayEvent = () => { console.log('Audio play event'); setIsPlaying(true); };
-    const onPauseEvent = () => { console.log('Audio pause event'); setIsPlaying(false); };
-    
     const onLoadedMetadata = () => {
-      if (autoPlay && !isPlaying) {
+      if (autoPlay) {
         audio.play().catch(e => console.warn('Auto-play prevented:', e));
       }
     };
 
     audio.addEventListener('timeupdate', onTimeUpdate);
     audio.addEventListener('seeked', onTimeUpdate);
-    audio.addEventListener('ended', onEnded);
-    audio.addEventListener('play', onPlayEvent);
-    audio.addEventListener('pause', onPauseEvent);
     audio.addEventListener('loadedmetadata', onLoadedMetadata);
-    
+
     return () => {
       audio.removeEventListener('timeupdate', onTimeUpdate);
       audio.removeEventListener('seeked', onTimeUpdate);
-      audio.removeEventListener('ended', onEnded);
-      audio.removeEventListener('play', onPlayEvent);
-      audio.removeEventListener('pause', onPauseEvent);
       audio.removeEventListener('loadedmetadata', onLoadedMetadata);
     };
   }, [selectedTrack, autoPlay]);
@@ -1663,6 +1767,7 @@ function PodcastsView({ chapterName, subjectId, chapterNumber, persona, autoPlay
   useEffect(() => {
     if (!available) return;
     setTranscript(null);
+    setTranscriptVisible(false); // Reset visibility so observer re-triggers
     const { transcript: tFile } = getFileNames(selectedTrack);
     fetch(tFile)
       .then(r => { if (!r.ok) throw new Error(); return r.text(); })
@@ -1672,6 +1777,7 @@ function PodcastsView({ chapterName, subjectId, chapterNumber, persona, autoPlay
 
   // ── Lazy-reveal transcript when scrolled into view ──
   useEffect(() => {
+    if (transcriptVisible) return; // already visible, no need to re-observe
     const el = transcriptRef.current;
     if (!el) return;
     const observer = new IntersectionObserver(
@@ -1680,22 +1786,20 @@ function PodcastsView({ chapterName, subjectId, chapterNumber, persona, autoPlay
     );
     observer.observe(el);
     return () => observer.disconnect();
-  }, [available]);
+  }, [available, transcriptVisible]);
 
   const handlePlay = () => {
     const audio = audioRef.current;
     if (audio) {
-      audio.play()
-        .then(() => { setIsPlaying(true); onPlayingChange?.(true); })
-        .catch(e => console.warn('Play failed:', e));
+      audio.play().catch(e => console.warn('Play failed:', e));
+      // State update handled by the 'play' event listener
     }
   };
   const handlePause = () => {
     const audio = audioRef.current;
     if (audio) {
       audio.pause();
-      setIsPlaying(false);
-      onPlayingChange?.(false);
+      // State update handled by the 'pause' event listener
     }
   };
 
@@ -1703,14 +1807,14 @@ function PodcastsView({ chapterName, subjectId, chapterNumber, persona, autoPlay
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
-    const onPlay = () => { setIsPlaying(true); onPlayingChange?.(true); };
+    const onPlay  = () => { setIsPlaying(true);  onPlayingChange?.(true);  };
     const onPause = () => { setIsPlaying(false); onPlayingChange?.(false); };
-    const onEnded = () => { setIsPlaying(false); onPlayingChange?.(false); };
-    audio.addEventListener('play', onPlay);
+    const onEnded = () => { setIsPlaying(false); setCurrentTime(0); onPlayingChange?.(false); };
+    audio.addEventListener('play',  onPlay);
     audio.addEventListener('pause', onPause);
     audio.addEventListener('ended', onEnded);
     return () => {
-      audio.removeEventListener('play', onPlay);
+      audio.removeEventListener('play',  onPlay);
       audio.removeEventListener('pause', onPause);
       audio.removeEventListener('ended', onEnded);
     };
@@ -1797,10 +1901,6 @@ function PodcastsView({ chapterName, subjectId, chapterNumber, persona, autoPlay
             preload="auto"
             onLoadedMetadata={e => { const d = (e.target as HTMLAudioElement).duration; if (d && isFinite(d)) setAudioDuration(d); }}
             onDurationChange={e => { const d = (e.target as HTMLAudioElement).duration; if (d && isFinite(d)) setAudioDuration(d); }}
-            onTimeUpdate={e => setCurrentTime((e.target as HTMLAudioElement).currentTime)}
-            onPlay={() => setIsPlaying(true)}
-            onPause={() => setIsPlaying(false)}
-            onEnded={() => { setIsPlaying(false); setCurrentTime(0); }}
           />
 
           {/* Single row: current | bar | total */}
@@ -2328,7 +2428,7 @@ function PopQuizView({ markdownContent, subjectId, chapterNumber, onQuit }: { ma
       )}
 
       {/* Outer layout: quit button beside the card */}
-      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', gap: '12px', width: '100%' }}>
+      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', gap: '12px', width: '100%', maxHeight: '100%' }}>
 
         {/* Quiz card */}
         <div className="quiz-card popquiz-view" style={{ 
@@ -2336,69 +2436,71 @@ function PopQuizView({ markdownContent, subjectId, chapterNumber, onQuit }: { ma
           maxWidth: '620px',
           display: 'flex',
           flexDirection: 'column',
-          overflowY: 'hidden',
+          overflow: 'hidden',
           margin: 0,
+          maxHeight: '100%',
         }}>
-        {/* Content area */}
-        <div className="quiz-q">
-          {renderText(questions[step]?.q || '')}
-        </div>
-            
-        {/* Options */}
-        <div className="quiz-options">
-          {questions[step]?.options?.map((option, idx) => {
-            const isSelected = selected === idx;
-            const isHovered = hoveredOption === idx;
-            const isCorrectAnswer = idx === questions[step].answer;
-            const optionClass = `option-${idx % 4}`;
-            const resultClass = selected !== null
-              ? isCorrectAnswer ? 'correct' : isSelected ? 'wrong' : ''
-              : '';
-
-            return (
-              <button
-                key={idx}
-                className={`quiz-opt ${optionClass} ${isSelected ? 'selected' : ''} ${isHovered ? 'hovered' : ''} ${resultClass}`}
-                onClick={() => handleSelect(idx)}
-                onMouseEnter={() => selected === null && setHoveredOption(idx)}
-                onMouseLeave={() => setHoveredOption(null)}
-                disabled={selected !== null}
-              >
-                <span className="opt-letter">{String.fromCharCode(65 + idx)}</span>
-                <span className="option-text">{renderText(option)}</span>
-                {isCorrectAnswer && selected !== null && (
-                  <span className="correct-indicator" style={{ color: '#16a34a' }}>✓</span>
-                )}
-              </button>
-            );
-          })}
-        </div>
-
-        {/* Correct answer inline — only when correct */}
-        {selected !== null && selected === questions[step].answer && (
-          <div style={{
-            marginTop: '10px',
-            padding: '8px 14px',
-            borderRadius: '10px',
-            background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
-            border: '1.5px solid #4ade80',
-            flexShrink: 0,
-            fontSize: '0.88rem',
-            color: '#166534',
-            lineHeight: 1.5,
-          }}>
-            ✅ <strong>Correct!</strong>{' '}
-            {questions[step]?.explanation && questions[step].explanation !== 'No explanation provided.'
-              ? questions[step].explanation
-              : `"${questions[step]?.options[questions[step]?.answer] || ''}" is the right answer for this question.`
-            }
+        {/* Scrollable content: question + options + answer feedback */}
+        <div style={{ overflowY: 'auto', paddingBottom: '4px' }}>
+          {/* Content area */}
+          <div className="quiz-q">
+            {renderText(questions[step]?.q || '')}
           </div>
-        )}
+              
+          {/* Options */}
+          <div className="quiz-options">
+            {questions[step]?.options?.map((option, idx) => {
+              const isSelected = selected === idx;
+              const isHovered = hoveredOption === idx;
+              const isCorrectAnswer = idx === questions[step].answer;
+              const optionClass = `option-${idx % 4}`;
+              const resultClass = selected !== null
+                ? isCorrectAnswer ? 'correct' : isSelected ? 'wrong' : ''
+                : '';
 
-        {/* Footer — ← skip 1/5 → */}
+              return (
+                <button
+                  key={idx}
+                  className={`quiz-opt ${optionClass} ${isSelected ? 'selected' : ''} ${isHovered ? 'hovered' : ''} ${resultClass}`}
+                  onClick={() => handleSelect(idx)}
+                  onMouseEnter={() => selected === null && setHoveredOption(idx)}
+                  onMouseLeave={() => setHoveredOption(null)}
+                  disabled={selected !== null}
+                >
+                  <span className="opt-letter">{String.fromCharCode(65 + idx)}</span>
+                  <span className="option-text">{renderText(option)}</span>
+                  {isCorrectAnswer && selected !== null && (
+                    <span className="correct-indicator" style={{ color: '#16a34a' }}>✓</span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Correct answer inline — only when correct */}
+          {selected !== null && selected === questions[step].answer && (
+            <div style={{
+              marginTop: '10px',
+              padding: '8px 14px',
+              borderRadius: '10px',
+              background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+              border: '1.5px solid #4ade80',
+              fontSize: '0.88rem',
+              color: '#166534',
+              lineHeight: 1.5,
+            }}>
+              ✅ <strong>Correct!</strong>{' '}
+              {questions[step]?.explanation && questions[step].explanation !== 'No explanation provided.'
+                ? questions[step].explanation
+                : `"${questions[step]?.options[questions[step]?.answer] || ''}" is the right answer for this question.`
+              }
+            </div>
+          )}
+        </div>
+
+        {/* Footer — always visible at bottom */}
         <div className="quiz-nav" style={{ 
           flexShrink: 0, 
-          marginTop: 'auto',
           paddingTop: '12px', 
           borderTop: '1px solid rgba(236, 72, 153, 0.12)', 
           display: 'flex', 
