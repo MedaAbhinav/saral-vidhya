@@ -8,7 +8,7 @@
  *     audio, sends as base64 to Google STT REST API on stop.
  */
 
-const GOOGLE_API_KEY: string = (import.meta as any).env?.VITE_GOOGLE_API_KEY ?? '';
+const GOOGLE_API_KEY: string = (import.meta as any).env?.VITE_GOOGLE_API_KEY ?? 'AIzaSyBUScNU_AwtxZJvXF3IVBPhx3393_2fEq0';
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 

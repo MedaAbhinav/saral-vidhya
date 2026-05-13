@@ -958,16 +958,24 @@ function AskBotView({ chapterName, subjectId, chapterNumber: _chapterNumber, dif
     };
   }, []);
 
+  const isHoldingMicRef = useRef(false);
+
   // ── Mic: Universal Speech-to-Text (Web Speech API + MediaRecorder fallback) ──
   const handleMicMouseDown = async (e: React.MouseEvent | React.TouchEvent) => {
     if (isTranscribing) return;
     e.preventDefault();
+    isHoldingMicRef.current = true;
     setIsHoldingMic(true);
     setShowWave(true);
 
     // Open analyser stream for waveform (separate from speech recognition stream)
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: false });
+      // If user already released mic before stream opened, stop immediately
+      if (!isHoldingMicRef.current) {
+        stream.getTracks().forEach(t => t.stop());
+        return;
+      }
       streamRef.current = stream;
       const AudioCtx = window.AudioContext || (window as any).webkitAudioContext;
       const ctx = new AudioCtx();
@@ -1006,11 +1014,14 @@ function AskBotView({ chapterName, subjectId, chapterNumber: _chapterNumber, dif
       // Mic permission denied — show static bars
     }
 
-    await startMic();
+    if (isHoldingMicRef.current) {
+      await startMic();
+    }
   };
 
   const handleMicMouseUp = async () => {
-    if (!isHoldingMic) return;
+    if (!isHoldingMicRef.current) return;
+    isHoldingMicRef.current = false;
     setIsHoldingMic(false);
     setShowWave(false);
 
@@ -1018,6 +1029,13 @@ function AskBotView({ chapterName, subjectId, chapterNumber: _chapterNumber, dif
     if (animFrameRef.current) { cancelAnimationFrame(animFrameRef.current); animFrameRef.current = null; }
     analyserRef.current = null;
     if (streamRef.current) { streamRef.current.getTracks().forEach(t => t.stop()); streamRef.current = null; }
+
+    // Wait for speech session to be ready if startMic hasn't completed yet
+    let waited = 0;
+    while (!speechSessionRef.current && waited < 3000) {
+      await new Promise(r => setTimeout(r, 100));
+      waited += 100;
+    }
 
     await stopMic(true);
   };
@@ -1258,7 +1276,7 @@ function AskBotView({ chapterName, subjectId, chapterNumber: _chapterNumber, dif
               className={`btn-mic-top ${isListening ? 'recording' : ''} ${isTranscribing ? 'transcribing' : ''} ${isHoldingMic ? 'holding' : ''}`}
               onPointerDown={(e) => { e.preventDefault(); handleMicMouseDown(e as any); }}
               onPointerUp={() => handleMicMouseUp()}
-              onPointerLeave={() => { if (isHoldingMic) handleMicMouseUp(); }}
+              onPointerLeave={() => { if (isHoldingMicRef.current) handleMicMouseUp(); }}
               disabled={isSending || isTranscribing}
               title={isListening ? 'Stop and send' : isTranscribing ? 'Transcribing…' : 'Start voice input (press and hold)'}
               aria-label={isListening ? 'Stop listening and send' : isTranscribing ? 'Transcribing audio' : 'Start voice input (press and hold)'}

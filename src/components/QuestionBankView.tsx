@@ -17,7 +17,7 @@ const SUBJECT_LABEL_OVERRIDES: Record<string, string> = {
   pubadm_ur: 'Public Administration (Urdu)',
 };
 
-function formatSubjectLabel(subjectName: string, subjectId: string) {
+function _formatSubjectLabel(subjectName: string, subjectId: string) {
   if (SUBJECT_LABEL_OVERRIDES[subjectId]) return SUBJECT_LABEL_OVERRIDES[subjectId];
   if (!subjectName) return subjectId.replace(/_/g, ' ');
   return subjectName.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());

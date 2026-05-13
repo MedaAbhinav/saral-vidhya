@@ -15,7 +15,7 @@ import branding from '@/config/branding.json';
 
 const GOOGLE_API_KEY: string =
   (import.meta as any).env?.VITE_GOOGLE_API_KEY ??
-  'AIzaSyCARFGXKzg0Zsad9tYo0EOJF0kEKAD_1h0';
+  'AIzaSyBUScNU_AwtxZJvXF3IVBPhx3393_2fEq0';
 const hasApiKey = Boolean(GOOGLE_API_KEY && GOOGLE_API_KEY.trim().length > 0);
 
 // ── Model Discovery ───────────────────────────────────────────────────────────

@@ -339,7 +339,7 @@ export default function ChapterList() {
                           </div>
                           <span className="chapter-progress-pct">{chapterPct}%</span>
                         </div>
-                        <div className="chapter-topics-block">
+                        <div className="chapter-topics-block" style={{ display: 'none' }}>
                           <div className="chapter-topics-heading">Topics in this chapter</div>
                           {topicList.length > 0 ? (
                             <ul className="chapter-topics-list">

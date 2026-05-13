@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "copy-resources": "node scripts/copy-resources.js",
-    "generate-manifest": "node scripts/generate-manifest.js"
+    "generate-manifest": "node scripts/generate-manifest.js",
+    "deploy:cloudflare": "npx wrangler pages publish dist --project-name=saralvidhya --branch=main"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.1.0",
@@ -25,11 +26,13 @@
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
+    "@cloudflare/wrangler": "^1.21.0",
     "@types/node": "^20.11.0",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react": "^4.2.1",
     "typescript": "^5.2.2",
-    "vite": "^6.4.2"
+    "vite": "^6.4.2",
+    "wrangler": "^4.90.1"
   }
 }
