@@ -539,19 +539,19 @@ export default function StudyTable() {
 
         <div
           className="sv-rail-items"
-          style={{ overflow: "hidden", flex: 1, paddingBottom: "20px" }}
+          style={{ overflowY: "auto", overflowX: "hidden", flex: 1, paddingBottom: "20px" }}
         >
           {[
             { id: "summary", icon: "📖", label: "Summary" },
             { id: "detailed", icon: "📝", label: "Detailed" },
-            { id: "flashcards", icon: "🃏", label: "Flash Cards" },
+            { id: "flashcards", icon: "🗂️", label: "Flash Cards" },
             { id: "podcasts", icon: "🎙️", label: "Podcasts" },
             { id: "ask", icon: "❓", label: "Ask" },
-            { id: "mindmap", icon: "🧠", label: "Mindmap" },
-            { id: "popquiz", icon: "⚡", label: "Quiz" },
-            { id: "qbank", icon: "🏦", label: "Q-Bank" },
+            { id: "popquiz", icon: "🎯", label: "Quiz" },
             { id: "videos", icon: "🎥", label: "Videos" },
+            { id: "qbank", icon: "🏦", label: "Q-Bank" },
             { id: "pyq", icon: "📄", label: "PYQ" },
+            { id: "mindmap", icon: "🧠", label: "Mindmap" },
           ].map((t) => (
             <div
               key={t.id}
@@ -771,7 +771,7 @@ export default function StudyTable() {
                         style={{
                           width: "72px",
                           height: "72px",
-                          padding: "4px",
+                          padding: "0px",
                           overflow: "hidden",
                           borderRadius: "16px",
                           border:
@@ -792,7 +792,7 @@ export default function StudyTable() {
                           style={{
                             width: "100%",
                             height: "100%",
-                            objectFit: "contain",
+                            objectFit: "cover",
                           }}
                         />
                       </button>

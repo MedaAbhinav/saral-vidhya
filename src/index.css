@@ -1092,7 +1092,7 @@ body {
 
 /* ── PREMIUM LIGHT PURPLE RAIL ── */
 .sv-rail {
-  width: 170px;
+  width: 190px;
   height: 100vh;
   background: linear-gradient(180deg, #ffffff 0%, #f5f3ff 100%);
   display: flex;
@@ -1264,7 +1264,7 @@ body {
     rgba(236, 72, 153, 0.12)
   );
   opacity: 1;
-  transform: scale(1.12) translateY(-2px);
+  transform: scale(1.05);
   box-shadow: 0 8px 24px rgba(139, 92, 246, 0.25);
 }
 
