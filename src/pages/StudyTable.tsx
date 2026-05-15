@@ -203,7 +203,9 @@ export default function StudyTable() {
   // Podcast play state — button lives in topbar, logic lives in PodcastsView
   const [podcastPlayTrigger, setPodcastPlayTrigger] = useState(0);
   const [podcastPauseTrigger, setPodcastPauseTrigger] = useState(0);
+  const [podcastStopTrigger, setPodcastStopTrigger] = useState(0);
   const [podcastIsPlaying, setPodcastIsPlaying] = useState(false);
+  const [podcastHasStarted, setPodcastHasStarted] = useState(false);
 
   const handleAuthClick = () => {
     if (isAuthenticated) {
@@ -448,9 +450,13 @@ export default function StudyTable() {
             persona={persona}
             autoPlay={navState?.autoPlayPodcast}
             resumeTrack={navState?.resumeTrack || autoResumeTrack}
-            onPlayingChange={setPodcastIsPlaying}
+            onPlayingChange={(playing) => {
+              setPodcastIsPlaying(playing);
+              if (playing) setPodcastHasStarted(true);
+            }}
             playTrigger={podcastPlayTrigger}
             pauseTrigger={podcastPauseTrigger}
+            stopTrigger={podcastStopTrigger}
           />
         );
       case "videos":
@@ -904,10 +910,13 @@ export default function StudyTable() {
                           </svg>
                         )}
                       </button>
-                      {podcastIsPlaying && (
+                      {podcastHasStarted && (
                         <button
                           type="button"
-                          onClick={() => setPodcastPauseTrigger((t) => t + 1)}
+                          onClick={() => {
+                            setPodcastStopTrigger((t) => t + 1);
+                            setPodcastHasStarted(false);
+                          }}
                           className="read-aloud-action-btn"
                           aria-label="Stop"
                           data-label="Stop"
@@ -2150,6 +2159,7 @@ function PodcastsView({
   onPlayingChange,
   playTrigger,
   pauseTrigger,
+  stopTrigger,
 }: {
   chapterName: string;
   subjectId: string;
@@ -2160,6 +2170,7 @@ function PodcastsView({
   onPlayingChange?: (playing: boolean) => void;
   playTrigger?: number;
   pauseTrigger?: number;
+  stopTrigger?: number;
 }) {
   const [currentTime, setCurrentTime] = useState(0);
   const [audioDuration, setAudioDuration] = useState(0);
@@ -2494,7 +2505,7 @@ function PodcastsView({
       audio.removeEventListener("seeked", onTimeUpdate);
       audio.removeEventListener("loadedmetadata", onLoadedMetadata);
     };
-  }, [selectedTrack, autoPlay]);
+  }, [selectedTrack, autoPlay, available]);
 
   // ── Load transcript when track or availability changes ──
   useEffect(() => {
@@ -2569,7 +2580,7 @@ function PodcastsView({
       audio.removeEventListener("pause", onPause);
       audio.removeEventListener("ended", onEnded);
     };
-  }, [onPlayingChange]);
+  }, [onPlayingChange, available]);
 
   // React to external play trigger
   useEffect(() => {
@@ -2582,6 +2593,17 @@ function PodcastsView({
     if (!pauseTrigger) return;
     handlePause();
   }, [pauseTrigger]);
+
+  // React to external stop trigger
+  useEffect(() => {
+    if (!stopTrigger) return;
+    const audio = audioRef.current;
+    if (audio) {
+      audio.pause();
+      audio.currentTime = 0;
+      setCurrentTime(0);
+    }
+  }, [stopTrigger]);
 
   const handleSeek = (e: React.ChangeEvent<HTMLInputElement>) => {
     const t = parseFloat(e.target.value);
