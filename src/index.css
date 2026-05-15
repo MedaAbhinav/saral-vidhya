@@ -4728,3 +4728,7 @@ h3 {
     width: 100%;
   }
 }
+
+.qbank-question-text p:first-child {
+  margin-top: 0;
+}

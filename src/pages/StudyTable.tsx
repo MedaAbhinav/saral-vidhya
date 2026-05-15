@@ -768,6 +768,7 @@ export default function StudyTable() {
                         onClick={() => setPersona(p.key)}
                         aria-label={p.label}
                         data-label={p.label}
+                        title={p.label}
                         style={{
                           width: "72px",
                           height: "72px",

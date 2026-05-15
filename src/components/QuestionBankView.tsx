@@ -411,8 +411,11 @@ export default function QuestionBankView({
                   Chapter {entry.chapterNumber}{entry.chapterName ? ` · ${entry.chapterName}` : ''}
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '8px' }}>
-                  <div className="qbank-question-title" style={{ flex: 1, margin: 0 }}>
-                    {index + 1}. <MarkdownView content={entry.question} />
+                  <div className="qbank-question-title" style={{ flex: 1, margin: 0, display: 'flex', alignItems: 'flex-start', gap: '6px' }}>
+                    <span style={{ fontWeight: 600, marginTop: '2px' }}>{index + 1}.</span>
+                    <div style={{ flex: 1 }} className="qbank-question-text">
+                      <MarkdownView content={entry.question} />
+                    </div>
                   </div>
                   {/* Always-visible icon to reveal/hide answer */}
                   <button
