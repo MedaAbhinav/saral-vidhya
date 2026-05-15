@@ -12,7 +12,8 @@
 
 const GOOGLE_API_KEY: string =
   (import.meta as any).env?.VITE_GOOGLE_API_KEY ??
-  'AIzaSyBOTK8jG7uIgYnnrOad2tS_XLtutk9yqYs';
+  (import.meta as any).env?.VITE_GEMINI_API_KEY ??
+  '';
 const TTS_ENDPOINT = `https://texttospeech.googleapis.com/v1/text:synthesize?key=${GOOGLE_API_KEY}`;
 
 // ── Language / voice mapping ───────────────────────────────────────────────────

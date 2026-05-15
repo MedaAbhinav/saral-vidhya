@@ -183,7 +183,7 @@ export default function Profile() {
             <h3 style={{ margin: '0 0 24px 0', fontSize: '1.25rem', fontWeight: 700, color: '#1E1B4B', display: 'flex', alignItems: 'center', gap: '8px' }}>
               <span style={{ fontSize: '1.5rem' }}>🎯</span> SWOT Analysis
             </h3>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }}>
               {[
                 { title: 'Strengths', items: swot.s, color: '#10B981', bg: '#F0FDF4', border: '#bbf7d0', icon: '💪' },
                 { title: 'Weaknesses', items: swot.w, color: '#EF4444', bg: '#FEF2F2', border: '#fecaca', icon: '⚠️' },

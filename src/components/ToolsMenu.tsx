@@ -1,6 +1,18 @@
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useNavigate, useSearchParams } from "react-router-dom";
 
-export type ToolId = 'summary' | 'detailed' | 'flashcards' | 'podcasts' | 'ask' | 'videos' | 'mindmap' | 'pyq' | 'popquiz' | 'qbank' | 'swot' | 'leaderboard';
+export type ToolId =
+  | "summary"
+  | "detailed"
+  | "flashcards"
+  | "podcasts"
+  | "ask"
+  | "videos"
+  | "mindmap"
+  | "pyq"
+  | "popquiz"
+  | "qbank"
+  | "swot"
+  | "leaderboard";
 
 export interface ToolsMenuProps {
   activeTool: ToolId;
@@ -13,27 +25,44 @@ export interface ToolsMenuProps {
 
 // Full tools list
 const ALL_TOOLS: { id: ToolId; icon: string; label: string; desc: string }[] = [
-  { id: 'summary',   icon: '📖', label: 'Summary',       desc: 'Quick overview' },
-  { id: 'detailed',  icon: '📝', label: 'Detailed Notes', desc: 'Deep dive notes' },
-  { id: 'flashcards',icon: '🃏', label: 'Flash Cards',   desc: 'Quick revision' },
-  { id: 'podcasts',  icon: '🎙️', label: 'Podcasts',      desc: 'Listen and learn' },
-  { id: 'ask',       icon: '✨', label: 'Ask AI',         desc: 'Get instant answers' },
-  { id: 'mindmap',   icon: '🧠', label: 'Mindmap',       desc: 'Visualise concepts' },
-  { id: 'popquiz',   icon: '⚡', label: 'Quiz',          desc: 'Test knowledge' },
-  { id: 'qbank',     icon: '🏦', label: 'Question Bank', desc: 'Practice more' },
-  { id: 'videos',    icon: '🎥', label: 'Videos',        desc: 'Watch and learn' },
-  { id: 'pyq',       icon: '📄', label: 'PYQ',           desc: 'Past year questions' },
-  { id: 'swot',      icon: '🔍', label: 'SWOT',          desc: 'Analyse strengths' },
-  { id: 'leaderboard',icon:'🏆', label: 'Leaderboard',   desc: 'See rankings' },
+  { id: "summary", icon: "📖", label: "Summary", desc: "Quick overview" },
+  {
+    id: "detailed",
+    icon: "📝",
+    label: "Detailed Notes",
+    desc: "Deep dive notes",
+  },
+  {
+    id: "flashcards",
+    icon: "🃏",
+    label: "Flash Cards",
+    desc: "Quick revision",
+  },
+  { id: "podcasts", icon: "🎙️", label: "Podcasts", desc: "Listen and learn" },
+  { id: "ask", icon: "❓", label: "Ask AI", desc: "Get instant answers" },
+  { id: "mindmap", icon: "🧠", label: "Mindmap", desc: "Visualise concepts" },
+  { id: "popquiz", icon: "⚡", label: "Quiz", desc: "Test knowledge" },
+  { id: "qbank", icon: "🏦", label: "Question Bank", desc: "Practice more" },
+  { id: "videos", icon: "🎥", label: "Videos", desc: "Watch and learn" },
+  { id: "pyq", icon: "📄", label: "PYQ", desc: "Past year questions" },
+  { id: "swot", icon: "🔍", label: "SWOT", desc: "Analyse strengths" },
+  { id: "leaderboard", icon: "🏆", label: "Leaderboard", desc: "See rankings" },
 ];
 
-export default function ToolsMenu({ activeTool, onSelectTool, drawerOpen, onOpenDrawer, onCloseDrawer }: ToolsMenuProps) {
+export default function ToolsMenu({
+  activeTool,
+  onSelectTool,
+  drawerOpen,
+  onOpenDrawer,
+  onCloseDrawer,
+}: ToolsMenuProps) {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
 
   const handleChaptersClick = () => {
     const p = new URLSearchParams(searchParams);
-    p.delete('chapter'); p.delete('chapterName');
+    p.delete("chapter");
+    p.delete("chapterName");
     navigate(`/chapters?${p.toString()}`);
   };
 
@@ -43,11 +72,12 @@ export default function ToolsMenu({ activeTool, onSelectTool, drawerOpen, onOpen
   };
 
   return (
-    <div className={`st-rich-sidebar ${drawerOpen ? 'st-rich-sidebar--expanded' : 'st-rich-sidebar--collapsed'}`}>
-      
+    <div
+      className={`st-rich-sidebar ${drawerOpen ? "st-rich-sidebar--expanded" : "st-rich-sidebar--collapsed"}`}
+    >
       {/* Top Toggle Button */}
       <button className="st-sidebar-toggle" onClick={toggleSidebar}>
-        <div className={`hamburger-icon ${drawerOpen ? 'open' : ''}`}>
+        <div className={`hamburger-icon ${drawerOpen ? "open" : ""}`}>
           <span></span>
           <span></span>
           <span></span>
@@ -60,9 +90,14 @@ export default function ToolsMenu({ activeTool, onSelectTool, drawerOpen, onOpen
           {ALL_TOOLS.map((t, idx) => (
             <button
               key={t.id}
-              className={`st-sidebar-btn ${activeTool === t.id ? 'active' : ''}`}
-              onClick={() => { onSelectTool(t.id); if (window.innerWidth < 768) onCloseDrawer(); }}
-              style={{ animationDelay: `${idx * 0.03}s` } as React.CSSProperties}
+              className={`st-sidebar-btn ${activeTool === t.id ? "active" : ""}`}
+              onClick={() => {
+                onSelectTool(t.id);
+                if (window.innerWidth < 768) onCloseDrawer();
+              }}
+              style={
+                { animationDelay: `${idx * 0.03}s` } as React.CSSProperties
+              }
             >
               <div className="st-btn-icon">{t.icon}</div>
               <div className="st-btn-text">
@@ -82,7 +117,6 @@ export default function ToolsMenu({ activeTool, onSelectTool, drawerOpen, onOpen
           <span className="st-btn-label">Back to Chapters</span>
         </button>
       </div>
-
     </div>
   );
 }
