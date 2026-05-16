@@ -248,8 +248,49 @@ function cleanup() {
   chunkProgressTimers.clear();
 }
 
+function waitForSpeechSynthesisVoices(timeoutMs = 500): Promise<SpeechSynthesisVoice[]> {
+  return new Promise((resolve) => {
+    const voices = window.speechSynthesis.getVoices();
+    if (voices.length) return resolve(voices);
+
+    const onVoicesChanged = () => {
+      cleanupVoiceListener();
+      resolve(window.speechSynthesis.getVoices());
+    };
+
+    const timer = window.setTimeout(() => {
+      cleanupVoiceListener();
+      resolve(window.speechSynthesis.getVoices());
+    }, timeoutMs);
+
+    function cleanupVoiceListener() {
+      window.speechSynthesis.removeEventListener('voiceschanged', onVoicesChanged);
+      window.clearTimeout(timer);
+    }
+
+    window.speechSynthesis.addEventListener('voiceschanged', onVoicesChanged);
+  });
+}
+
+const VOICE_NAME_PATTERNS = {
+  male: /male|man|boy|guy|david|james|mark|alex|fred|daniel|richard|ryan|george|raj|arjun/i,
+  female: /female|woman|girl|zira|aria|hazel|samantha|victoria|alloy|maya|rita|neela|anya/i,
+};
+
+function findSpeechSynthesisVoice(voices: SpeechSynthesisVoice[], preferredGender: 'male' | 'female', desiredLang: string): SpeechSynthesisVoice | null {
+  const languageMatches = voices.filter((v) => v.lang.toLowerCase().startsWith(desiredLang));
+  const genderPattern = VOICE_NAME_PATTERNS[preferredGender];
+
+  const matchingVoice = languageMatches.find((v) => genderPattern.test(v.name) || genderPattern.test(v.voiceURI));
+  if (matchingVoice) return matchingVoice;
+
+  if (languageMatches.length) return languageMatches[0];
+  if (voices.length) return voices[0];
+  return null;
+}
+
 // ── speechSynthesis fallback ───────────────────────────────────────────────────
-function fallbackSpeak(
+async function fallbackSpeak(
   text: string,
   bcp47: string,
   onDone?: () => void,
@@ -261,7 +302,7 @@ function fallbackSpeak(
   utter.lang = bcp47;
   const preferredGender = localStorage.getItem('user_voice') === 'male' ? 'male' : 'female';
   const desiredLang = bcp47.toLowerCase().split('-')[0];
-  let availableVoices = window.speechSynthesis.getVoices();
+  let availableVoices = await waitForSpeechSynthesisVoices(800);
 
   const startFallbackProgress = () => {
     if (!onProgress || !text) return;
@@ -292,26 +333,9 @@ function fallbackSpeak(
     }
   };
 
-  // Some browsers never fire voiceschanged reliably. Use default voice immediately.
-  if (!availableVoices.length) {
-    if (!didFireStart) { onStartCallback?.(); didFireStart = true; }
-    utter.rate = 0.95;
-    utter.onboundary = (e: SpeechSynthesisEvent) => {
-      if (e.name === 'word' && onProgress) onProgress(e.charIndex);
-    };
-    utter.onend = () => { onProgress?.(text.length); isPlaying = false; onDone?.(); };
-    utter.onerror = () => { isPlaying = false; onDone?.(); };
-    window.speechSynthesis.speak(utter);
-    return;
-  }
-
-  const genderPattern = preferredGender === 'male' ? /male|man|boy|guy|david|james|mark/i : /female|woman|girl|zira|aria|hazel/i;
-  const languageMatches = availableVoices.filter((v) => v.lang.toLowerCase().startsWith(desiredLang));
-  const matchingVoice = languageMatches.find((v) => genderPattern.test(v.name) || genderPattern.test(v.voiceURI))
-    || languageMatches.find((v) => /en-|hi-|te-|ur-/.test(v.lang.toLowerCase()))
-    || availableVoices[0];
-
+  const matchingVoice = findSpeechSynthesisVoice(availableVoices, preferredGender, desiredLang);
   if (matchingVoice) utter.voice = matchingVoice;
+
   if (!didFireStart) { onStartCallback?.(); didFireStart = true; }
   utter.rate = 0.95;
   utter.onboundary = (e: SpeechSynthesisEvent) => {
