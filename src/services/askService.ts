@@ -32,6 +32,11 @@ const FALLBACK_MODELS = [
   'gemini-1.5-pro',
   'gemini-1.0-pro',
   'gemini-pro',
+  'gemini-3.1-pro-preview',
+  'gemini-3-flash-preview',
+  'gemini-3.1-flash-lite',
+  'gemini-2.5-pro',
+  'gemini-2.5-flash-lite',
 ];
 
 const genAI = new GoogleGenerativeAI(GOOGLE_API_KEY);
